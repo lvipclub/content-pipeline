@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <filter id="sketch"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="rough"><feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="3" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2"/></filter>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="4" result="n"/>
+      <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+      <feBlend in="SourceGraphic" in2="g" mode="multiply" result="b"/>
+      <feComponentTransfer in="b"><feFuncA type="linear" slope="0.95"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Cream paper background -->
+  <rect width="1200" height="630" fill="#F5F0E8"/>
+  <rect width="1200" height="630" fill="#F0E8D8" opacity="0.3" filter="url(#paper)"/>
+
+  <!-- Left: Data center rack sketch -->
+  <g filter="url(#rough)" stroke="#1a1a2e" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Rack outline -->
+    <rect x="60" y="120" width="180" height="380" rx="4"/>
+    <!-- Rack shelves -->
+    <line x1="60" y1="170" x2="240" y2="170"/>
+    <line x1="60" y1="220" x2="240" y2="220"/>
+    <line x1="60" y1="270" x2="240" y2="270"/>
+    <line x1="60" y1="320" x2="240" y2="320"/>
+    <line x1="60" y1="370" x2="240" y2="370"/>
+    <line x1="60" y1="420" x2="240" y2="420"/>
+    <line x1="60" y1="470" x2="240" y2="470"/>
+    <!-- Server units (small rectangles) -->
+    <rect x="75" y="130" width="150" height="28" rx="2"/>
+    <rect x="75" y="178" width="150" height="28" rx="2"/>
+    <!-- Cooling tubes (wavy lines) -->
+    <path d="M250,200 Q280,190 300,210 Q320,230 350,210 Q380,190 400,220" stroke="#2ea3f2" stroke-width="2.5"/>
+    <path d="M250,250 Q280,240 300,260 Q320,280 350,260 Q380,240 400,270" stroke="#2ea3f2" stroke-width="2.5"/>
+    <path d="M250,300 Q280,290 300,310 Q320,330 350,310 Q380,290 400,320" stroke="#2ea3f2" stroke-width="2.5"/>
+    <!-- Airflow arrows -->
+    <path d="M255,150 L280,150" stroke="#e74c3c" stroke-width="1.5" marker-end="url(#arrowRed)"/>
+    <path d="M100,480 L100,510 Q100,530 120,530 L200,530" stroke="#e74c3c" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <!-- PUE formula scribbled on rack side -->
+    <text x="250" y="160" font-family="monospace" font-size="14" fill="#1a1a2e" stroke="none">PUE=1.6</text>
+    <text x="250" y="180" font-family="monospace" font-size="12" fill="#2ea3f2" stroke="none">→1.1</text>
+  </g>
+
+  <!-- Right: Bro Woo character -->
+  <g filter="url(#sketch)" stroke="#1a1a2e" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <rect x="580" y="280" width="80" height="160" rx="8" fill="#f8f8f8" stroke="#1a1a2e" stroke-width="1.5"/>
+    <!-- Collar -->
+    <path d="M590,300 L620,330 L650,300" stroke-width="1.5"/>
+    <!-- Tie -->
+    <path d="M620,330 L620,370 L610,380 M620,370 L630,380" fill="#2ea3f2" stroke="#2ea3f2" stroke-width="0.8"/>
+    <!-- Head -->
+    <ellipse cx="620" cy="240" rx="45" ry="50" fill="#FDBCB4" stroke="#1a1a2e" stroke-width="1.5"/>
+    <!-- Lightning-bolt hair (spiky) -->
+    <path d="M575,220 L585,180 L600,200 L605,170 L620,195 L635,165 L645,195 L660,185 L665,220" fill="#1a1a2e" stroke="none"/>
+    <path d="M575,220 L585,180 L600,200 L605,170 L620,195 L635,165 L645,195 L660,185 L665,220" stroke="#1a1a2e" stroke-width="1.2"/>
+    <!-- Glasses -->
+    <circle cx="605" cy="238" r="15" stroke-width="2" fill="none"/>
+    <circle cx="635" cy="238" r="15" stroke-width="2" fill="none"/>
+    <line x1="620" y1="238" x2="620" y2="238" stroke-width="2"/>
+    <line x1="590" y1="235" x2="575" y2="228" stroke-width="1.5"/>
+    <line x1="650" y1="235" x2="665" y2="228" stroke-width="1.5"/>
+    <!-- Eyes -->
+    <circle cx="605" cy="237" r="3" fill="#1a1a2e" stroke="none"/>
+    <circle cx="635" cy="237" r="3" fill="#1a1a2e" stroke="none"/>
+    <!-- Mouth (confident smile) -->
+    <path d="M612,258 Q620,266 628,258" stroke-width="1.5"/>
+    <!-- Arms -->
+    <!-- Left arm pointing at rack -->
+    <path d="M580,320 L520,300 L460,280 L440,260" stroke-width="2"/>
+    <!-- Hand -->
+    <circle cx="440" cy="258" r="6" fill="#FDBCB4" stroke-width="1.2"/>
+    <!-- Pointer stick -->
+    <line x1="440" y1="258" x2="350" y2="210" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="8,3"/>
+    <!-- Right arm -->
+    <path d="M660,320 L720,340 L750,360" stroke-width="2"/>
+    <!-- Notepad in right hand -->
+    <rect x="740" y="345" width="35" height="45" rx="2" fill="white" stroke-width="1.2" transform="rotate(10,757,367)"/>
+    <line x1="745" y1="358" x2="770" y2="358" stroke-width="0.8" transform="rotate(10)"/>
+    <line x1="745" y1="365" x2="770" y2="365" stroke-width="0.8" transform="rotate(10)"/>
+    <line x1="745" y1="372" x2="765" y2="372" stroke-width="0.8" transform="rotate(10)"/>
+  </g>
+
+  <!-- Title -->
+  <text x="60" y="80" font-family="'Trebuchet MS', Trebuchet, sans-serif" font-size="36" font-weight="bold" fill="#1a1a2e" stroke="none">Data Center Energy Efficiency</text>
+  <text x="60" y="105" font-family="'Trebuchet MS', Trebuchet, sans-serif" font-size="16" fill="#666" stroke="none">From Rack Cooling to Liquid Cooling — An Engineer's Guide</text>
+
+  <!-- Bottom blueprint notes -->
+  <text x="60" y="580" font-family="monospace" font-size="11" fill="#888" stroke="none">Sources: Gilbert Held (2011) // ASHRAE TC09.09 // PUE = Ptotal / PIT</text>
+  <text x="60" y="598" font-family="monospace" font-size="10" fill="#aaa" stroke="none">XINCA ai | ai.xinca.com | Field notes — not for construction</text>
+</svg>

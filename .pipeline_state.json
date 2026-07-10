@@ -1,0 +1,37 @@
+{
+  "data-center-energy-efficiency": {
+    "status": "published",
+    "approved_by": "admin_dashboard_direct",
+    "approved_at": "2026-07-06T11:00:00+08:00",
+    "target_platforms": [
+      "x",
+      "telegram",
+      "linkedin_specsheet"
+    ],
+    "schedule": {},
+    "published_at": "2026-07-07T19:09:02.860589+08:00"
+  },
+  "ai-building-energy-management": {
+    "status": "published",
+    "approved_by": "admin_dashboard_direct",
+    "approved_at": "2026-07-06T11:10:00+08:00",
+    "target_platforms": [
+      "x",
+      "telegram",
+      "linkedin_specsheet"
+    ],
+    "schedule": {},
+    "published_at": "2026-07-07T19:09:02.860589+08:00"
+  },
+  "data-center-glycol-cooling": {
+    "status": "published",
+    "approved_by": "admin_dashboard_direct",
+    "approved_at": "2026-07-06T10:00:00+08:00",
+    "target_platforms": [
+      "x",
+      "telegram",
+      "linkedin_specsheet"
+    ],
+    "schedule": {}
+  }
+}

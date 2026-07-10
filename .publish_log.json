@@ -1,0 +1,29 @@
+{
+  "data-center-glycol-cooling": {
+    "x_status": "success",
+    "x_url": null,
+    "telegram_status": "success",
+    "telegram_url": null,
+    "linkedin_url": null,
+    "linkedin_posted": null,
+    "published_at": "2026-07-06T10:00:00+08:00"
+  },
+  "data-center-energy-efficiency": {
+    "x_status": "success",
+    "telegram_status": "success",
+    "linkedin_url": null,
+    "published_at": "2026-07-07T19:09:02.860589+08:00",
+    "x_url": "https://x.com/XincaHVAC/status/2074450130573684787",
+    "telegram_url": "https://t.me/hvaccontrols/6",
+    "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
+  },
+  "ai-building-energy-management": {
+    "x_status": "success",
+    "telegram_status": "success",
+    "linkedin_url": null,
+    "published_at": "2026-07-07T19:09:02.860589+08:00",
+    "x_url": "https://x.com/XincaHVAC/status/2074450267219939732",
+    "telegram_url": "https://t.me/hvaccontrols/7",
+    "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
+  }
+}

@@ -1,0 +1,35 @@
+# Content Pipeline Configuration
+# Version: v3 (Admin Dashboard replaces TG approval)
+
+pipeline:
+  root: /home/hermerr/workspace/content-pipeline
+  admin_api_port: 8420
+
+publishers:
+  x:
+    enabled: true
+    username: "@xincahvac"
+  telegram:
+    enabled: true
+    chat_id: "@hvaccontrols"
+  linkedin_specsheet:
+    enabled: true
+    require_manual_url: true
+  threads:
+    enabled: false
+    experimental: true
+
+ai_xinca:
+  repo: git@github.com:lvipclub/ai-xinca.git
+  branch: master
+  deploy_branch: gh-pages
+  local_path: /home/hermerr/workspace/ai-xinca
+  admin_path: src/pages/admin
+
+approval:
+  timeout_hours: 48
+  escalation_channel: telegram
+
+content:
+  max_queue_depth: 10
+  min_articles_per_week: 2
