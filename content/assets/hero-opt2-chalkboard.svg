@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <filter id="chalk-rough"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.2"/></filter>
+    <filter id="board-texture">
+      <feTurbulence type="fractalNoise" baseFrequency="1.5" numOctaves="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <!-- Chalkboard -->
+  <rect width="1200" height="630" fill="#2d4a3e"/>
+  <rect width="1200" height="630" fill="#2d4a3e" opacity="0.8" filter="url(#board-texture)"/>
+  <!-- Board frame -->
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="#8B7355" stroke-width="8"/>
+
+  <g filter="url(#chalk-rough)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Title in chalk -->
+    <text x="50" y="65" font-family="'Trebuchet MS', sans-serif" font-size="34" font-weight="bold" fill="#f0e68c" stroke="none">Data Center Energy Efficiency</text>
+    <text x="55" y="65" font-family="'Trebuchet MS', sans-serif" font-size="34" font-weight="bold" fill="#fffde0" stroke="none" opacity="0.5">Data Center Energy Efficiency</text>
+
+    <!-- PUE formula — big and centered -->
+    <text x="350" y="130" font-family="monospace" font-size="22" fill="#fff" stroke="none">PUE = P</text><text x="440" y="130" font-family="monospace" font-size="16" fill="#fff" stroke="none" dy="0">total</text><text x="478" y="130" font-family="monospace" font-size="22" fill="#fff" stroke="none"> / P</text><text x="520" y="130" font-family="monospace" font-size="16" fill="#fff" stroke="none" dy="0">IT</text>
+    <!-- Underline -->
+    <line x1="350" y1="140" x2="550" y2="140" stroke="#f0e68c" stroke-width="2" stroke-dasharray="12,4"/>
+
+    <!-- Rack diagram -->
+    <rect x="80" y="200" width="160" height="340" stroke="#fff" stroke-width="2.5"/>
+    <!-- Shelves -->
+    <line x1="80" y1="240" x2="240" y2="240" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="280" x2="240" y2="280" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="320" x2="240" y2="320" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="360" x2="240" y2="360" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="400" x2="240" y2="400" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="440" x2="240" y2="440" stroke="#fff" stroke-width="1.5"/>
+    <line x1="80" y1="480" x2="240" y2="480" stroke="#fff" stroke-width="1.5"/>
+    <!-- Server blocks -->
+    <rect x="95" y="210" width="130" height="22" stroke="#f0e68c" stroke-width="1.5"/>
+    <rect x="95" y="250" width="130" height="22" stroke="#f0e68c" stroke-width="1.5"/>
+
+    <!-- Arrows showing hot/cold -->
+    <path d="M250,230 L290,230" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowR)"/>
+    <text x="260" y="225" font-family="monospace" font-size="11" fill="#ff9999" stroke="none">HOT ↗</text>
+    <path d="M100,500 L100,530 Q100,545 120,545 L200,545" stroke="#87ceeb" stroke-width="2"/>
+    <text x="110" y="520" font-family="monospace" font-size="11" fill="#87ceeb" stroke="none">COLD ↓</text>
+    <defs><marker id="arrowR" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#e74c3c"/></marker></defs>
+
+    <!-- Bro Woo as chalk drawing -->
+    <g stroke="#fff" stroke-width="2">
+      <!-- Body -->
+      <rect x="500" y="250" width="70" height="140" rx="6" fill="none"/>
+      <!-- Head -->
+      <circle cx="535" cy="215" r="40" fill="none"/>
+      <!-- Lightning hair -->
+      <path d="M500,190 L508,160 L518,178 L525,155 L535,175 L545,152 L553,178 L563,165 L568,190"/>
+      <!-- Glasses -->
+      <circle cx="522" cy="212" r="13" fill="none"/>
+      <circle cx="548" cy="212" r="13" fill="none"/>
+      <line x1="535" y1="212" x2="535" y2="212"/>
+      <!-- Eyes -->
+      <circle cx="522" cy="211" r="2" fill="#fff"/>
+      <circle cx="548" cy="211" r="2" fill="#fff"/>
+      <!-- Mouth -->
+      <path d="M528,228 Q535,234 542,228"/>
+      <!-- Arm pointing -->
+      <path d="M500,300 L450,280 L380,270"/>
+      <!-- Chalk in hand -->
+      <line x1="380" y1="270" x2="350" y2="260" stroke="#f0e68c" stroke-width="2.5"/>
+    </g>
+
+    <!-- Annotation bubbles -->
+    <text x="380" y="180" font-family="'Comic Sans MS', cursive" font-size="13" fill="#f0e68c" stroke="none">"Liquid cooling</text>
+    <text x="380" y="197" font-family="'Comic Sans MS', cursive" font-size="13" fill="#f0e68c" stroke="none">drops PUE below 1.1"</text>
+
+    <!-- Footer scale -->
+    <text x="50" y="580" font-family="monospace" font-size="11" fill="#ccc" stroke="none">AIR: PUE 1.4-2.0  ·  Max ~25kW/rack  ·  LIQUID: PUE 1.03-1.15  ·  50-100+ kW/rack</text>
+    <text x="50" y="600" font-family="monospace" font-size="10" fill="#999" stroke="none">XINCA ai  ·  Sources: Gilbert Held 2011, ASHRAE TC09.09</text>
+
+  </g>
+</svg>

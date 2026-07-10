@@ -1,0 +1,72 @@
+DATA CENTRE COOLING — FIELD REFERENCE
+
+Every kilowatt that enters a data centre follows a simple rule: what is not consumed by computing equipment must be paid for in cooling.
+
+As of 2026, AI training workloads push rack densities past 25 kW — territory where conventional air cooling hits its ceiling. Here's what facilities engineers need to know.
+
+——
+
+PUE = Ptotal ÷ PIT
+
+The metric, defined by The Green Grid. A PUE of 1.0 means zero overhead. 2.0 means every watt of computing costs another watt in facility power.
+
+Typical ranges:
+• Air-cooled legacy: 1.6–2.0
+• Well-managed enterprise (containment + DCIM): 1.2–1.4
+• Liquid-cooled hyperscale: 1.03–1.15
+
+PUE is not static — it fluctuates with IT load and outdoor conditions. Real-time measurement via IPMI, PMBus, and rack PDU monitoring is essential.
+
+——
+
+RACK PLACEMENT & AIRFLOW
+
+Before liquid cooling — fix the air path. These are prerequisites, not optional:
+
+1. Hot aisle / cold aisle configuration — prevents supply/return mixing. Enables densities from ~5 kW to 25 kW.
+2. Physical containment — doors, chimney returns, end caps. Eliminates bypass and recirculation.
+3. Under-floor pressure management — DCIM-integrated transducers + variable-speed fans for active balancing.
+
+——
+
+LIQUID COOLING vs AIR COOLING
+
+The heat transfer coefficient of liquid is orders of magnitude higher than air.
+
+| Factor | Air Cooling | Liquid Cooling |
+|---|---|---|
+| Max rack density | 15–25 kW | 50–100+ kW |
+| Typical PUE | 1.4–2.0 | 1.03–1.15 |
+| Capex | Low | High |
+| Opex (cooling) | 30–50% of facility | 3–15% of facility |
+| Water consumption | High (evaporative) | Lower (closed-loop) |
+
+Water-cooled solutions reduce PUE from >1.6 to <1.1. The lowest PUE values in the industry are consistently associated with liquid cooling — driven by improved approach temperatures and more efficient pumping.
+
+——
+
+WHAT ASHRAE TC09.09 SAYS
+
+• Densities increase from 5 kW → 10, 15, 25 kW+. Beyond ~20 kW, air becomes uneconomical.
+• At 25 kW/rack, thermal runaway window collapses to seconds. PMBus and DCIM are no longer elective.
+• Liquid cooling facilities achieve PUE <1.1; optimised installations approach 1.03.
+• DCIM-driven firmware strategies yield an additional 5–15% reduction beyond hardware gains.
+
+——
+
+KEY TAKEAWAYS
+
+1. Measure PUE at the rack level, not the utility meter.
+2. Airflow optimisation is cheap and mandatory — do it before any capital-intensive cooling upgrade.
+3. The air ceiling is ~20–25 kW/rack. Beyond that, physics does not negotiate.
+4. Liquid cooling drives the lowest PUE. The operational savings can offset capex within 2–4 years.
+5. Rack PDU data feeds DCIM-driven optimisation — savings without hardware changes.
+
+——
+
+Sources: Gilbert Held, Making Your Data Center Energy Efficient (CRC Press, 2011). ASHRAE Technical Committee 09.09 white papers. The Green Grid PUE metric.
+
+Full article with field-reference diagrams and comparison tables:
+→ ai.xinca.com/faq/data-center-energy-efficiency/
+
+#DataCenter #HVAC #Cooling #PUE #LiquidCooling #FacilityManagement #Engineering #EnergyEfficiency #ASHRAE

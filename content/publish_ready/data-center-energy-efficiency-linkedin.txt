@@ -1,0 +1,30 @@
+=== LINKEDIN SPEC SHEET ===
+Article: "Data Center Energy Efficiency: From Rack Cooling to Liquid Cooling"
+Source: ai.xinca.com/faq/data-center-energy-efficiency/
+Voice: Analyst (data-backed, citation-heavy, industry commentary)
+Published: 2026-07-07
+============================
+
+HEADLINE:
+Data Centre Cooling Is Hitting Its Physical Ceiling — Here Is What Comes Next
+
+BODY:
+Every kilowatt entering a data centre follows a simple rule: what is not consumed by computing must be paid for in cooling. As AI training workloads push individual rack densities past 25 kW, conventional air cooling is reaching its practical limit.
+
+Our view: The transition from air to liquid cooling is not a futurist prediction — it is a set of engineering trade-offs that operators are making today.
+
+Key findings from this analysis, drawing on Gilbert Held's foundational framework and ASHRAE TC09.09 research:
+
+-- PUE (Power Usage Effectiveness) remains the single most important metric. A PUE of 1.0 means zero cooling overhead; the industry average hovers around 1.6, while hyperscale liquid-cooled facilities drive it below 1.1.
+
+-- Airflow optimisation — hot aisle/cold aisle containment, under-floor pressure management, DCIM-integrated monitoring — should be exhausted before any capital-intensive liquid cooling investment. A well-configured air-cooled hall can reliably support 15–20 kW racks.
+
+-- The air ceiling is real. Beyond approximately 20–25 kW per rack, liquid cooling becomes the practical default. Water-cooled solutions reduce PUE from >1.6 to <1.1 by eliminating CRAC/CRAH fan energy and enabling higher chilled-water supply temperatures.
+
+-- Rack-level monitoring via IPMI, PMBus, and PDUs — integrated with DCIM platforms — enables firmware-level optimisation strategies that yield an additional 5–15% reduction in cooling energy beyond hardware gains.
+
+For facility managers and consulting engineers evaluating cooling strategy for high-density deployments, the full analysis is available at the link below.
+
+Read the full article: ai.xinca.com/faq/data-center-energy-efficiency/
+
+=== END ===

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <filter id="notion-wiggle"><feTurbulence type="turbulence" baseFrequency="0.015" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1"/></filter>
+  </defs>
+
+  <!-- Cream background -->
+  <rect width="1200" height="630" fill="#FAFAF5"/>
+
+  <g filter="url(#notion-wiggle)" stroke="#2D2D2D" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Title area -->
+    <text x="60" y="70" font-family="'Trebuchet MS', sans-serif" font-size="34" font-weight="bold" fill="#2D2D2D" stroke="none">Data Center Energy Efficiency</text>
+    <text x="60" y="95" font-family="'Trebuchet MS', sans-serif" font-size="15" fill="#888" stroke="none">From Rack Cooling to Liquid Cooling</text>
+
+    <!-- Split diagram: Air vs Liquid -->
+    <!-- AIR SIDE -->
+    <rect x="80" y="150" width="350" height="400" rx="10" stroke-width="2" fill="#F5F5F0"/>
+    <text x="255" y="180" font-family="'Trebuchet MS', sans-serif" font-size="18" fill="#2D2D2D" text-anchor="middle" stroke="none">AIR COOLING</text>
+
+    <!-- Fan icon -->
+    <circle cx="255" cy="270" r="50" stroke-width="1.5"/>
+    <path d="M230,250 L280,250 L255,220 Z" fill="#e8e8e0" stroke-width="1"/>
+    <path d="M230,290 L280,290 L255,320 Z" fill="#e8e8e0" stroke-width="1"/>
+    <path d="M210,270 L210,230 L240,250 Z" fill="#e8e8e0" stroke-width="1"/>
+    <path d="M300,270 L300,230 L270,250 Z" fill="#e8e8e0" stroke-width="1"/>
+
+    <!-- Air metrics -->
+    <text x="255" y="380" font-family="monospace" font-size="24" fill="#e74c3c" text-anchor="middle" stroke="none">PUE 1.6</text>
+    <text x="255" y="410" font-family="'Trebuchet MS', sans-serif" font-size="13" fill="#888" text-anchor="middle" stroke="none">~15-25 kW/rack max</text>
+    <text x="255" y="435" font-family="'Trebuchet MS', sans-serif" font-size="12" fill="#999" text-anchor="middle" stroke="none">30-50% of facility power</text>
+
+    <!-- LIQUID SIDE -->
+    <rect x="480" y="150" width="350" height="400" rx="10" stroke="#2ea3f2" stroke-width="2" fill="#F0F6FA"/>
+    <text x="655" y="180" font-family="'Trebuchet MS', sans-serif" font-size="18" fill="#2D2D2D" text-anchor="middle" stroke="none">LIQUID COOLING</text>
+
+    <!-- Droplet icon -->
+    <path d="M655,310 Q655,260 635,260 Q615,260 615,310 Q615,340 635,340 Q655,340 655,310 Z" stroke="#2ea3f2" stroke-width="2"/>
+    <!-- Pipe -->
+    <line x1="655" y1="220" x2="655" y2="260" stroke="#2ea3f2" stroke-width="2"/>
+
+    <!-- Liquid metrics -->
+    <text x="655" y="380" font-family="monospace" font-size="24" fill="#22c55e" text-anchor="middle" stroke="none">PUE 1.1</text>
+    <text x="655" y="410" font-family="'Trebuchet MS', sans-serif" font-size="13" fill="#888" text-anchor="middle" stroke="none">50-100+ kW/rack</text>
+    <text x="655" y="435" font-family="'Trebuchet MS', sans-serif" font-size="12" fill="#999" text-anchor="middle" stroke="none">3-15% of facility power</text>
+
+    <!-- Bro Woo between the two -->
+    <g transform="translate(390,105)">
+      <!-- Body -->
+      <rect x="0" y="80" width="60" height="120" rx="6" fill="#f8f8f8" stroke="#2D2D2D" opacity="0.9"/>
+      <!-- Head -->
+      <circle cx="30" cy="50" r="35" fill="#FDBCB4" stroke="#2D2D2D"/>
+      <!-- Hair lightning -->
+      <path d="M-2,30 L5,5 L15,20 L22,0 L30,15 L38,2 L46,20 L55,10 L60,30" fill="#2D2D2D"/>
+      <!-- Glasses -->
+      <circle cx="18" cy="48" r="11" fill="none" stroke-width="1.5"/>
+      <circle cx="42" cy="48" r="11" fill="none" stroke-width="1.5"/>
+      <line x1="29" y1="48" x2="31" y2="48"/>
+      <!-- Eyes -->
+      <circle cx="18" cy="47" r="2" fill="#2D2D2D"/>
+      <circle cx="42" cy="47" r="2" fill="#2D2D2D"/>
+      <!-- Smile -->
+      <path d="M23,62 Q30,70 37,62" stroke-width="1.5"/>
+      <!-- Right arm pointing to liquid -->
+      <path d="M60,110 L100,100 L130,105" stroke-width="2"/>
+      <circle cx="130" cy="105" r="5" fill="#FDBCB4" stroke-width="1.2"/>
+    </g>
+
+    <!-- Connector arrows -->
+    <path d="M430,300 L450,290 L480,290" stroke="#22c55e" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="445" y="285" font-family="'Trebuchet MS', sans-serif" font-size="10" fill="#22c55e" stroke="none" text-anchor="middle">ENGR</text>
+
+    <!-- Bottom bar -->
+    <text x="60" y="590" font-family="'Trebuchet MS', sans-serif" font-size="11" fill="#aaa" stroke="none">Sources: Gilbert Held 2011 · Making Your Data Center Energy Efficient  ·  ASHRAE TC09.09  ·  The Green Grid PUE Metric</text>
+    <text x="60" y="608" font-family="'Trebuchet MS', sans-serif" font-size="10" fill="#ccc" stroke="none">XINCA ai — Engineering Knowledge Base</text>
+  </g>
+</svg>
