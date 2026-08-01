@@ -1,13 +1,15 @@
 {
-  "last_run": "2026-07-24T00:00:00+08:00",
-  "topic": "VAV Dampers / Control Valves / BMS Integration",
-  "cluster": 6,
-  "previous_clusters": [
-    3,
-    5,
-    6
-  ],
+  "last_run": "2026-08-01T09:00:00+08:00",
+  "topic": "Air-side — VAV Airflow Measurement Accuracy & Commissioning",
+  "cluster": 1,
+  "previous_clusters": [3, 5, 6, 4],
   "generated": {
-    "ai-xinca": ["air-side-vav-damper-selection", "water-side-control-valve-selection", "building-controls-bms-integration"]
-  }
+    "drafts": [
+      "telegram-hvaccontrols-airflow-measurement",
+      "x-xincahvac-airflow-measurement",
+      "linkedin-airflow-measurement"
+    ],
+    "hero_image": "content/assets/hero-airflow-measurement-20260801.png"
+  },
+  "notes": "Saturday run. Dify Havi App still returns 'Model is not configured' (400) — content generated directly using domain knowledge consistent with HVAC KB (same fallback as Jul 30). Air-side cluster #1 chosen — least-recent cluster (last air-side content: Jul 24 damper-selection article; today angles airflow measurement/commissioning, distinct). X account: @XincaHVAC (Saturday rotation). Hero image: Bro Woo + Inu Faa flat-vector style (Type A whiteboard lecture), 3 iterations (FLUX text decay: v1 punchline typo 'accurt', v2 headline garbled, v3 clean 'SENSOR ACCURACY VAV' + 'Spec it right. Commission for reality.'). Links verified: /a/air-side-vav-damper-selection/, /kb/q/24/, /kb/q/33/ all 200."
 }
