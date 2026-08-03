@@ -293,6 +293,7 @@ body{{width:{width}px;height:{height}px;overflow:hidden;font-family:'Inter','Seg
 
 def render_slide_htmls(slides: list, slug: str) -> list[str]:
     """Render individual HTML files for each slide, ready for screenshots."""
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     paths = []
     for i, slide in enumerate(slides):
         slide_type = SLIDE_TYPES[i] if i < len(SLIDE_TYPES) else f"slide-{i+1}"
@@ -304,7 +305,7 @@ def render_slide_htmls(slides: list, slug: str) -> list[str]:
         key_point = slide.get("key_point", "")
 
         # Determine visual style based on slide type
-        if slide_type == "hook" or slide_type == "cta":
+        if slide_type == "hook":
             bg = f"background:linear-gradient(180deg,{DARK_BG},{DARK_BG2},{DARK_BG})"
             text_color = "#fff"
             badge_bg = f"background:rgba(126,190,197,.2);color:{ACCENT};border:1px solid rgba(126,190,197,.3)"
@@ -316,6 +317,27 @@ def render_slide_htmls(slides: list, slug: str) -> list[str]:
 <div style="margin-bottom:32px"><span class="badge" style="{badge_bg}">{badge}</span></div>
 <h1 style="font-family:'Trebuchet MS',Trebuchet,Helvetica,Arial,sans-serif;font-size:{'52' if slide_type=='hook' else '44'}px;font-weight:800;color:#fff;line-height:1.15;margin-bottom:24px;max-width:900px">{title}</h1>
 <p style="font-size:20px;color:rgba(255,255,255,.55);max-width:560px">{key_point}</p>
+<div class="accent-bar-bottom"></div>
+</div>"""
+        elif slide_type == "cta":
+            avatar_path = os.path.join(
+                AIXINCA_REPO, "public", "avatars", "lady-havi.jpg"
+            )
+            body_html = f"""
+<div style="background:linear-gradient(180deg,{DARK_BG},{DARK_BG2},{DARK_BG});width:{SLIDE_FORMAT[0]}px;height:{SLIDE_FORMAT[1]}px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:64px 48px">
+<div class="accent-bar-top" style="background:{ACCENT}"></div>
+<div class="slide-num" style="color:rgba(126,190,197,.3)">Slide {pos} / {total}</div>
+<div style="margin-bottom:28px"><span class="badge" style="{badge_bg}">CTA</span></div>
+<h1 style="font-family:'Trebuchet MS',Trebuchet,Helvetica,Arial,sans-serif;font-size:48px;font-weight:800;color:#fff;line-height:1.15;margin-bottom:20px;max-width:900px">{title}</h1>
+<p style="font-size:20px;color:rgba(255,255,255,.55);max-width:640px;line-height:1.6;margin-bottom:36px">{key_point}</p>
+<img src="file://{avatar_path}" style="width:170px;height:170px;border-radius:50%;border:3px solid rgba(126,190,197,.55);object-fit:cover;margin-bottom:14px"/>
+<div style="font-size:15px;font-weight:700;letter-spacing:.18em;color:{ACCENT};margin-bottom:28px">LADY HAVI</div>
+<div style="display:inline-block;background:{ACCENT};color:{DARK_BG};font-weight:700;font-size:19px;padding:16px 44px;border-radius:99px;margin-bottom:16px">Read the Full Guide →</div>
+<div style="font-size:15px;color:rgba(255,255,255,.45)">ai.xinca.com/a/{slug}/</div>
+<div style="position:absolute;bottom:44px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:10px;color:rgba(255,255,255,.7);font-size:16px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+<span>Subscribe on Telegram — HVAC Controls 101</span>
+</div>
 <div class="accent-bar-bottom"></div>
 </div>"""
         elif slide_type == "problem" or slide_type == "comparison":
@@ -353,7 +375,8 @@ def render_slide_htmls(slides: list, slug: str) -> list[str]:
             height=SLIDE_FORMAT[1],
             accent=ACCENT,
             styles="",
-        ).replace("{body}", body_html)
+            body=body_html,
+        )
 
         out_path = os.path.join(OUTPUT_DIR, f"{slug}-slide-{pos:02d}.html")
         with open(out_path, "w") as f:
