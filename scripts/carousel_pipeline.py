@@ -23,7 +23,10 @@ DIFY_BASE    = os.environ.get("DIFY_BASE_URL", "http://127.0.0.1/v1")
 DIFY_APP_ID  = os.environ.get("DIFY_CAROUSEL_APP_ID", "")
 DIFY_API_KEY = os.environ.get("DIFY_CAROUSEL_API_KEY", "")
 FAL_KEY      = os.environ.get("FAL_KEY", "")
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "***REDACTED***")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
+if not TG_BOT_TOKEN:
+    print("TG_BOT_TOKEN env var not set - cannot send alerts")
+    sys.exit(1)
 TG_CHANNEL   = "@hvaccontrols"
 AIXINCA_REPO = os.environ.get("AIXINCA_REPO", os.path.expanduser("~/workspace/ai-xinca"))
 CONTENT_PIPELINE = os.environ.get("CONTENT_PIPELINE", os.path.expanduser("~/workspace/content-pipeline"))
