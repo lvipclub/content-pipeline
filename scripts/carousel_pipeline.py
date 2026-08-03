@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Carousel Article Posting Pipeline — Host-Side Script
-Phase 3: Dify → FAL hero → Playwright screenshots → Astro deploy → state file
+Phase 3: Dify → grok-imagine hero → Playwright screenshots → Astro deploy → state file
 
 Usage:
   python3 carousel_pipeline.py [--topic "keyword phrase"] [--resume]
@@ -23,7 +23,6 @@ from datetime import datetime, timezone
 DIFY_BASE    = os.environ.get("DIFY_BASE_URL", "http://127.0.0.1/v1")
 DIFY_APP_ID  = os.environ.get("DIFY_CAROUSEL_APP_ID", "")
 DIFY_API_KEY = os.environ.get("DIFY_CAROUSEL_API_KEY", "")
-FAL_KEY      = os.environ.get("FAL_KEY", "")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")  # optional — announcement folded into Helen's morning brief
 TG_CHANNEL   = "@hvaccontrols"
 AIXINCA_REPO = os.environ.get("AIXINCA_REPO", os.path.expanduser("~/workspace/ai-xinca"))
@@ -178,46 +177,101 @@ def call_dify_workflow(topic: str) -> dict | None:
     return None
 
 
-# ── Step 3: Generate Hero Image (FAL REST API) ──────────────
-def generate_hero_image(hero_prompt: str, slug: str) -> str | None:
-    """Generate hero image via FAL.ai Flux API."""
-    if not FAL_KEY:
-        print("FAL_KEY not set — skipping hero image generation")
-        return None
+# ── Step 3: Generate Hero Image (xAI grok-imagine via OAuth) ──
+def _xai_oauth_token() -> str:
+    """Resolve the xAI OAuth access token (same path as the gateway + heartbeat).
 
+    hermes_cli.auth uses PEP 604 unions (crashes on system python 3.9), so the
+    token is fetched through the hermes-agent venv python instead.
+    """
+    venv_py = os.path.expanduser("~/.hermes/hermes-agent/venv/bin/python3")
+    if not os.path.exists(venv_py):
+        venv_py = "python3"
+    code = (
+        "from hermes_cli.auth import resolve_xai_oauth_runtime_credentials;"
+        "import json;"
+        "print(resolve_xai_oauth_runtime_credentials("
+        "force_refresh=True, refresh_skew_seconds=1800)['api_key'])"
+    )
+    try:
+        r = subprocess.run(
+            [venv_py, "-c", code], capture_output=True, text=True, timeout=90
+        )
+        token = r.stdout.strip()
+        if r.returncode != 0 or not token or "." not in token:
+            print(
+                "xAI OAuth token error: "
+                f"{r.stderr.strip()[:200] or 'empty token'}"
+            )
+            return ""
+        return token
+    except Exception as e:
+        print(f"xAI OAuth token error: {e}")
+        return ""
+
+
+def generate_hero_image(hero_prompt: str, slug: str) -> str | None:
+    """Generate hero image via xAI grok-imagine (OAuth — included in Premium+)."""
     import urllib.request
 
-    url = "https://fal.run/fal-ai/flux/dev"
-    payload = {
-        "prompt": hero_prompt,
-        "image_size": "landscape_16_9",
-        "num_images": 1,
-    }
+    token = _xai_oauth_token()
+    if not token:
+        print("xAI OAuth token unavailable — skipping hero image generation")
+        return None
+
+    payload = {"model": "grok-imagine-image", "prompt": hero_prompt, "n": 1}
     headers = {
-        "Authorization": f"Key {FAL_KEY}",
+        "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
     }
 
     for attempt in range(2):
         try:
             req = urllib.request.Request(
-                url, data=json.dumps(payload).encode(), headers=headers, method="POST"
+                "https://api.x.ai/v1/images/generations",
+                data=json.dumps(payload).encode(),
+                headers=headers,
+                method="POST",
             )
-            with urllib.request.urlopen(req, timeout=120) as resp:
+            with urllib.request.urlopen(req, timeout=240) as resp:
                 result = json.loads(resp.read())
-                image_url = result.get("images", [{}])[0].get("url")
-                if image_url:
-                    # Download and save locally
-                    out_path = os.path.join(
-                        AIXINCA_REPO, "public/articles", f"{slug}-hero.png"
+                image_url = (result.get("data") or [{}])[0].get("url")
+                if not image_url:
+                    raise RuntimeError(f"no image url in response: {str(result)[:200]}")
+
+                out_path = os.path.join(
+                    AIXINCA_REPO, "public/articles", f"{slug}-hero.png"
+                )
+                os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                # imgen.x.ai CDN blocks urllib (CF 1010) — download via curl.
+                # CDN is flaky (connection resets/stalls): bound every attempt,
+                # retry transient errors, and cap the whole download via
+                # subprocess timeout so a stall can't blow the step budget.
+                dl = subprocess.run(
+                    [
+                        "curl", "-sL4", "--connect-timeout", "10",
+                        "--max-time", "45", "--retry", "2",
+                        "--retry-all-errors", "--retry-delay", "2",
+                        "-o", out_path, image_url,
+                    ],
+                    capture_output=True,
+                    text=True,
+                    timeout=120,
+                )
+                if (
+                    dl.returncode != 0
+                    or not os.path.exists(out_path)
+                    or os.path.getsize(out_path) < 1000
+                ):
+                    raise RuntimeError(
+                        f"curl download failed rc={dl.returncode} {dl.stderr[:120]}"
                     )
-                    with urllib.request.urlopen(image_url) as img_resp:
-                        with open(out_path, "wb") as f:
-                            f.write(img_resp.read())
-                    print(f"Hero image saved: {out_path}")
-                    return out_path
+                print(
+                    f"Hero image saved: {out_path} ({os.path.getsize(out_path)} bytes)"
+                )
+                return out_path
         except Exception as e:
-            print(f"FAL error: {e}")
+            print(f"grok-imagine error: {e}")
             if attempt < 1:
                 time.sleep(5)
 
