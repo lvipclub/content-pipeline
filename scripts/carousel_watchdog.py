@@ -9,17 +9,21 @@ Silent exit 0 when everything is fine. Outputs alert message on stuck pipeline.
 import json
 import os
 import sys
+from typing import Optional
 import time
 import urllib.request
 from datetime import datetime, timezone
 
 STATE_FILE = os.path.expanduser("~/workspace/content-pipeline/state/carousel-pipeline.json")
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "***REDACTED***")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
 TG_ALERT_TARGET = os.environ.get("TG_ALERT_TARGET", "@hvaccontrols")
+if not TG_BOT_TOKEN:
+    print("TG_BOT_TOKEN env var not set - cannot send alerts")
+    sys.exit(1)
 STUCK_THRESHOLD_HOURS = 2
 
 
-def load_state() -> dict | None:
+def load_state() -> Optional[dict]:
     if not os.path.exists(STATE_FILE):
         return None
     with open(STATE_FILE) as f:
