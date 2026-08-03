@@ -8,6 +8,7 @@ Usage:
 
 Runs as a no_agent Hermes cron. State file enables idempotent resume.
 """
+from __future__ import annotations  # py3.9 compat: PEP 604 annotations are lazy strings
 import json
 import os
 import sys
@@ -23,10 +24,7 @@ DIFY_BASE    = os.environ.get("DIFY_BASE_URL", "http://127.0.0.1/v1")
 DIFY_APP_ID  = os.environ.get("DIFY_CAROUSEL_APP_ID", "")
 DIFY_API_KEY = os.environ.get("DIFY_CAROUSEL_API_KEY", "")
 FAL_KEY      = os.environ.get("FAL_KEY", "")
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
-if not TG_BOT_TOKEN:
-    print("TG_BOT_TOKEN env var not set - cannot send alerts")
-    sys.exit(1)
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")  # optional — announcement folded into Helen's morning brief
 TG_CHANNEL   = "@hvaccontrols"
 AIXINCA_REPO = os.environ.get("AIXINCA_REPO", os.path.expanduser("~/workspace/ai-xinca"))
 CONTENT_PIPELINE = os.environ.get("CONTENT_PIPELINE", os.path.expanduser("~/workspace/content-pipeline"))
@@ -622,8 +620,10 @@ def main(topic: str = None, resume: bool = False):
         copy_pngs_with_nice_names(slides, slug)
         save_state("screenshots_taken", True)
 
-    # ── Step 6: TG Notification ──
-    if not step_done("tg_posted"):
+    # ── Step 6: TG Notification (optional) ──
+    # Announcement is folded into Helen's daily brief (it reads the state file);
+    # a direct channel post only happens if TG_BOT_TOKEN is configured.
+    if TG_BOT_TOKEN and not step_done("tg_posted"):
         print("Posting TG notification...")
         tg_id = post_tg_notification(article, slug, slides)
         save_state("tg_posted", True, {"tg_message_id": tg_id})
