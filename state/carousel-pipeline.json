@@ -1,0 +1,15 @@
+{
+  "steps": {
+    "dify_called": {
+      "done": true,
+      "at": "2026-08-05T10:10:10.213470+00:00"
+    },
+    "hero_generated": {
+      "done": true,
+      "at": "2026-08-05T10:10:19.411634+00:00"
+    }
+  },
+  "artifacts": {
+    "hero_path": "/Users/marcsir/workspace/ai-xinca/public/articles/commercial-hvac-energy-code-compliance-hero.png"
+  }
+}

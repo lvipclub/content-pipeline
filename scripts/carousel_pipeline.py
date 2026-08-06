@@ -30,6 +30,42 @@ CONTENT_PIPELINE = os.environ.get("CONTENT_PIPELINE", os.path.expanduser("~/work
 STATE_FILE   = os.path.join(CONTENT_PIPELINE, "state", "carousel-pipeline.json")
 OUTPUT_DIR   = os.path.join(CONTENT_PIPELINE, "output")
 
+# ── Dify creds fallback (C3: cron subprocess env is sanitized — the
+#    gateway does NOT inherit ~/.hermes/.env, so DIFY_CAROUSEL_* would be
+#    empty and every Dify call would 401 -> silent no-op). Load from the
+#    canonical stores like ai-xinca-carousel-daily.sh does:
+#      1. ~/.hermes/.env (DIFY_CAROUSEL_APP_ID / DIFY_CAROUSEL_API_KEY)
+#      2. content-pipeline/state/dify-carousel-creds.json (legacy)
+def _load_dify_creds() -> tuple[str, str]:
+    app_id, api_key = DIFY_APP_ID, DIFY_API_KEY
+    env_path = os.path.expanduser("~/.hermes/.env")
+    if os.path.exists(env_path):
+        with open(env_path, "r", encoding="utf-8", errors="replace") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                v = v.strip().strip('"').strip("'")
+                if k == "DIFY_CAROUSEL_APP_ID" and not app_id:
+                    app_id = v
+                elif k == "DIFY_CAROUSEL_API_KEY" and not api_key:
+                    api_key = v
+    if not app_id or not api_key:
+        creds_path = os.path.expanduser(
+            "~/workspace/content-pipeline/state/dify-carousel-creds.json")
+        if os.path.exists(creds_path):
+            try:
+                with open(creds_path, "r", encoding="utf-8") as f:
+                    cd = json.load(f)
+                app_id = app_id or str(cd.get("app_id", ""))
+                api_key = api_key or str(cd.get("api_key", ""))
+            except Exception:
+                pass
+    return app_id, api_key
+
+DIFY_APP_ID, DIFY_API_KEY = _load_dify_creds()
+
 # Slide spec
 SLIDE_FORMAT = (1080, 1350)  # width × height for LinkedIn
 SLIDE_TYPES  = ["hook", "problem", "concept", "comparison", "cta"]
