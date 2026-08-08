@@ -130,5 +130,61 @@
     "draft_path": "content/approved/linkedin-controls.md",
     "note": "Manual post \u2014 Marc Sir posts from personal profile",
     "published_at": "2026-07-30T10:35:34.875251+08:00"
+  },
+  "x-woofaasocial-valve-authority-20260806": {
+    "status": "published",
+    "target_platforms": [
+      "x"
+    ],
+    "approved_at": "2026-08-06T10:04:42.318336+08:00",
+    "approved_by": "marc_sir_tg",
+    "source": "Northstar Aug 6 \u2014 Water-side (WoofaaSocial)",
+    "draft_path": "content/approved/x-woofaasocial-valve-authority.md",
+    "hero_image": "content/assets/hero-valve-authority-20260806.png",
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "telegram-hvaccontrols-valve-authority-20260806": {
+    "status": "published",
+    "target_platforms": [
+      "telegram"
+    ],
+    "approved_at": "2026-08-06T10:04:42.318336+08:00",
+    "approved_by": "marc_sir_tg",
+    "source": "Northstar Aug 6 \u2014 Water-side (HVAC Controls)",
+    "draft_path": "content/approved/telegram-hvaccontrols-valve-authority.md",
+    "hero_image": "content/assets/hero-valve-authority-20260806.png",
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "linkedin-valve-authority-20260806": {
+    "status": "published",
+    "target_platforms": [
+      "linkedin"
+    ],
+    "approved_at": "2026-08-06T10:04:42.318336+08:00",
+    "approved_by": "marc_sir_tg",
+    "source": "Northstar Aug 6 \u2014 Water-side (LinkedIn)",
+    "draft_path": "content/approved/linkedin-valve-authority.md",
+    "note": "Manual post \u2014 Marc Sir posts from personal profile",
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "telegram-hvaccontrols-energy-codes-20260808": {
+    "status": "draft",
+    "platform": "telegram",
+    "topic": "Energy efficiency \u2014 building energy codes, retrofit savings, sub-metering & MBCx",
+    "draft_path": "content/drafts/2026-08-08/telegram-hvaccontrols-energy-codes.md",
+    "hero_image": "content/assets/hero-energy-codes-20260808.png"
+  },
+  "x-xincahvac-energy-codes-20260808": {
+    "status": "draft",
+    "platform": "x",
+    "topic": "Energy efficiency \u2014 MBCx, sub-metering & the tightening code baseline",
+    "draft_path": "content/drafts/2026-08-08/x-xincahvac-energy-codes.md",
+    "hero_image": "content/assets/hero-energy-codes-20260808.png"
+  },
+  "linkedin-energy-codes-20260808": {
+    "status": "draft",
+    "platform": "linkedin",
+    "topic": "The energy code baseline is moving faster than your specification cycle",
+    "draft_path": "content/drafts/2026-08-08/linkedin-energy-codes.md"
   }
 }

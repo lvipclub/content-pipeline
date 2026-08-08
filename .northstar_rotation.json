@@ -1,15 +1,21 @@
 {
-  "last_run": "2026-08-06T09:00:00+08:00",
-  "topic": "Water-side — control valve selection, valve authority, hydronic balancing, and pump efficiency",
-  "cluster": 2,
-  "previous_clusters": [3, 1, 4, 6, 5],
-  "generated": {
-    "drafts": [
-      "telegram-hvaccontrols-valve-authority",
-      "x-woofaasocial-valve-authority",
-      "linkedin-valve-authority"
+    "last_run": "2026-08-08T09:00:00+08:00",
+    "topic": "Energy efficiency — building energy codes (ASHRAE 90.1), retrofit savings, sub-metering & monitoring-based commissioning",
+    "cluster": 5,
+    "previous_clusters": [
+        2,
+        3,
+        1,
+        4,
+        6
     ],
-    "hero_image": "content/assets/hero-valve-authority-20260806.png"
-  },
-  "notes": "Thursday run. Dify Havi App WORKING for the first time since Jul 30 (telegram + linkedin OK on first call; x OK on retry after one transient 'could not find json block' 400). Raw Dify output used as source material, then polished to Northstar format (specifier voice, KB links w/ UTM, no emoji, Australian English). Water-side cluster #2 chosen — least-recent cluster (never used in current rotation window; last water-side content Jul 18 valve articles; 19 days gap). X account: @WoofaaSocial (Thursday rotation) — water-side framed through healthy-buildings/thermal-comfort/ESG angle per Woofaa territory. Hero image: Bro Woo + Inu Faa flat-vector Type B desk study with valve flow chart (0.3/0.5 labels) — generated via xAI Grok Imagine backend (FAL managed gateway down: no FAL_KEY, no Nous credits; xAI provider available via XAI_API_KEY). Passed vision_analyze on 1st iteration — headline 'VALVE AUTHORITY' + punchline 'Authority decides control.' both spelled correctly, one slim Inu Faa with lightning-bolt collar charm, chart labels 0.3/0.5. Links verified: /kb/q/4/, /kb/q/3/, /kb/q/7/, /kb/q/22/, /kb/q/43/, /kb/q/48/, /kb/q/23/ all 200."
+    "generated": {
+        "drafts": [
+            "telegram-hvaccontrols-energy-codes",
+            "x-xincahvac-energy-codes",
+            "linkedin-energy-codes"
+        ],
+        "hero_image": "content/assets/hero-energy-codes-20260808.png"
+    },
+    "notes": "Saturday run. Dify Havi App DEGRADED: telegram+linkedin returned think-block-only output on attempt 1, then \"could not find json block\" on retry; x returned think-only plus an off-topic consumer filter post. Fell back to KB-sourced drafting (established pattern). Energy efficiency cluster #5 (least recent). Links verified against repo: /a/energy-efficiency-building-codes-asia/, /a/ai-building-energy-management/, /kb/q/11/ all exist. X account: @XincaHVAC (Saturday rotation). Hero: Type C walking-forward, FAL backend, 3 iterations — headline OK v1; punchline word \"cheapest\" botched twice (chealest/chacsst, hallucination hotspot); v3 punchline switched to short words \"Measure it. Fix it. Save energy.\" passed vision_analyze."
 }
