@@ -69,7 +69,35 @@
     "telegram_url": null,
     "linkedin_url": null,
     "linkedin_posted": "2026-07-30T10:35:34.875251+08:00",
-    "linkedin_note": "Manual post \u2014 Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-controls-20260730-linkedin.txt",
+    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-controls-20260730-linkedin.txt",
     "published_at": "2026-07-30T10:35:34.875251+08:00"
+  },
+  "x-woofaasocial-valve-authority-20260806": {
+    "x_status": "success",
+    "x_url": "https://x.com/WoofaaSocial/status/2085184830782988583",
+    "telegram_status": "skipped",
+    "telegram_url": null,
+    "linkedin_url": null,
+    "linkedin_posted": null,
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "telegram-hvaccontrols-valve-authority-20260806": {
+    "x_status": "skipped",
+    "x_url": null,
+    "telegram_status": "success",
+    "telegram_url": "https://t.me/hvaccontrols/10",
+    "linkedin_url": null,
+    "linkedin_posted": null,
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "linkedin-valve-authority-20260806": {
+    "x_status": "skipped",
+    "x_url": null,
+    "telegram_status": "skipped",
+    "telegram_url": null,
+    "linkedin_url": null,
+    "linkedin_posted": "2026-08-06T10:04:42.318336+08:00",
+    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-valve-authority-20260806-linkedin.txt",
+    "published_at": "2026-08-06T10:04:42.318336+08:00"
   }
 }

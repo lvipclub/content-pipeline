@@ -1,5 +1,4 @@
 {
-  "topic": "air handling unit coil selection",
   "steps": {
     "dify_called": {
       "done": true,
@@ -12,14 +11,6 @@
     "slides_rendered": {
       "done": true,
       "at": "2026-08-09T11:01:30.010282+00:00"
-    },
-    "screenshots_taken": {
-      "done": true,
-      "at": "2026-08-13T07:06:20.532948+00:00"
-    },
-    "deployed": {
-      "done": true,
-      "at": "2026-08-13T07:07:01.762367+00:00"
     }
   },
   "artifacts": {
@@ -30,7 +21,6 @@
       "/Users/marcsir/workspace/content-pipeline/output/air-handling-unit-coil-selection-slide-03.html",
       "/Users/marcsir/workspace/content-pipeline/output/air-handling-unit-coil-selection-slide-04.html",
       "/Users/marcsir/workspace/content-pipeline/output/air-handling-unit-coil-selection-slide-05.html"
-    ],
-    "dify_output_file": "/Users/marcsir/workspace/content-pipeline/output/air-handling-unit-coil-selection.json"
+    ]
   }
 }

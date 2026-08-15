@@ -1,22 +1,22 @@
 {
-    "last_run": "2026-08-13T09:00:00+08:00",
-    "topic": "Data centre cooling — supply temperature, aisle containment & ASHRAE TC 9.9 thermal envelopes (hot/cold aisle, liquid cooling for high-density racks, PUE)",
-    "cluster": 6,
+    "last_run": "2026-08-15T09:00:00+08:00",
+    "topic": "Building controls / BMS integration — BACnet MS/TP vs BACnet/IP, open protocols vs vendor lock-in, sensor strategy, BAS commissioning",
+    "cluster": 4,
     "previous_clusters": [
-        2,
-        3,
-        1,
         4,
-        6,
-        5
+        1,
+        3,
+        2,
+        5,
+        6
     ],
     "generated": {
         "drafts": [
-            "telegram-hvaccontrols-data-centre-thermal-envelope",
-            "x-xincahvac-data-centre-thermal-envelope",
-            "linkedin-data-centre-thermal-envelope"
+            "telegram-hvaccontrols-bms-integration",
+            "x-xincahvac-bms-integration",
+            "linkedin-bms-integration"
         ],
-        "hero_image": "content/assets/hero-dc-thermal-envelope-20260813.png"
+        "hero_image": "content/assets/hero-bms-integration-20260815.png"
     },
-    "notes": "Thursday re-fire (original spawn died). Cluster 6 (data centre) = least-recent (last: Jul 25), only cluster outside 2-week window. ACCOUNT DEVIATION flagged: Thursday rotation = @WoofaaSocial, but data centre cooling is @XincaHVAC territory per domain guardrails (Woofaa = IAQ human-health only); X draft therefore written for @XincaHVAC — needs Marc Sir sign-off. Dify Havi app: think-block fix (max_tokens 4096 + enable_thinking:false) WORKS — telegram + linkedin generated on-topic; BUT app has EMPTY user_input_form (inputs {topic,platform,research_brief} silently dropped) — topic must be embedded in query; x platform returned empty answer 3x → X draft written manually (KB-sourced pattern). Dify links were fabricated (/hvac/data-centre-cooling = 404) — replaced with verified /a/data-center-energy-efficiency/ (+ /a/data-center-glycol-cooling/ in LinkedIn). Hero: grok-imagine-image via xAI API (FAL gateway 409 again), Type C walking-forward, 1280x720 16:9, passed vision_analyze 1st iteration — headline 'RAISE THE SETPOINT', punchline 'Stay inside the envelope' correct, one slim Inu Faa with charm, glasses on."
+    "notes": "Sat run. Cluster 4 (controls/BMS) = only cluster outside 2-week window (last used Jul 30; all others Aug 1-13). previous_clusters rewritten to verified chronology from drafts dir (Jul 30=4, Aug 1=1, Aug 3=3, Aug 6=2, Aug 8=5, Aug 13=6) — old list [2,3,1,4,6,5] did not match ground truth. Initial Dify calls were made for water-side (cluster 2) before rotation check revealed it was used Aug 6 — discarded and regenerated for cluster 4. Dify generated ALL 3 platforms this run incl. X (first time since think-block fix; Aug 13 X came back empty 3x). Corrections applied: X draft '76.8 kbaud max' → 115.2 kbps (ASHRAE 135 MS/TP max); Dify TG hero prompt described wrong characters (dog in backwards cap + hard-hat sidekick, not Bro Woo/Inu Faa) → replaced with northstar template Type B desk study. FAL edit route 409 again → xAI grok-imagine-image fallback (4th consecutive run). Vision QA (xAI grok-4.5 direct) PASS 1st iteration: headline 'BMS WITHOUT LOCK-IN', punchline 'Open protocols', labels MS/TP + IP readable, one slim Inu Faa with charm, glasses on."
 }

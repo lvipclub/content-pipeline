@@ -1,3 +1,6 @@
+---
+target: woofaasocial
+---
 # X — @WoofaaSocial
 # Topic: Controls — Indoor Air Quality Sensor Networks & BMS Integration
 # Date: Thu 30 Jul 2026
