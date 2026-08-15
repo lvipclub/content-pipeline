@@ -186,5 +186,26 @@
     "platform": "linkedin",
     "topic": "The energy code baseline is moving faster than your specification cycle",
     "draft_path": "content/drafts/2026-08-08/linkedin-energy-codes.md"
+  },
+  "x-xincahvac-bms-integration-20260815": {
+    "status": "approved",
+    "platform": "x",
+    "topic": "BACnet MS/TP vs IP — match the backbone to the building",
+    "draft_path": "content/approved/x-xincahvac-bms-integration-20260815.md",
+    "approved_at": "2026-08-15T14:30:00+08:00"
+  },
+  "telegram-hvaccontrols-bms-integration-20260815": {
+    "status": "approved",
+    "platform": "telegram",
+    "topic": "BACnet MS/TP vs IP — match the backbone to the building",
+    "draft_path": "content/approved/telegram-hvaccontrols-bms-integration-20260815.md",
+    "approved_at": "2026-08-15T14:30:00+08:00"
+  },
+  "linkedin-bms-integration-20260815": {
+    "status": "approved",
+    "platform": "linkedin",
+    "topic": "Building Controls Integration: BACnet, Sensors and the Commissioning Gap",
+    "draft_path": "content/approved/linkedin-bms-integration-20260815.md",
+    "approved_at": "2026-08-15T14:30:00+08:00"
   }
 }
