@@ -1,11 +1,3 @@
-# LinkedIn — XINCA Company Page (draft only; Marc Sir posts manually)
-- Date: 2026-08-15
-- Cluster: 4 (Controls / BMS integration)
-- Status: DRAFT — awaiting Marc Sir approval
-- Sources verified live: ai.xinca.com/a/building-controls-bms-integration/ · /kb/q/34/ (BACnet MS/TP vs IP) · /kb/q/21/ (BACnet object types)
-
----
-
 # Building Controls Integration: BACnet, Sensors and the Commissioning Gap
 
 The smartest building in the portfolio can still behave like a dumb one if the controls backbone was treated as an afterthought. When I sit down with a facility team that is living with a fifteen-year-old building management system, the conversation rarely turns on which chiller or air handler was originally specified. It turns on whether the field bus can actually carry the data, whether the replacement plant will talk to the existing controllers, and whether the integrator left behind a functional test report or just a signed handover sheet. The controls layer — not the mechanical plant — is what determines whether a building is an asset or an albatross across its life.

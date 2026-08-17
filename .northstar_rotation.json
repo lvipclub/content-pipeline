@@ -1,22 +1,22 @@
 {
-    "last_run": "2026-08-15T09:00:00+08:00",
-    "topic": "Building controls / BMS integration — BACnet MS/TP vs BACnet/IP, open protocols vs vendor lock-in, sensor strategy, BAS commissioning",
-    "cluster": 4,
+    "last_run": "2026-08-17T09:00:00+08:00",
+    "topic": "Air-side: VAV box control strategies (pressure-independent vs pressure-dependent control, minimum airflow turndown) and damper selection (opposed-blade vs parallel-blade, leakage classes, actuator torque)",
+    "cluster": 1,
     "previous_clusters": [
-        4,
         1,
         3,
         2,
         5,
-        6
+        6,
+        4
     ],
     "generated": {
         "drafts": [
-            "telegram-hvaccontrols-bms-integration",
-            "x-xincahvac-bms-integration",
-            "linkedin-bms-integration"
+            "telegram-hvaccontrols-vav-control",
+            "x-xincahvac-vav-control",
+            "linkedin-vav-control"
         ],
-        "hero_image": "content/assets/hero-bms-integration-20260815.png"
+        "hero_image": "content/assets/hero-vav-control-20260817.png"
     },
-    "notes": "Sat run. Cluster 4 (controls/BMS) = only cluster outside 2-week window (last used Jul 30; all others Aug 1-13). previous_clusters rewritten to verified chronology from drafts dir (Jul 30=4, Aug 1=1, Aug 3=3, Aug 6=2, Aug 8=5, Aug 13=6) — old list [2,3,1,4,6,5] did not match ground truth. Initial Dify calls were made for water-side (cluster 2) before rotation check revealed it was used Aug 6 — discarded and regenerated for cluster 4. Dify generated ALL 3 platforms this run incl. X (first time since think-block fix; Aug 13 X came back empty 3x). Corrections applied: X draft '76.8 kbaud max' → 115.2 kbps (ASHRAE 135 MS/TP max); Dify TG hero prompt described wrong characters (dog in backwards cap + hard-hat sidekick, not Bro Woo/Inu Faa) → replaced with northstar template Type B desk study. FAL edit route 409 again → xAI grok-imagine-image fallback (4th consecutive run). Vision QA (xAI grok-4.5 direct) PASS 1st iteration: headline 'BMS WITHOUT LOCK-IN', punchline 'Open protocols', labels MS/TP + IP readable, one slim Inu Faa with charm, glasses on."
+    "notes": "Mon run. Cluster 1 (air-side) = only cluster outside 2-week window (last used Aug 1 airflow measurement; all others Aug 3-15). Angle varied from Aug 1: VAV box control + damper selection instead of airflow measurement. Dify ignored inputs.topic (app declares NO user_input_form variables — confirmed via /v1/parameters) — first 3 calls produced off-topic DCV/CO2 content and were discarded; re-called with topic+platform embedded in the QUERY, all 3 platforms answered (LinkedIn empty on 1st attempt, OK on retry). Corrections: TG/X links were fabricated (/articles/vav-box-control-damper-selection, /qa/vav) -> replaced with verified live article /a/air-side-vav-damper-selection/ (UTM for TG); LinkedIn output was 2 concatenated drafts with emoji tail -> merged into 1 clean draft, dropped wrong AMCA 503/511 cites, leakage classes corrected to SMACNA/AMCA 500-D (Class I tightest), torque guidance simplified to 150% margin over manufacturer rated + verify against static pressure. FAL edit route 409 again (5th consecutive) -> xAI grok-imagine-image fallback. Vision QA (xAI grok-4.5 direct) PASS 1st iteration: headline/punchline/labels all correct, one slim Inu Faa with charm, glasses on."
 }

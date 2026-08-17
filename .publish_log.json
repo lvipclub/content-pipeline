@@ -99,5 +99,35 @@
     "linkedin_posted": "2026-08-06T10:04:42.318336+08:00",
     "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-valve-authority-20260806-linkedin.txt",
     "published_at": "2026-08-06T10:04:42.318336+08:00"
+  },
+  "x-xincahvac-bms-integration-20260815": {
+    "x_status": "skipped",
+    "x_url": null,
+    "x_skip_reason": "human-account (@XincaHVAC is human-operated per x-fleet-config; x_posting=false)",
+    "telegram_status": "skipped",
+    "telegram_url": null,
+    "linkedin_url": null,
+    "linkedin_posted": null,
+    "published_at": "2026-08-15T16:36:30.340996+08:00"
+  },
+  "telegram-hvaccontrols-bms-integration-20260815": {
+    "x_status": "skipped",
+    "x_url": null,
+    "x_skip_reason": "telegram-only article",
+    "telegram_status": "success",
+    "telegram_url": "https://t.me/hvaccontrols/13",
+    "linkedin_url": null,
+    "linkedin_posted": null,
+    "published_at": "2026-08-15T16:36:30.340996+08:00"
+  },
+  "linkedin-bms-integration-20260815": {
+    "x_status": "skipped",
+    "x_url": null,
+    "telegram_status": "skipped",
+    "telegram_url": null,
+    "linkedin_url": null,
+    "linkedin_posted": "2026-08-15T16:36:30.340996+08:00",
+    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-bms-integration-20260815-linkedin.txt",
+    "published_at": "2026-08-15T16:36:30.340996+08:00"
   }
 }
