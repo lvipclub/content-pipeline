@@ -1,22 +1,23 @@
 {
-    "last_run": "2026-08-17T09:00:00+08:00",
-    "topic": "Air-side: VAV box control strategies (pressure-independent vs pressure-dependent control, minimum airflow turndown) and damper selection (opposed-blade vs parallel-blade, leakage classes, actuator torque)",
-    "cluster": 1,
+    "last_run": "2026-08-20T09:00:00+08:00",
+    "topic": "IAQ: CO2-based demand-controlled ventilation and the sensor network feeding the BMS — sensor accuracy/placement as spec items, data validation, control-loop angle (distinct from Aug 3 monitoring-angle coverage)",
+    "cluster": 3,
     "previous_clusters": [
-        1,
         3,
-        2,
-        5,
+        1,
+        4,
         6,
-        4
+        5,
+        2,
+        3
     ],
     "generated": {
         "drafts": [
-            "telegram-hvaccontrols-vav-control",
-            "x-xincahvac-vav-control",
-            "linkedin-vav-control"
+            "telegram-hvaccontrols-bms-iaq-sensors",
+            "x-woofaasocial-bms-iaq-sensors",
+            "linkedin-bms-iaq-sensors"
         ],
-        "hero_image": "content/assets/hero-vav-control-20260817.png"
+        "hero_image": "content/assets/hero-bms-iaq-sensors-20260820.png"
     },
-    "notes": "Mon run. Cluster 1 (air-side) = only cluster outside 2-week window (last used Aug 1 airflow measurement; all others Aug 3-15). Angle varied from Aug 1: VAV box control + damper selection instead of airflow measurement. Dify ignored inputs.topic (app declares NO user_input_form variables — confirmed via /v1/parameters) — first 3 calls produced off-topic DCV/CO2 content and were discarded; re-called with topic+platform embedded in the QUERY, all 3 platforms answered (LinkedIn empty on 1st attempt, OK on retry). Corrections: TG/X links were fabricated (/articles/vav-box-control-damper-selection, /qa/vav) -> replaced with verified live article /a/air-side-vav-damper-selection/ (UTM for TG); LinkedIn output was 2 concatenated drafts with emoji tail -> merged into 1 clean draft, dropped wrong AMCA 503/511 cites, leakage classes corrected to SMACNA/AMCA 500-D (Class I tightest), torque guidance simplified to 150% margin over manufacturer rated + verify against static pressure. FAL edit route 409 again (5th consecutive) -> xAI grok-imagine-image fallback. Vision QA (xAI grok-4.5 direct) PASS 1st iteration: headline/punchline/labels all correct, one slim Inu Faa with charm, glasses on."
+    "notes": "Thu run. Cluster 3 (IAQ) chosen: only cluster fully outside 2-week window (last used Aug 3, 17 days; Aug 15 run was actually controls-cluster BACnet MS/TP vs IP per pipeline_state, so cluster 4 was NOT eligible). Angle varied from Aug 3: control-loop + sensor-network design framing instead of monitoring/accuracy framing; links use /a/ articles (Aug 3 used /kb/q/29). Dify still ignores inputs (no user_input_form) -> topic+platform embedded in query, all 3 platforms answered. TG link fabricated (/hvac101) -> replaced with verified live /a/iaq-monitoring-commercial-buildings/ (200 OK; avoids Aug 15's building-controls-bms-integration repeat on TG). LinkedIn was 2 concatenated drafts again -> merged, dropped misattributed NABERS citation, kept ASHRAE 62.1 + Green Star. X draft trimmed to 267 chars w/ URL (was 313). Hero: FAL edit route 409 (6th consecutive) -> xAI grok-imagine-image fallback via bundled provider; vision QA (grok-4.5 direct) PASS 1st iteration: 'SENSE THE AIR' + 'Accuracy is everything' correct, one slim Inu Faa w/ charm, glasses, white bg, labels CO2/BMS/AIR clean."
 }
