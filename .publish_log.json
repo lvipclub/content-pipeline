@@ -1,133 +1,171 @@
 {
-  "data-center-glycol-cooling": {
-    "x_status": "success",
-    "x_url": null,
-    "telegram_status": "success",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-07-06T10:00:00+08:00"
-  },
-  "data-center-energy-efficiency": {
-    "x_status": "success",
-    "telegram_status": "success",
-    "linkedin_url": null,
-    "published_at": "2026-07-07T19:09:02.860589+08:00",
-    "x_url": "https://x.com/XincaHVAC/status/2074450130573684787",
-    "telegram_url": "https://t.me/hvaccontrols/6",
-    "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
-  },
-  "ai-building-energy-management": {
-    "x_status": "success",
-    "telegram_status": "success",
-    "linkedin_url": null,
-    "published_at": "2026-07-07T19:09:02.860589+08:00",
-    "x_url": "https://x.com/XincaHVAC/status/2074450267219939732",
-    "telegram_url": "https://t.me/hvaccontrols/7",
-    "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
-  },
-  "data-centre-cooling-20260725": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "success",
-    "telegram_url": "https://t.me/hvaccontrols/8",
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-07-25T12:05:34+08:00"
-  },
-  "x-xincahvac-20260725": {
-    "x_status": "success",
-    "x_url": "https://x.com/XincaHVAC/status/2081659117371101571",
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-07-27T00:00:00+08:00"
-  },
-  "x-woofaasocial-controls-20260730": {
-    "x_status": "success",
-    "x_url": "https://x.com/WoofaaSocial/status/2082656003682927027",
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-07-30T10:35:34.875251+08:00"
-  },
-  "telegram-hvaccontrols-controls-20260730": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "success",
-    "telegram_url": "https://t.me/hvaccontrols/9",
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-07-30T10:35:34.875251+08:00"
-  },
-  "linkedin-controls-20260730": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": "2026-07-30T10:35:34.875251+08:00",
-    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-controls-20260730-linkedin.txt",
-    "published_at": "2026-07-30T10:35:34.875251+08:00"
-  },
-  "x-woofaasocial-valve-authority-20260806": {
-    "x_status": "success",
-    "x_url": "https://x.com/WoofaaSocial/status/2085184830782988583",
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-08-06T10:04:42.318336+08:00"
-  },
-  "telegram-hvaccontrols-valve-authority-20260806": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "success",
-    "telegram_url": "https://t.me/hvaccontrols/10",
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-08-06T10:04:42.318336+08:00"
-  },
-  "linkedin-valve-authority-20260806": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": "2026-08-06T10:04:42.318336+08:00",
-    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-valve-authority-20260806-linkedin.txt",
-    "published_at": "2026-08-06T10:04:42.318336+08:00"
-  },
-  "x-xincahvac-bms-integration-20260815": {
-    "x_status": "skipped",
-    "x_url": null,
-    "x_skip_reason": "human-account (@XincaHVAC is human-operated per x-fleet-config; x_posting=false)",
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-08-15T16:36:30.340996+08:00"
-  },
-  "telegram-hvaccontrols-bms-integration-20260815": {
-    "x_status": "skipped",
-    "x_url": null,
-    "x_skip_reason": "telegram-only article",
-    "telegram_status": "success",
-    "telegram_url": "https://t.me/hvaccontrols/13",
-    "linkedin_url": null,
-    "linkedin_posted": null,
-    "published_at": "2026-08-15T16:36:30.340996+08:00"
-  },
-  "linkedin-bms-integration-20260815": {
-    "x_status": "skipped",
-    "x_url": null,
-    "telegram_status": "skipped",
-    "telegram_url": null,
-    "linkedin_url": null,
-    "linkedin_posted": "2026-08-15T16:36:30.340996+08:00",
-    "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-bms-integration-20260815-linkedin.txt",
-    "published_at": "2026-08-15T16:36:30.340996+08:00"
-  }
+ "data-center-glycol-cooling": {
+  "x_status": "success",
+  "x_url": null,
+  "telegram_status": "success",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-07-06T10:00:00+08:00"
+ },
+ "data-center-energy-efficiency": {
+  "x_status": "success",
+  "telegram_status": "success",
+  "linkedin_url": null,
+  "published_at": "2026-07-07T19:09:02.860589+08:00",
+  "x_url": "https://x.com/XincaHVAC/status/2074450130573684787",
+  "telegram_url": "https://t.me/hvaccontrols/6",
+  "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
+ },
+ "ai-building-energy-management": {
+  "x_status": "success",
+  "telegram_status": "success",
+  "linkedin_url": null,
+  "published_at": "2026-07-07T19:09:02.860589+08:00",
+  "x_url": "https://x.com/XincaHVAC/status/2074450267219939732",
+  "telegram_url": "https://t.me/hvaccontrols/7",
+  "linkedin_posted": "2026-07-07T19:09:02.860589+08:00"
+ },
+ "data-centre-cooling-20260725": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/8",
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-07-25T12:05:34+08:00"
+ },
+ "x-xincahvac-20260725": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2081659117371101571",
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-07-27T00:00:00+08:00"
+ },
+ "x-woofaasocial-controls-20260730": {
+  "x_status": "success",
+  "x_url": "https://x.com/WoofaaSocial/status/2082656003682927027",
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-07-30T10:35:34.875251+08:00"
+ },
+ "telegram-hvaccontrols-controls-20260730": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/9",
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-07-30T10:35:34.875251+08:00"
+ },
+ "linkedin-controls-20260730": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": "2026-07-30T10:35:34.875251+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-controls-20260730-linkedin.txt",
+  "published_at": "2026-07-30T10:35:34.875251+08:00"
+ },
+ "x-woofaasocial-valve-authority-20260806": {
+  "x_status": "success",
+  "x_url": "https://x.com/WoofaaSocial/status/2085184830782988583",
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-08-06T10:04:42.318336+08:00"
+ },
+ "telegram-hvaccontrols-valve-authority-20260806": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/10",
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-08-06T10:04:42.318336+08:00"
+ },
+ "linkedin-valve-authority-20260806": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": "2026-08-06T10:04:42.318336+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-valve-authority-20260806-linkedin.txt",
+  "published_at": "2026-08-06T10:04:42.318336+08:00"
+ },
+ "x-xincahvac-bms-integration-20260815": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2089997040835260865",
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-08-19T16:52:00+08:00"
+ },
+ "telegram-hvaccontrols-bms-integration-20260815": {
+  "x_status": "skipped",
+  "x_url": null,
+  "x_skip_reason": "telegram-only article",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/13",
+  "linkedin_url": null,
+  "linkedin_posted": null,
+  "published_at": "2026-08-15T16:36:30.340996+08:00"
+ },
+ "linkedin-bms-integration-20260815": {
+  "x_status": "skipped",
+  "x_url": null,
+  "telegram_status": "skipped",
+  "telegram_url": null,
+  "linkedin_url": null,
+  "linkedin_posted": "2026-08-15T16:36:30.340996+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-bms-integration-20260815-linkedin.txt",
+  "published_at": "2026-08-15T16:36:30.340996+08:00"
+ },
+ "telegram-hvaccontrols-vav-control-20260817": {
+  "x_status": "skipped",
+  "x_skip_reason": "telegram-only article",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/14",
+  "published_at": "2026-08-19T16:45:26+08:00"
+ },
+ "linkedin-vav-control-20260817": {
+  "x_status": "skipped",
+  "telegram_status": "skipped",
+  "linkedin_posted": "2026-08-19T16:45:26+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-vav-control-20260817-linkedin.txt",
+  "published_at": "2026-08-19T16:45:26+08:00"
+ },
+ "x-xincahvac-vav-control-20260817": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2090007126735515950",
+  "telegram_status": "skipped",
+  "linkedin_posted": null,
+  "published_at": "2026-08-19T17:25:04+08:00"
+ },
+ "2026-07-16-iaq-monitoring": {
+  "x_status": "success",
+  "x_url": "https://x.com/WoofaaSocial/status/2090385888996106350",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/15",
+  "linkedin_posted": "2026-08-20T18:30:07+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-iaq-monitoring-business-case-linkedin.txt",
+  "published_at": "2026-08-20T18:30:07+08:00"
+ },
+ "2026-07-23-energy-efficiency": {
+  "x_status": "success",
+  "x_url": "https://x.com/WoofaaSocial/status/2090748294091927675",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/16",
+  "linkedin_posted": "2026-08-21T18:30:11+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-energy-efficiency-business-case-linkedin.txt",
+  "published_at": "2026-08-21T18:30:11+08:00"
+ }
 }

@@ -213,5 +213,73 @@
     "approved_at": "2026-08-15T14:30:00+08:00",
     "published_at": "2026-08-15T16:36:30.340996+08:00",
     "published_by": "content-auto-poster-cron"
+  },
+  "x-xincahvac-vav-control-20260817": {
+    "status": "published",
+    "platform": "x",
+    "topic": "Air-side — VAV Box Control & Damper Selection",
+    "draft_path": "content/approved/x-xincahvac-vav-control.md",
+    "approved_at": "2026-08-19T16:45:26+08:00",
+    "published_at": "2026-08-19T16:45:26+08:00",
+    "published_by": "marc-session-2026-08-19"
+  },
+  "linkedin-vav-control-20260817": {
+    "status": "published",
+    "platform": "linkedin",
+    "topic": "Air-side — VAV Box Control & Damper Selection",
+    "draft_path": "content/approved/linkedin-vav-control.md",
+    "approved_at": "2026-08-19T16:45:26+08:00",
+    "published_at": "2026-08-19T16:45:26+08:00",
+    "published_by": "marc-session-2026-08-19"
+  },
+  "telegram-hvaccontrols-vav-control-20260817": {
+    "status": "published",
+    "platform": "telegram",
+    "topic": "Air-side — VAV Box Control & Damper Selection",
+    "draft_path": "content/approved/telegram-hvaccontrols-vav-control.md",
+    "approved_at": "2026-08-19T16:45:26+08:00",
+    "published_at": "2026-08-19T16:45:26+08:00",
+    "published_by": "marc-session-2026-08-19"
+  },
+  "2026-07-16-iaq-monitoring": {
+    "status": "published",
+    "platform": "linkedin",
+    "draft_path": "content/approved/linkedin-iaq-monitoring-business-case.md",
+    "approved_at": "2026-08-20T18:30:07+08:00",
+    "published_at": "2026-08-20T18:30:07+08:00",
+    "published_by": "content-drip"
+  },
+  "2026-07-23-energy-efficiency": {
+    "status": "published",
+    "platform": "linkedin",
+    "draft_path": "content/approved/linkedin-energy-efficiency-business-case.md",
+    "approved_at": "2026-08-21T18:30:11+08:00",
+    "published_at": "2026-08-21T18:30:11+08:00",
+    "published_by": "content-drip"
+  },
+  "telegram-hvaccontrols-delta-t-20260822": {
+    "status": "draft",
+    "platform": "telegram",
+    "topic": "Water-side — low delta-T syndrome in chilled water systems",
+    "draft_path": "content/drafts/2026-08-22/telegram-hvaccontrols-delta-t.md",
+    "hero_image": "content/assets/hero-delta-t-20260822.png",
+    "created_at": "2026-08-22T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-22"
+  },
+  "x-xincahvac-delta-t-20260822": {
+    "status": "draft",
+    "platform": "x",
+    "topic": "Water-side — low delta-T syndrome in chilled water systems",
+    "draft_path": "content/drafts/2026-08-22/x-xincahvac-delta-t.md",
+    "created_at": "2026-08-22T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-22"
+  },
+  "linkedin-delta-t-20260822": {
+    "status": "draft",
+    "platform": "linkedin",
+    "topic": "The Silent Killer of Chilled Water Efficiency: Low Delta-T Syndrome",
+    "draft_path": "content/drafts/2026-08-22/linkedin-delta-t.md",
+    "created_at": "2026-08-22T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-22"
   }
 }

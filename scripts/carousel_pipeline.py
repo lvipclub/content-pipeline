@@ -20,7 +20,9 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 # ── Config ──────────────────────────────────────────────────
-DIFY_BASE    = os.environ.get("DIFY_BASE_URL", "http://127.0.0.1/v1")
+# T2.5 (2026-08-18): VPS Dify via SSH tunnel (18081 -> VPS :8081). MMM Dify retired for
+# VPS-bound apps; cron env is sanitized so the env override is unreliable — default here.
+DIFY_BASE    = os.environ.get("DIFY_BASE_URL", "http://127.0.0.1:18081/v1")
 DIFY_APP_ID  = os.environ.get("DIFY_CAROUSEL_APP_ID", "")
 DIFY_API_KEY = os.environ.get("DIFY_CAROUSEL_API_KEY", "")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")  # optional — announcement folded into Helen's morning brief
