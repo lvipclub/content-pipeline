@@ -1,8 +1,9 @@
 {
-    "last_run": "2026-08-22T09:00:00+08:00",
-    "topic": "Water-side: low delta-T syndrome in chilled water systems — coil selection, two-way valve authority and pump curve choices eroding the design temperature difference (distinct from Aug 6 valve-authority/balancing angle: this run frames the full delta-T chain)",
-    "cluster": 2,
+    "last_run": "2026-08-24T09:00:00+08:00",
+    "topic": "Energy efficiency cluster #2 (retrofit ladder): VSDs + reset strategies (supply-air, static-pressure, CHW), occupancy-based scheduling & setback, performance gap between design intent and measured EUI — and why no-regret fan/pump measures come before chiller replacement. Distinct from Aug 8 (codes/sub-metering/MBCx).",
+    "cluster": 5,
     "previous_clusters": [
+        5,
         2,
         3,
         1,
@@ -14,11 +15,11 @@
     ],
     "generated": {
         "drafts": [
-            "telegram-hvaccontrols-delta-t",
-            "x-xincahvac-delta-t",
-            "linkedin-delta-t"
+            "telegram-hvaccontrols-energy-retrofit",
+            "x-xincahvac-energy-retrofit",
+            "linkedin-energy-retrofit"
         ],
-        "hero_image": "content/assets/hero-delta-t-20260822.png"
+        "hero_image": "content/assets/hero-energy-retrofit-20260824.png"
     },
-    "notes": "Sat run. Cluster 2 (water-side) chosen: last used Aug 6 (16 days) — the only cluster fully outside the 2-week window (Aug 20=3, Aug 17=1, Aug 15=4, Aug 13=6, Aug 8=5). Angle varied from Aug 6: low delta-T syndrome framing (whole chain: coils→valves→pumps) vs Aug 6 valve authority + balancing. No research brief file found — generated without. Dify returned [LINK] placeholder on TG → replaced with verified live /a/water-side-control-valve-selection/ (200 OK; Aug 6 used /kb/q/4/, no repeat). X draft 238 chars w/ URL+2 hashtags. LinkedIn = 2 concatenated drafts again (known defect) → merged, dropped shaky \"lower lift reduces chiller efficiency\" claim, kept ASHRAE Handbook + CIBSE Guide B citations. TG body compressed to ≤1024-char caption. Hero: FAL edit route 409 (7th consecutive) → xAI grok-imagine-image fallback via bundled provider."
+    "notes": "Mon run. Cluster 5 (energy efficiency) chosen: only cluster fully outside the 2-week window (last used Aug 8 = 16 days; Aug 17=air-side #1, Aug 20=IAQ #3, Aug 22=water-side #2 all inside window). Dify still ignores inputs (no user_input_form) — topic+platform embedded in query, all 3 platforms answered (verified by my first attempt producing off-topic output when inputs were used plainly; Aug 22 pattern restored). TG: [LINK] placeholder replaced with verified live /a/ai-building-energy-management/ (200 OK; not used before on TG). X: 236 chars w/ URL, under 280. LinkedIn: 2 concatenated drafts again (known defect) -> merged, dropped unsourced \"80% of stock\" claim, folded CHW reset 1-2% detail + flat-tyres analogy. TG caption compressed to 1,023 chars (sendPhoto limit). Hero: FAL text route (edit route 409s consistently) -> hero-energy-retrofit-20260824.png 1024x1024 white-bg northstar template; vision QA NOT possible this session (no vision_analyze tool loaded; :10000 is Whisper ASR not VL) -> Marc to eyeball before approve."
 }

@@ -1,0 +1,51 @@
+# LinkedIn — XINCA Company Page (Draft — Manual Post Required)
+# Topic: Air-side — Why VAV Airflow Measurement Fails in Practice
+# Date: Sat 01 Aug 2026
+
+**Status:** Draft only — Marc Sir posts manually from personal profile
+
+**Headline:** The Quiet Failure in VAV Systems: Airflow Measurement Accuracy
+
+**Preview (first ~300 chars):**
+
+Every commissioning season, the same discrepancy shows up on projects across Asia: the balancing report says one airflow, the BMS says another, and nobody owns the difference. In VAV systems, that gap is not a commissioning nuisance — it is the difference between demand-controlled ventilation that delivers its promised 25-35% outdoor air savings and a system that quietly wastes fan energy for a decade.
+
+**Full article (kept as draft):**
+
+Every commissioning season, the same discrepancy shows up on commercial projects across Singapore, Hong Kong, Dubai, and Mumbai: the balancing report says one airflow, the BMS says another, and nobody owns the difference. In VAV systems, that gap is not a commissioning nuisance. It is the difference between demand-controlled ventilation that delivers its promised outdoor air savings and a system that quietly wastes fan energy for the life of the building.
+
+**The Physics of the Problem**
+
+Velocity pressure — the signal most VAV airflow sensors measure — scales with the square of velocity (Pv = ½ρV²). At design flow, a 600 mm duct moving 1,000 L/s produces a healthy, measurable signal. At minimum flow, typically 30% of design in a well-configured VAV box, the same sensor is working near the resolution floor of standard differential pressure transmitters. Small absolute errors become large percentage errors precisely where the control sequence needs accuracy most: during partial occupancy, when DCV is supposed to be saving energy.
+
+This is not a sensor quality problem in the component sense. A well-specified averaging flow sensor (multipoint array, ±2-3% of reading) is a mature instrument. The failure modes are specification and installation decisions made upstream: single-point probes chosen for cost, ranges specified to design flow rather than minimum flow, and airflow stations located in ductwork that cannot physically deliver a clean velocity profile [ASHRAE 111].
+
+**Three Decisions That Determine Accuracy**
+
+1. **Averaging versus single-point.** A multipoint averaging array samples the cross-section and tolerates profile distortion. A single-point velocity probe reads one location in a profile that shifts with damper position and upstream fittings. In real ductwork, the single-point's error grows well beyond its datasheet value.
+
+2. **Sensor range matched to turndown.** If the transmitter range is set to design flow, the minimum-flow signal is a small fraction of span. Specifying range to the minimum flow — or using a sensor with an extended low-end response — keeps the signal out of the noise floor.
+
+3. **Straight duct runs.** Averaging stations require clean, straight duct on both sides. A station squeezed between an elbow and a reheat coil does not measure airflow; it measures turbulence.
+
+**The Commissioning Baseline**
+
+ASHRAE 111 sets out the testing, adjusting, and balancing procedures that should anchor every airflow sensor: a manual pitot traverse establishing the true airflow at each operating point, with the sensor reading baselined against it [ASHRAE 111]. Where this baseline exists, drift is detectable and correctable. Where it does not, the BMS has no reference point, and sensor drift — from dust loading, dirty pitot ports, or damper-induced turbulence — compounds unnoticed.
+
+The pattern across markets is consistent: projects that budget for a traverse baseline and range the sensors to turndown commission cleanly and hold their DCV savings. Projects that skip these steps discover the discrepancy in the first summer, when energy reports and comfort complaints arrive together.
+
+**Recommendations for Specifiers**
+
+1. Specify multipoint averaging airflow sensors on VAV terminals and AHU returns — not single-point velocity probes.
+2. Range sensors to minimum flow, not design flow; require published low-end accuracy.
+3. Locate airflow stations in straight duct with adequate run both sides; move the ductwork, not the sensor.
+4. Require a manual traverse baseline in the TAB report for every airflow sensor feeding a control sequence.
+5. Include sensor drift checks in the ongoing commissioning plan — a 15-minute pitot check per box every 12 months is cheap insurance for a decade of DCV performance.
+
+**References**
+
+[1] ASHRAE Standard 111-2008. "Measurement, Testing, Adjusting, and Balancing of Building HVAC Systems." American Society of Heating, Refrigerating and Air-Conditioning Engineers.
+[2] ASHRAE Standard 62.1-2022. "Ventilation for Acceptable Indoor Air Quality." (Demand-controlled ventilation provisions.)
+[3] ASHRAE Handbook — Fundamentals. "Duct Design" chapter (velocity pressure and duct airflow measurement fundamentals).
+[4] AMCA Standard 203. "Field Performance Measurement of Fan Systems." Air Movement and Control Association.
+

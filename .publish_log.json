@@ -167,5 +167,14 @@
   "linkedin_posted": "2026-08-21T18:30:11+08:00",
   "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-energy-efficiency-business-case-linkedin.txt",
   "published_at": "2026-08-21T18:30:11+08:00"
+ },
+ "2026-08-01-airflow-measurement": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2091473144574026116",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/17",
+  "linkedin_posted": "2026-08-23T18:30:27+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-airflow-measurement-linkedin.txt",
+  "published_at": "2026-08-23T18:30:27+08:00"
  }
 }

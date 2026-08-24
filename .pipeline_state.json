@@ -281,5 +281,38 @@
     "draft_path": "content/drafts/2026-08-22/linkedin-delta-t.md",
     "created_at": "2026-08-22T09:00:00+08:00",
     "created_by": "northstar-cron-2026-08-22"
+  },
+  "2026-08-01-airflow-measurement": {
+    "status": "published",
+    "platform": "linkedin",
+    "draft_path": "content/approved/linkedin-airflow-measurement.md",
+    "approved_at": "2026-08-23T18:30:27+08:00",
+    "published_at": "2026-08-23T18:30:27+08:00",
+    "published_by": "content-drip"
+  },
+  "telegram-hvaccontrols-energy-retrofit-20260824": {
+    "status": "draft",
+    "platform": "telegram",
+    "topic": "Energy efficiency — the HVAC retrofit ladder: VSDs + resets before chiller replacement",
+    "draft_path": "content/drafts/2026-08-24/telegram-hvaccontrols-energy-retrofit.md",
+    "hero_image": "content/assets/hero-energy-retrofit-20260824.png",
+    "created_at": "2026-08-24T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-24"
+  },
+  "x-xincahvac-energy-retrofit-20260824": {
+    "status": "draft",
+    "platform": "x",
+    "topic": "Energy efficiency — the HVAC retrofit ladder: VSDs + resets before chiller replacement",
+    "draft_path": "content/drafts/2026-08-24/x-xincahvac-energy-retrofit.md",
+    "created_at": "2026-08-24T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-24"
+  },
+  "linkedin-energy-retrofit-20260824": {
+    "status": "draft",
+    "platform": "linkedin",
+    "topic": "The Retrofit Ladder: Prioritising No-Regret HVAC Measures for Commercial Energy Efficiency",
+    "draft_path": "content/drafts/2026-08-24/linkedin-energy-retrofit.md",
+    "created_at": "2026-08-24T09:00:00+08:00",
+    "created_by": "northstar-cron-2026-08-24"
   }
 }
