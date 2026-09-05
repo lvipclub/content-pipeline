@@ -276,10 +276,10 @@ async function loadDrafts(){
         </div>
         ${a.thumbnail?`<img class="art-thumb" src="${a.thumbnail}" onclick="openLightbox('${a.thumbnail}')" alt="thumbnail">`:''}
         <div style="margin:8px 0">
-          <a href="https://ai.xinca.com/faq/${a.slug}/" target="_blank" class="btn btn-accent btn-sm" style="text-decoration:none">🔗 Open Article on ai.xinca.com/faq/${a.slug}/</a>
+          <a href="https://help.xinca.com/faq/${a.slug}/" target="_blank" class="btn btn-accent btn-sm" style="text-decoration:none">🔗 Open Article on help.xinca.com/faq/${a.slug}/</a>
         </div>
         <div class="art-preview"><pre>${(a.full_text||a.preview||'No preview').substring(0,800)}</pre></div>
-        ${(a.full_text||a.preview||'').length>800?`<div style="font-size:0.7rem;color:#999;margin-bottom:6px">…${((a.full_text||a.preview||'').length-800)} more chars — <a href="https://ai.xinca.com/faq/${a.slug}/" target="_blank">read full article on site</a></div>`:''}
+        ${(a.full_text||a.preview||'').length>800?`<div style="font-size:0.7rem;color:#999;margin-bottom:6px">…${((a.full_text||a.preview||'').length-800)} more chars — <a href="https://help.xinca.com/faq/${a.slug}/" target="_blank">read full article on site</a></div>`:''}
         <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px">
           <button class="btn btn-approve" onclick="autoApprove('${a.slug}')" ${!apiOn?'disabled':''}>📅 Approve (auto-schedule)</button>
           <button class="btn btn-rewrite" onclick="openRewrite('${a.slug}')">✏️ Rewrite</button>

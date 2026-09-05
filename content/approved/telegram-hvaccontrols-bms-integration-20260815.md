@@ -20,6 +20,6 @@ When you write the specification, be explicit. Name BACnet as the standard, then
 
 Key takeaway: open protocols, a hybrid BACnet architecture, a serious sensor strategy and a tightly written specification are lifecycle value. The rest get locked in.
 
-→ ai.xinca.com/a/building-controls-bms-integration/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+→ help.xinca.com/a/building-controls-bms-integration/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #BACnet #BuildingControls #BMS

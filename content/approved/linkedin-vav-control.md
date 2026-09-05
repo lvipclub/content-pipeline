@@ -25,4 +25,4 @@ Variable air volume (VAV) boxes are the workhorses of modern commercial HVAC, ye
 - Verify actuator torque against damper face area and system static pressure, including spring-return for fail-safe operation.
 - Insist the submittal demonstrates flow sensor accuracy across the entire turndown, not just at design conditions.
 
-Full selection guide: https://ai.xinca.com/a/air-side-vav-damper-selection/
+Full selection guide: https://help.xinca.com/a/air-side-vav-damper-selection/

@@ -18,6 +18,6 @@ ASHRAE 90.1 keeps tightening the baseline, so the days of "it passed commissioni
 
 The cheapest energy is the energy you never use.
 
-ai.xinca.com/a/ai-building-energy-management/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
+help.xinca.com/a/ai-building-energy-management/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
 
 #MBCx #EnergyEfficiency #BAS

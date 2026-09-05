@@ -15,7 +15,7 @@ Building energy codes across Asia are converging on a common trajectory — net-
 - Energy audits under ISO 50002 require interval data (15-min granularity). Proprietary BAS protocols that don't export at this granularity are increasingly non-compliant. BACnet/IP and Modbus TCP remain the safe spec.
 
 **Suggested Link:**
-`ai.xinca.com/faq/energy-efficiency-building-codes?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101`
+`help.xinca.com/faq/energy-efficiency-building-codes?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101`
 
 **Hashtags:**
 #EnergyEfficiency #BuildingCodes #GreenMark #BEAMPlus

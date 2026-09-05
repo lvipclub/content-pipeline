@@ -35,7 +35,7 @@ Crucially, these measures are "no-regret" because they deliver savings irrespect
 
 Before committing to major HVAC plant replacement, a systematic assessment of existing system performance is essential. Climbing the retrofit ladder — starting with fan/pump speed control and optimised setpoints, then moving to intelligent scheduling — addresses the root causes of energy waste and the performance gap. These foundational, no-regret measures deliver immediate, verifiable energy and cost reductions while de-risking and optimising any future capital investments. They are the strategic, data-driven starting point for any serious decarbonisation pathway in existing commercial buildings.
 
-To explore deeper technical frameworks for energy management and building controls, search the XINCA HVAC controls knowledge base at ai.xinca.com: https://ai.xinca.com/a/ai-building-energy-management/
+To explore deeper technical frameworks for energy management and building controls, search the XINCA HVAC controls knowledge base at help.xinca.com: https://help.xinca.com/a/ai-building-energy-management/
 
 ---
 

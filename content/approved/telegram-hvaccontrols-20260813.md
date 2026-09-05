@@ -18,6 +18,6 @@ Three specification decisions separate a facility that cools within its thermal 
 
 What this means for your next spec: containment first, verified airtight at commissioning; supply setpoints raised incrementally within the envelope your hardware is certified to; liquid cooling capacity planned where density demands it. Disciplined thermal envelope management is the cheapest PUE improvement an existing facility can buy.
 
-Read the full analysis: https://ai.xinca.com/a/data-center-energy-efficiency/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: https://help.xinca.com/a/data-center-energy-efficiency/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #DataCentreCooling #ThermalEnvelope #PUE

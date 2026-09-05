@@ -17,6 +17,6 @@ For specifiers drafting performance briefs: specify POE (Power over Ethernet) se
 
 **Cross-border note:** Hong Kong's BEAM Plus and Singapore's Green Mark now align IAQ credits with WELL v2 — meaning the same sensor spec can serve projects from Kowloon to Kuala Lumpur. Dubai is following with Al Sa'fat requirements.
 
-→ ai.xinca.com/faq/iaq-monitoring-strategies?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+→ help.xinca.com/faq/iaq-monitoring-strategies?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #IAQMonitoring #DemandControlledVentilation #BuildingSpecification

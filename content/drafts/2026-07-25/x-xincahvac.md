@@ -9,7 +9,7 @@
 
 ## Post Text
 
-Blocked CRAC filters add 0.1 to your PUE before you notice. Hot aisle containment is wasted without airflow — measure static pressure across coils monthly, not quarterly. ai.xinca.com/faq/?utm_source=x&utm_medium=post&utm_campaign=hvac #DataCentreCooling #HVAC
+Blocked CRAC filters add 0.1 to your PUE before you notice. Hot aisle containment is wasted without airflow — measure static pressure across coils monthly, not quarterly. help.xinca.com/faq/?utm_source=x&utm_medium=post&utm_campaign=hvac #DataCentreCooling #HVAC
 
 ## Character Count
 ~213 characters (URL = 23 via t.co wrapping; text + hashtags ~190)

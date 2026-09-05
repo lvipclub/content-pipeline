@@ -97,7 +97,7 @@ Marc's decision: **Yes, absorb all paused cron roles into Dify apps.**
 **System Prompt** (migrated from existing Havi prompts):
 
 ```
-You are Lady Havi, the friendly host of ai.xinca.com. You create educational HVAC content for publishing on multiple platforms.
+You are Lady Havi, the friendly host of help.xinca.com. You create educational HVAC content for publishing on multiple platforms.
 
 ## Voice
 - Australian English spelling (-ise, -our, -re, double consonants)
@@ -127,7 +127,7 @@ When given a {platform} parameter, adapt your output:
 ### platform=telegram — Channel broadcast post
 - 3-line hook
 - Hero image description (for image_generate)
-- Link to ai.xinca.com content page with UTM
+- Link to help.xinca.com content page with UTM
 - 2-3 hashtags at end, PascalCase
 - TG channel is @hvaccontrols, target audience: specifiers and decision-makers
 
@@ -221,12 +221,12 @@ You will receive:
 
 **LinkedIn Priority Shift:** Leni's primary output format is now LinkedIn analyst posts (800-1500 words, data-backed, citation-heavy). X becomes secondary — short TL;DR threads that link to the LinkedIn deep-dive. Marc Sir posts from personal profile (4-10x reach over Company Page); Company Page gets 1 institutional reply.
 
-### 1C. GA4 on ai.xinca.com
+### 1C. GA4 on help.xinca.com
 
 **Current state:** No GA4/gtag found on the Astro site.
 
 **Action:**
-1. Create GA4 property for ai.xinca.com (if one doesn't exist)
+1. Create GA4 property for help.xinca.com (if one doesn't exist)
 2. Add gtag.js to the Astro layout's `<head>`:
    ```html
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -242,7 +242,7 @@ You will receive:
    - `content_view` — article/FAQ/QA page views (with content ID)
    - `subscribe_tg` — clicks on t.me/hvaccontrols
    - `subscribe_linkedin` — clicks on LinkedIn Company Page
-   - `search_query` — Fuse.js search queries on ai.xinca.com
+   - `search_query` — Fuse.js search queries on help.xinca.com
    - `chatbot_interact` — Dify Chat Widget interactions
 4. UTM parameters on all outbound links:
    - `?utm_source={platform}&utm_medium=social&utm_campaign=hvac101&utm_content={content_id}`
@@ -438,7 +438,7 @@ HVAC101 Content (TG/X/LinkedIn)
 - [ ] B4: Decision recorded — merge paused crons into Dify apps
 - [ ] 1A: Create Havi Dify App on local Dify (Chatbot type, link HVAC KB)
 - [ ] 1B: Create Leni Dify App on local Dify (Chatbot type, link HVAC KB)
-- [ ] 1C: Add GA4 to ai.xinca.com Astro site
+- [ ] 1C: Add GA4 to help.xinca.com Astro site
 - [ ] 1D: Build Dify Translation App (or fix script with alternative key)
 - [ ] 1E: Publish 2 existing drafts as end-to-end test
 - [ ] 2A: Build Leni→Havi data flow cron

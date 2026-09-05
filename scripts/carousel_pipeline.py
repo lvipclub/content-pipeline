@@ -371,7 +371,7 @@ def render_slide_htmls(slides: list, slug: str) -> list[str]:
 <img src="file://{avatar_path}" style="width:170px;height:170px;border-radius:50%;border:3px solid rgba(126,190,197,.55);object-fit:cover;margin-bottom:14px"/>
 <div style="font-size:15px;font-weight:700;letter-spacing:.18em;color:{ACCENT};margin-bottom:28px">LADY HAVI</div>
 <div style="display:inline-block;background:{ACCENT};color:{DARK_BG};font-weight:700;font-size:19px;padding:16px 44px;border-radius:99px;margin-bottom:16px">Read the Full Guide →</div>
-<div style="font-size:15px;color:rgba(255,255,255,.45)">ai.xinca.com/a/{slug}/</div>
+<div style="font-size:15px;color:rgba(255,255,255,.45)">help.xinca.com/a/{slug}/</div>
 <div style="position:absolute;bottom:44px;left:0;right:0;display:flex;justify-content:center;align-items:center;gap:10px;color:rgba(255,255,255,.7);font-size:16px">
 <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
 <span>Subscribe on Telegram — HVAC Controls 101</span>
@@ -496,7 +496,7 @@ def post_tg_notification(article: dict, slug: str, slides: list):
     """Post article hook to @hvaccontrols Telegram channel."""
     title = article.get("title", "New Article")
     description = article.get("description", "")
-    article_url = f"https://ai.xinca.com/a/{slug}/"
+    article_url = f"https://help.xinca.com/a/{slug}/"
 
     hook = f"🔥 {title}\n\n{description}\n\n→ {article_url}"
 
@@ -571,7 +571,7 @@ def build_and_deploy(slug: str):
 
     cname = os.path.join(tmpdir, "CNAME")
     with open(cname, "w") as f:
-        f.write("ai.xinca.com")
+        f.write("help.xinca.com")
 
     subprocess.run(["git", "init"], cwd=tmpdir, check=False)
     subprocess.run(["git", "checkout", "-b", "gh-pages"], cwd=tmpdir, check=False)
@@ -615,7 +615,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const pageTitle = {json.dumps(title)};
 const pageDescription = {json.dumps(description)};
-const canonicalUrl = "https://ai.xinca.com/a/{slug}/";
+const canonicalUrl = "https://help.xinca.com/a/{slug}/";
 
 const jsonLd = {{
   "@context": "https://schema.org",
@@ -623,13 +623,13 @@ const jsonLd = {{
   "headline": pageTitle,
   "description": pageDescription,
   "author": {{ "@type": "Organization", "name": "XINCA" }},
-  "publisher": {{ "@type": "Organization", "name": "XINCA", "url": "https://ai.xinca.com" }},
+  "publisher": {{ "@type": "Organization", "name": "XINCA", "url": "https://help.xinca.com" }},
   "datePublished": "{datetime.now().strftime('%Y-%m-%d')}",
   "mainEntityOfPage": canonicalUrl
 }};
 
 ---
-<BaseLayout title={{pageTitle}} description={{pageDescription}} ogImage="https://ai.xinca.com/articles/{slug}-hero.png" ogType="article">
+<BaseLayout title={{pageTitle}} description={{pageDescription}} ogImage="https://help.xinca.com/articles/{slug}-hero.png" ogType="article">
   <script type="application/ld+json" set:html={{JSON.stringify(jsonLd)}}></script>
   <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <h1 class="text-3xl md:text-5xl font-extrabold text-[#333] mb-4" style="font-family:'Trebuchet MS',Trebuchet,Helvetica,Arial,sans-serif">{{pageTitle}}</h1>
@@ -753,8 +753,8 @@ def main(topic: str = None, resume: bool = False):
         success = build_and_deploy(slug)
         if success:
             save_state("deployed", True)
-            print(f"\n✅ Pipeline complete: https://ai.xinca.com/a/{slug}/")
-            print(f"   Carousel: https://ai.xinca.com/a/{slug}/carousel/")
+            print(f"\n✅ Pipeline complete: https://help.xinca.com/a/{slug}/")
+            print(f"   Carousel: https://help.xinca.com/a/{slug}/carousel/")
         else:
             print("Deploy failed — state saved for retry")
     else:

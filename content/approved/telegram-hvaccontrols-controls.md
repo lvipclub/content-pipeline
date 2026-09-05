@@ -12,6 +12,6 @@ The shift is being driven by three converging trends: (1) code mandates in Singa
 
 What this means for your next specification: design for a minimum of three sensing layers — zone-level CO₂ and temperature, floor-level PM2.5 and VOC, and plant-level airflow and differential pressure — all on a common BMS backbone. Proprietary sensor ecosystems add long-term integration cost with no performance advantage.
 
-Read the full analysis: ai.xinca.com/faq/bms-sensor-network-design?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: help.xinca.com/faq/bms-sensor-network-design?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #BMS #SensorNetworks #IaQ #BACnet #BuildingControls

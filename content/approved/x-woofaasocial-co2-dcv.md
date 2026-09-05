@@ -10,6 +10,6 @@ ASHRAE 62.1-2022 Addendum ab now explicitly supports CO₂-based DCV. One CO₂ 
 
 The specifier trap: buying "smart" DCV sensors that lock data behind a proprietary dashboard. Insist on BACnet or Modbus output. The sensor is a commodity — integration is where the value sits.
 
-→ ai.xinca.com/faq/iaq-monitoring-strategies
+→ help.xinca.com/faq/iaq-monitoring-strategies
 
 #IAQ #DemandControlledVentilation #HealthyBuildings

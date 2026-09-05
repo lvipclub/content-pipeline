@@ -1,7 +1,7 @@
 # Analysis — VAV Damper Selection Comic
 
 ## Purpose
-Drive clicks from X to https://ai.xinca.com/a/air-side-vav-damper-selection/ — a 4-image comic (cover + 3 pages) posted with a hook. Audience: consulting engineers, commissioning agents, facility managers (trade professionals, English).
+Drive clicks from X to https://help.xinca.com/a/air-side-vav-damper-selection/ — a 4-image comic (cover + 3 pages) posted with a hook. Audience: consulting engineers, commissioning agents, facility managers (trade professionals, English).
 
 ## Core message
 A damper sized by duct diameter is the #1 VAV specification mistake. Size by free area, target 15-25% authority, spec BACnet actuators. Cost of getting it wrong (hunting, noise, actuator wear, rebalancing) far exceeds the <AUD 80 material delta.

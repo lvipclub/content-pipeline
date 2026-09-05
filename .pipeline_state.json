@@ -314,5 +314,46 @@
     "draft_path": "content/drafts/2026-08-24/linkedin-energy-retrofit.md",
     "created_at": "2026-08-24T09:00:00+08:00",
     "created_by": "northstar-cron-2026-08-24"
+  },
+  "2026-08-03-co2-monitoring": {
+    "status": "published",
+    "platform": "linkedin",
+    "draft_path": "content/approved/linkedin-co2-monitoring.md",
+    "approved_at": "2026-08-24T18:30:27+08:00",
+    "published_at": "2026-08-24T18:30:27+08:00",
+    "published_by": "content-drip"
+  },
+  "2026-08-08-energy-codes": {
+    "status": "published",
+    "platform": "linkedin",
+    "draft_path": "content/approved/linkedin-energy-codes.md",
+    "approved_at": "2026-08-26T18:30:25+08:00",
+    "published_at": "2026-08-26T18:30:25+08:00",
+    "published_by": "content-drip"
+  },
+  "telegram-hvaccontrols-liquid-cooling-20260905": {
+    "status": "draft",
+    "platform": "telegram",
+    "topic": "Data centre cooling - the liquid-side frontier: D2C cold plates, CDUs, hybrid retrofit, waste heat",
+    "draft_path": "content/drafts/2026-09-05/telegram-hvaccontrols-liquid-cooling.md",
+    "hero_image": "content/assets/hero-liquid-cooling-20260905.png",
+    "created_at": "2026-09-05T09:00:00+08:00",
+    "created_by": "northstar"
+  },
+  "x-xincahvac-liquid-cooling-20260905": {
+    "status": "draft",
+    "platform": "x",
+    "topic": "Data centre cooling - the liquid-side frontier: D2C cold plates, CDUs, hybrid retrofit, waste heat",
+    "draft_path": "content/drafts/2026-09-05/x-xincahvac-liquid-cooling.md",
+    "created_at": "2026-09-05T09:00:00+08:00",
+    "created_by": "northstar"
+  },
+  "linkedin-liquid-cooling-20260905": {
+    "status": "draft",
+    "platform": "linkedin",
+    "topic": "When Air Hits the Wall: Direct-to-Chip Liquid Cooling for High-Density Data Centres",
+    "draft_path": "content/drafts/2026-09-05/linkedin-liquid-cooling.md",
+    "created_at": "2026-09-05T09:00:00+08:00",
+    "created_by": "northstar"
   }
 }

@@ -22,6 +22,6 @@ The engineering reality is well understood. The specification gap is not.
 
 **What this means for your next project.** Four lines in the specification: sensor accuracy class (NDIR, ±50 ppm), placement per the breathing-zone rule, a commissioning baseline, and a recalibration interval. The difference between a DCV project that delivers its promised outdoor-air energy savings and one that argues about readings for years is that small.
 
-For a practical walkthrough of how CO₂ sensors work in demand-controlled ventilation, our knowledge base covers the fundamentals: ai.xinca.com/kb/q/29/. The full ventilation-rate framework is at ai.xinca.com/kb/q/12/.
+For a practical walkthrough of how CO₂ sensors work in demand-controlled ventilation, our knowledge base covers the fundamentals: help.xinca.com/kb/q/29/. The full ventilation-rate framework is at help.xinca.com/kb/q/12/.
 
 #IAQ #CO2Monitoring #DemandControlledVentilation #HVAC #BuildingControls

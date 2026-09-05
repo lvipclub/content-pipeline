@@ -20,6 +20,6 @@ The honest caveat for your next brief: CO₂ is a proxy for people, not a univer
 
 What this means for your next spec: sensor accuracy (±50 ppm + 5% of reading, NDIR), placement per the breathing-zone rule, a commissioning baseline, and a recalibration interval — all in writing. The difference between a DCV project that saves outdoor-air energy and one that argues about readings for years is four lines in the specification.
 
-Read the full analysis: ai.xinca.com/kb/q/29/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: help.xinca.com/kb/q/29/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #CO2Monitoring #DemandControlledVentilation #IAQ

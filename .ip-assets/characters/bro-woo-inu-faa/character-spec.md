@@ -1,6 +1,6 @@
 # Bro Woo + Inu Faa — Duo Character Spec (hero images, article illustrations)
 
-Registered IP unit for ai.xinca.com article hero images and social post visuals.
+Registered IP unit for help.xinca.com article hero images and social post visuals.
 Style bible: `hero-image-prompt-construction` skill (same visual identity, validated 2026-07-30).
 
 ## Official Visual Assets

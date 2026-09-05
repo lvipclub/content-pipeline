@@ -57,6 +57,6 @@ XINCA's view is that cooling is not an isolated mechanical system. It is one dom
 
 The data centre industry has moved from "keep it cold" to "keep it within the envelope." Aisle containment, ASHRAE TC 9.9 thermal classes and liquid cooling are not competing strategies. They are a progression. The facilities that will lead the next decade are those that treat supply temperature as a strategic variable, measure inlet conditions continuously and procure equipment for the envelope they intend to run, not the one they inherited.
 
-This article draws on XINCA's knowledge base: ai.xinca.com/a/data-center-energy-efficiency/ and ai.xinca.com/a/data-center-glycol-cooling/
+This article draws on XINCA's knowledge base: help.xinca.com/a/data-center-energy-efficiency/ and help.xinca.com/a/data-center-glycol-cooling/
 
 #DataCentreCooling #PUE #CriticalFacilities

@@ -14,6 +14,6 @@ Demand-controlled ventilation that responds to real-time occupancy saves 30-40% 
 
 Specifiers: insist on BACnet/Modbus breathing-zone sensors. Proprietary protocols won't carry the submetering data your energy audit needs at 15-min granularity [ISO 50002].
 
-→ ai.xinca.com/faq/energy-efficiency-building-codes
+→ help.xinca.com/faq/energy-efficiency-building-codes
 
 #IAQ #EnergyEfficiency #DemandControlledVentilation #BCAGreenMark

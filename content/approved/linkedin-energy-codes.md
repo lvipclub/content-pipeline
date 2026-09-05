@@ -22,6 +22,6 @@ Three implications follow for owners, consultants and contractors alike.
 
 The through-line is measurement. Codes are tightening, owners are demanding verifiable performance, and the buildings that deliver it are the ones that treat energy data as a design input rather than an afterthought. The specification decisions made this year will be judged against the rules of the next decade — the question is whether the margin is designed in now or paid for later.
 
-This article draws on XINCA's knowledge base: ai.xinca.com/a/energy-efficiency-building-codes-asia/ and ai.xinca.com/a/ai-building-energy-management/
+This article draws on XINCA's knowledge base: help.xinca.com/a/energy-efficiency-building-codes-asia/ and help.xinca.com/a/ai-building-energy-management/
 
 (No hashtags — LinkedIn Company Page post, manual publish by Marc Sir)

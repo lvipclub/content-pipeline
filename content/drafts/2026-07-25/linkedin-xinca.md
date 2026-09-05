@@ -37,7 +37,7 @@ Procurement decision-makers evaluating liquid cooling across multiple jurisdicti
 
 ## CTA
 
-For detailed technology comparison sheets and ASHRAE compliance checklists across these four markets, visit ai.xinca.com.
+For detailed technology comparison sheets and ASHRAE compliance checklists across these four markets, visit help.xinca.com.
 
 ## Notes
 - Analyst voice: data-backed, citation-heavy, industry commentary

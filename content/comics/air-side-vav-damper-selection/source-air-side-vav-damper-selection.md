@@ -1,6 +1,6 @@
 # Source: VAV Damper Selection for Commercial Buildings
 
-URL: https://ai.xinca.com/a/air-side-vav-damper-selection/
+URL: https://help.xinca.com/a/air-side-vav-damper-selection/
 Repo: ~/workspace/ai-xinca/src/pages/a/air-side-vav-damper-selection.astro
 Published: 2026-07-24 | Category: Air-side / Building Controls / VAV / Dampers
 

@@ -18,6 +18,6 @@ Three shifts separate the projects that will age well from the ones that will be
 
 What this means for your next spec: design to the next code edition, not the current one; put sub-metering points in the controls schedule; and write a monitoring-based commissioning clause into the O&M handover. The buildings being designed today will be judged on measured performance — not on the brochure.
 
-Read the full analysis: ai.xinca.com/a/energy-efficiency-building-codes-asia/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: help.xinca.com/a/energy-efficiency-building-codes-asia/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #EnergyCodes #BuildingPerformance #Retrofit

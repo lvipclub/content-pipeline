@@ -19,6 +19,6 @@ Three water-side numbers belong in every healthy-building review:
 
 WELL-certifiable comfort is not just air-side. The thermal comfort and energy prerequisites live on the water side too — put balancing in the spec and measure it.
 
-ai.xinca.com/kb/q/4/?utm_source=x&utm_medium=social&utm_campaign=woofaasocial
+help.xinca.com/kb/q/4/?utm_source=x&utm_medium=social&utm_campaign=woofaasocial
 
 #HealthyBuildings #HydronicBalancing #ThermalComfort #EnergyEfficiency

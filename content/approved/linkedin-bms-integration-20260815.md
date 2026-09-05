@@ -2,7 +2,7 @@
 - Date: 2026-08-15
 - Cluster: 4 (Controls / BMS integration)
 - Status: DRAFT — awaiting Marc Sir approval
-- Sources verified live: ai.xinca.com/a/building-controls-bms-integration/ · /kb/q/34/ (BACnet MS/TP vs IP) · /kb/q/21/ (BACnet object types)
+- Sources verified live: help.xinca.com/a/building-controls-bms-integration/ · /kb/q/34/ (BACnet MS/TP vs IP) · /kb/q/21/ (BACnet object types)
 
 ---
 
@@ -57,4 +57,4 @@ The discipline that separates a commissioned BAS from a wired one is trend-log r
 
 The buildings that perform — on energy, on comfort, and on occupant satisfaction — are the ones whose controls were specified with the same seriousness as their chillers. The protocol table, the conformance statement, and the test report are not paperwork. They are the only insurance you have that the intelligent building will still be intelligent when the integrator's invoice is paid.
 
-For the practical side of protocol selection — BACnet vs Modbus, MS/TP vs IP, object types — the ai.xinca.com knowledge base covers it in depth: ai.xinca.com/a/building-controls-bms-integration/ · ai.xinca.com/kb/q/34/ · ai.xinca.com/kb/q/21/
+For the practical side of protocol selection — BACnet vs Modbus, MS/TP vs IP, object types — the help.xinca.com knowledge base covers it in depth: help.xinca.com/a/building-controls-bms-integration/ · help.xinca.com/kb/q/34/ · help.xinca.com/kb/q/21/

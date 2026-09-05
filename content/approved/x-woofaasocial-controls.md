@@ -21,6 +21,6 @@ Three specifications that separate a WELL-certifiable IAQ installation from a co
 
 The healthy building specifiers who eliminated proprietary sensor ecosystems in 2024-2025 are now 6-9 months ahead on WELL v2 recertification cycles. The integration decision matters more than the sensor hardware.
 
-ai.xinca.com/faq/bms-sensor-network-design?utm_source=x&utm_medium=social&utm_campaign=woofaasocial
+help.xinca.com/faq/bms-sensor-network-design?utm_source=x&utm_medium=social&utm_campaign=woofaasocial
 
 #IAQ #HealthyBuildings #BACnet #SensorNetworks #WELLCertification

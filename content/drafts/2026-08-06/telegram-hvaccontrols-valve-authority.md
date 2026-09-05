@@ -18,6 +18,6 @@ Three specification decisions separate a hydronic system that controls itself fr
 
 What this means for your next spec: put the authority calculation in the valve schedule, make balancing a documented commissioning step, and give the pump a variable-speed drive with a monitoring point. The difference between a plant room that hums and one that screams is three lines in the specification.
 
-Read the full analysis: ai.xinca.com/kb/q/4/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: help.xinca.com/kb/q/4/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #ValveAuthority #HydronicBalancing #HVAC

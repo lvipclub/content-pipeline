@@ -39,5 +39,5 @@ IAQ monitoring is not an amenity. It's an operational asset that pays for itself
 - COR Advisors, "Indoor Air Quality Monitoring in Buildings 2026" (2026)
 - ASHRAE Standard 241-2023, Control of Infectious Aerosols
 
-Search the HVAC controls knowledge base at ai.xinca.com
+Search the HVAC controls knowledge base at help.xinca.com
 

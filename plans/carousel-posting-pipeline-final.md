@@ -8,10 +8,10 @@
 ## Marc Sir Directives (incorporated)
 
 1. 3-6 slides (not 5-7). Default 5.
-2. Carousel hosted on ai.xinca.com first, then copy-paste to LinkedIn/X.
+2. Carousel hosted on help.xinca.com first, then copy-paste to LinkedIn/X.
 3. Dify handles as much as possible — TG posting, hook drafting, article writing. Hermes only for browser/git/filesystem operations Dify literally cannot do.
 4. TG channel @hvaccontrols gets the article hook posted by Dify, not a sterile admin ping.
-5. ai.xinca.com footer gets a TG subscribe button.
+5. help.xinca.com footer gets a TG subscribe button.
 6. Hermes cron primary, Dify Schedule secondary. State-file idempotent resume + watchdog cron for failure detection.
 7. **Article slugs:** 3 focus keywords, not full title. E.g. `control-valve-hydronic-balancing` not `water-side-control-valve-selection`.
 
@@ -82,7 +82,7 @@
 | 2 | Problem | "Why 'Size by Pipe Size' is Wrong" | Valve authority dictates sizing, not pipe diameter |
 | 3 | Concept | "What is Valve Authority?" | β = ΔP_valve / (ΔP_valve + ΔP_circuit). Target β > 0.3 |
 | 4 | Comparison | "Globe vs Ball vs PICV" | Equal Percentage characteristics win for coil control |
-| 5 | CTA | "Ready to optimise your hydronic balancing?" | Lady Havi avatar + ai.xinca.com logo + URL |
+| 5 | CTA | "Ready to optimise your hydronic balancing?" | Lady Havi avatar + help.xinca.com logo + URL |
 
 **Format:** 1080×1350px cards. XINCA teal (#7EBEC5) + dark navy (#0a1628). No AI image gen — HTML/CSS rendering for accurate text/formulas.
 
@@ -169,7 +169,7 @@
 [LLM: Draft TG Hook + CTA]
   - Target: @hvaccontrols public channel
   - Format: Lady Havi voice, 1-2 sentence hook, 
-    CTA to read full article at ai.xinca.com/a/{slug}/
+    CTA to read full article at help.xinca.com/a/{slug}/
   - Hashtags: 3-5 relevant HVAC hashtags
     │
     ▼
@@ -236,7 +236,7 @@ save_state("slides_rendered", done=True, slide_htmls=slide_htmls)
 slide_pngs = screenshot_slides(slide_htmls, slug)
 save_state("screenshots_taken", done=True, slide_pngs=slide_pngs)
 
-# 6. Compress → deploy to ai.xinca.com
+# 6. Compress → deploy to help.xinca.com
 compress_pngs(slide_pngs)  # pngquant --quality=65-80
 create_astro_page(output["article"], slug)
 update_articles_json(output["article"], slug)
@@ -267,7 +267,7 @@ fi
 
 ---
 
-## ai.xinca.com TG Subscribe Button (separate task)
+## help.xinca.com TG Subscribe Button (separate task)
 
 Add to `BaseLayout.astro` footer (or article footer):
 
@@ -328,10 +328,10 @@ def main(slug: str) -> dict:
 
 ## Phase 4 — Shopify Product Integration (manual, Marc Sir)
 
-Carousel slide images at permanent URLs (`ai.xinca.com/articles/carousel/{slug}-{n}.png`). Marc Sir can manually add to shop.xinca.com product descriptions:
+Carousel slide images at permanent URLs (`help.xinca.com/articles/carousel/{slug}-{n}.png`). Marc Sir can manually add to shop.xinca.com product descriptions:
 
 ```html
-<img src="https://ai.xinca.com/articles/carousel/control-valve-hydronic-balancing-3.png" 
+<img src="https://help.xinca.com/articles/carousel/control-valve-hydronic-balancing-3.png" 
      alt="Valve Authority formula: β = ΔP_valve / (ΔP_valve + ΔP_circuit)" />
 ```
 
@@ -341,9 +341,9 @@ Alt text follows Shopify-GMC rules: keyword-rich, descriptive, ≤125 chars.
 
 ## Success Criteria
 
-1. ✅ Carousel page at `ai.xinca.com/a/control-valve-hydronic-balancing/carousel/` — 5 slides loading correctly
+1. ✅ Carousel page at `help.xinca.com/a/control-valve-hydronic-balancing/carousel/` — 5 slides loading correctly
 2. ✅ Each slide: lightbox + download PNG + copy-link
-3. ✅ TG subscribe button in ai.xinca.com footer
+3. ✅ TG subscribe button in help.xinca.com footer
 4. ✅ Dify workflow: topic → article JSON + slides JSON + TG hook posted to @hvaccontrols
 5. ✅ Hermes cron: generates hero → screenshots slides → deploys → state file updated
 6. ✅ Watchdog: alerts if pipeline stuck >2h
@@ -356,7 +356,7 @@ Alt text follows Shopify-GMC rules: keyword-rich, descriptive, ≤125 chars.
 
 | Phase | Deliverable | Est. |
 |-------|------------|------|
-| TG button | Footer subscribe button on ai.xinca.com | 15 min |
+| TG button | Footer subscribe button on help.xinca.com | 15 min |
 | 1 | Carousel page (manual example) | 2h |
 | 2 | Lightbox + download + screenshot pipeline | 1.5h |
 | 3a | Dify app + workflow | 3h |

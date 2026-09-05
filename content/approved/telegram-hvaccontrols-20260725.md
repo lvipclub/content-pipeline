@@ -24,7 +24,7 @@ There is no universal cooling solution. The best path depends on your region's c
 
 ## Link
 
-https://ai.xinca.com/faq/?utm_source=telegram&utm_medium=post&utm_campaign=hvaccontrols
+https://help.xinca.com/faq/?utm_source=telegram&utm_medium=post&utm_campaign=hvaccontrols
 
 ## Hashtags
 
@@ -45,7 +45,7 @@ Across these markets, PUE targets are tightening. In Dubai (45°C+ ambient), tra
 
 Hot aisle containment alone can cut cooling energy by 15–30%. Adding liquid cooling drops facility PUE by 0.1–0.3 compared with air-only strategies [ASHRAE 90.4]. The message for specifiers: start with containment, then model partial-load PUE for liquid at high-density racks.
 
-🔗 ai.xinca.com/faq/?utm_source=telegram&utm_medium=post&utm_campaign=hvaccontrols
+🔗 help.xinca.com/faq/?utm_source=telegram&utm_medium=post&utm_campaign=hvaccontrols
 
 #DataCentreCooling #PUEOptimisation #LiquidCooling
 ```

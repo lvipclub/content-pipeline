@@ -56,5 +56,5 @@ Proprietary sensor ecosystems marketed as "plug-and-play IAQ solutions" typicall
 - Post to LinkedIn from Marc Sir's personal profile (not company page)
 - Use the headline above as the hook
 - Attach the hero image: content/assets/hero-bms-sensor-networks-20260730.png
-- Link: ai.xinca.com/faq/bms-sensor-network-design?utm_source=linkedin&utm_medium=social&utm_campaign=northstar-controls
+- Link: help.xinca.com/faq/bms-sensor-network-design?utm_source=linkedin&utm_medium=social&utm_campaign=northstar-controls
 - Hashtags: #BMS #SensorNetworks #IAQ #BACnet #WELLCertification

@@ -20,7 +20,7 @@ HVAC is 40–50% of a commercial building's energy use — the biggest savings r
 
 **What this means for your next project:** specify a VSD + reset package before a full chiller replacement. Verified savings fund the next rung.
 
-Read more: https://ai.xinca.com/a/ai-building-energy-management/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read more: https://help.xinca.com/a/ai-building-energy-management/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #HVACRetrofit #EnergyEfficiency #BuildingPerformance
 

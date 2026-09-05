@@ -1,6 +1,6 @@
 === LINKEDIN SPEC SHEET ===
 Article: "Data Center Energy Efficiency: From Rack Cooling to Liquid Cooling"
-Source: ai.xinca.com/faq/data-center-energy-efficiency/
+Source: help.xinca.com/faq/data-center-energy-efficiency/
 Voice: Analyst (data-backed, citation-heavy, industry commentary)
 Published: 2026-07-07
 ============================
@@ -25,6 +25,6 @@ Key findings from this analysis, drawing on Gilbert Held's foundational framewor
 
 For facility managers and consulting engineers evaluating cooling strategy for high-density deployments, the full analysis is available at the link below.
 
-Read the full article: ai.xinca.com/faq/data-center-energy-efficiency/
+Read the full article: help.xinca.com/faq/data-center-energy-efficiency/
 
 === END ===

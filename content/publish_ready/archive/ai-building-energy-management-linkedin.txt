@@ -1,6 +1,6 @@
 === LINKEDIN SPEC SHEET ===
 Article: "How AI Is Reshaping Building Energy Management"
-Source: ai.xinca.com/faq/ai-building-energy-management/
+Source: help.xinca.com/faq/ai-building-energy-management/
 Voice: Analyst (data-backed, citation-heavy, industry commentary)
 Published: 2026-07-07
 ============================
@@ -25,6 +25,6 @@ The modern BEMS stack integrates LSTM for load forecasting, CNN for fault detect
 
 The full analysis, including the air-to-liquid cooling transition for data centres, is available at the link below.
 
-Read the full article: ai.xinca.com/faq/ai-building-energy-management/
+Read the full article: help.xinca.com/faq/ai-building-energy-management/
 
 === END ===

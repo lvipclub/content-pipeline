@@ -43,7 +43,7 @@ Prevention begins at the design and specification stage:
 
 Low delta-T syndrome is not an inevitable consequence of an ageing system; it is a direct result of design and specification choices. By focusing on accurate coil selection, pressure-independent control, appropriate pump curves, and rigorous commissioning, engineers can deliver chilled water systems that perform as designed for their entire lifecycle.
 
-For deeper technical detail on water-side selection — valve authority, hydronic balancing and pump sizing — search the XINCA HVAC controls knowledge base at ai.xinca.com: https://ai.xinca.com/a/water-side-control-valve-selection/
+For deeper technical detail on water-side selection — valve authority, hydronic balancing and pump sizing — search the XINCA HVAC controls knowledge base at help.xinca.com: https://help.xinca.com/a/water-side-control-valve-selection/
 
 ---
 

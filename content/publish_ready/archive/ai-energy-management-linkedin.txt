@@ -63,6 +63,6 @@ What matters: the input data quality. Garbage sensor data = garbage predictions.
 Sources: Senthil Kumar et al., Artificial Intelligence for Energy Management (2026). Chou & Bui, Energy and Buildings (2014). Villano et al., Thermo (2024). Ahmed & Kumar, J. Build. Perform. Simul. (2018).
 
 Full article with block diagrams and comparison tables:
-→ ai.xinca.com/faq/ai-building-energy-management/
+→ help.xinca.com/faq/ai-building-energy-management/
 
 #BuildingEnergy #BEMS #MachineLearning #HVAC #PredictiveMaintenance #FacilityManagement #SmartBuildings #EnergyEfficiency #DeepLearning

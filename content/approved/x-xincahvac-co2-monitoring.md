@@ -20,6 +20,6 @@ And the caveat that gets missed: CO₂ tracks people, not everything. It won't s
 
 DCV done right: NDIR, ±50 ppm accuracy class, breathing-zone placement, commissioning baseline, recalibration interval. The maths is in ASHRAE 62.1.
 
-ai.xinca.com/kb/q/29/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
+help.xinca.com/kb/q/29/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
 
 #CO2Monitoring #DCV #IAQ #Ventilation

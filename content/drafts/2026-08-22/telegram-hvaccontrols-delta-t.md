@@ -18,7 +18,7 @@ Is your chilled water plant pumping 30–50% more energy than design intent? Low
 
 **For your next spec:** right-size coils with realistic entering water temps, specify valves with proper authority (or pressure-independent), pick stable pump curves with differential-pressure reset.
 
-Read more: https://ai.xinca.com/a/water-side-control-valve-selection/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read more: https://help.xinca.com/a/water-side-control-valve-selection/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #HVACEfficiency #ChilledWaterSystems #FacilityManagement
 

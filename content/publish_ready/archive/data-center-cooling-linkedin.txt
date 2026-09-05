@@ -67,6 +67,6 @@ KEY TAKEAWAYS
 Sources: Gilbert Held, Making Your Data Center Energy Efficient (CRC Press, 2011). ASHRAE Technical Committee 09.09 white papers. The Green Grid PUE metric.
 
 Full article with field-reference diagrams and comparison tables:
-→ ai.xinca.com/faq/data-center-energy-efficiency/
+→ help.xinca.com/faq/data-center-energy-efficiency/
 
 #DataCenter #HVAC #Cooling #PUE #LiquidCooling #FacilityManagement #Engineering #EnergyEfficiency #ASHRAE

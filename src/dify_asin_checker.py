@@ -103,7 +103,7 @@ def search_amazon_asin(title, author=""):
         try:
             resp = requests.get(
                 search_url,
-                headers={"User-Agent": "Mozilla/5.0 (compatible; XINCABot/1.0; +https://ai.xinca.com)"},
+                headers={"User-Agent": "Mozilla/5.0 (compatible; XINCABot/1.0; +https://help.xinca.com)"},
                 timeout=15,
                 allow_redirects=True
             )

@@ -26,4 +26,4 @@ Pump energy follows the affinity laws: halving speed reduces power to approximat
 
 The pattern across recent audits is consistent: the buildings that perform are not the ones with the most sophisticated controls — they are the ones whose water-side basics were specified correctly and verified at commissioning. Valve authority in the schedule, balancing as a documented step, and a pump that is measured, not assumed.
 
-For engineers and facility teams looking for the practical detail behind these numbers, the XINCA knowledge base covers valve sizing, authority calculations and hydronic diagnostics in depth: ai.xinca.com/kb/q/4/ and ai.xinca.com/kb/q/3/.
+For engineers and facility teams looking for the practical detail behind these numbers, the XINCA knowledge base covers valve sizing, authority calculations and hydronic diagnostics in depth: help.xinca.com/kb/q/4/ and help.xinca.com/kb/q/3/.

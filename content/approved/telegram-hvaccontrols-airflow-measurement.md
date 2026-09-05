@@ -16,6 +16,6 @@ Three specification decisions separate projects that commission cleanly from tho
 
 What this means for your next specification: require a commissioning baseline against a manual traverse [ASHRAE 111], insist on sensor range matched to turndown, and put the airflow station where the duct allows it to work — not where the drawings happen to have space.
 
-Read the full analysis: ai.xinca.com/kb/q/24/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
+Read the full analysis: help.xinca.com/kb/q/24/?utm_source=telegram&utm_medium=channel&utm_campaign=hvac101
 
 #VAV #AirflowMeasurement #Commissioning #DCV #BuildingControls

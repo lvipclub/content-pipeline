@@ -18,6 +18,6 @@ Three causes, in order of how often we see them:
 
 The fix on your next job: averaging sensor, range matched to turndown, and a traverse baseline in the TAB report. Costs hours, saves years of DCV arguments.
 
-ai.xinca.com/kb/q/24/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
+help.xinca.com/kb/q/24/?utm_source=x&utm_medium=social&utm_campaign=xincahvac
 
 #VAV #AirflowMeasurement #Commissioning #DCV #BACnet

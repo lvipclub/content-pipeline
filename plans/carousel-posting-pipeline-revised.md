@@ -9,7 +9,7 @@
 
 Gemini suggested a LinkedIn PDF Carousel method (5-7 slides, 1080×1350 vertical) for the control valve article. Marc Sir wants:
 1. 3-6 slides (not 5-7)
-2. Carousel hosted on ai.xinca.com first (brand-controlled surface)
+2. Carousel hosted on help.xinca.com first (brand-controlled surface)
 3. Lightbox/download links for visitors AND Marc Sir's copy-paste workflow
 4. A reusable Dify pipeline, starting from Leni's topic research → Havi article creation → carousel generation → deploy → TG ping
 
@@ -19,7 +19,7 @@ Gemini suggested a LinkedIn PDF Carousel method (5-7 slides, 1080×1350 vertical
 
 **Goal:** Ship a working carousel for the control valve article as the proof-of-concept.
 
-**Deliverable:** `ai.xinca.com/a/water-side-control-valve-selection/carousel/` — 5 vertical slides stacked on a page.
+**Deliverable:** `help.xinca.com/a/water-side-control-valve-selection/carousel/` — 5 vertical slides stacked on a page.
 
 **Slide Spec:**
 - Format: 1080×1350px vertical card
@@ -35,7 +35,7 @@ Gemini suggested a LinkedIn PDF Carousel method (5-7 slides, 1080×1350 vertical
 | 2 | Problem | "Size by Connection Pipe Size is Wrong" — visual pipe≠valve comparison; authority concept |
 | 3 | Concept | Valve Authority formula β = ΔP_valve / (ΔP_valve + ΔP_circuit); target β > 0.3 |
 | 4 | Comparison | Globe vs Ball vs PICV — simplified table; Equal Percentage focus |
-| 5 | CTA | "Ready to optimise your hydronic balancing?" + ai.xinca.com logo + Lady Havi |
+| 5 | CTA | "Ready to optimise your hydronic balancing?" + help.xinca.com logo + Lady Havi |
 
 **Implementation:**
 1. Create `src/pages/a/water-side-control-valve-selection/carousel.astro` — Astro page
@@ -64,7 +64,7 @@ Gemini suggested a LinkedIn PDF Carousel method (5-7 slides, 1080×1350 vertical
 - These permanent URLs are the "copy-paste" assets for LinkedIn/X
 
 **Shopify Integration (manual):**
-- Marc Sir can manually add carousel images to shop.xinca.com product descriptions via `src` URL from ai.xinca.com
+- Marc Sir can manually add carousel images to shop.xinca.com product descriptions via `src` URL from help.xinca.com
 
 ---
 
@@ -80,7 +80,7 @@ Gemini suggested a LinkedIn PDF Carousel method (5-7 slides, 1080×1350 vertical
          │ trigger                    │ deploy + notify
          ▼                            ▼
 ┌─────────────────────┐    ┌──────────────────────────┐
-│   DIFY WORKFLOW     │    │   ai.xinca.com DEPLOY    │
+│   DIFY WORKFLOW     │    │   help.xinca.com DEPLOY    │
 │   (LLM reasoning)   │    │   + TG @hvaccontrols     │
 └─────────────────────┘    └──────────────────────────┘
 ```
@@ -149,8 +149,8 @@ cron: "Weekly Carousel Article" (e.g., Mon 06:00 HKT)
 7. Build + deploy: npm run build → git push gh-pages + master
 8. Notify: TG message to @hvaccontrols
    "New article published: {title}
-   ai.xinca.com/a/{slug}/
-   Carousel slides: ai.xinca.com/a/{slug}/carousel/
+   help.xinca.com/a/{slug}/
+   Carousel slides: help.xinca.com/a/{slug}/carousel/
    Ready for LinkedIn/X posting. Review + approve?"
 ```
 
@@ -163,7 +163,7 @@ cron: "Weekly Carousel Article" (e.g., Mon 06:00 HKT)
 | Carousel content | Dify | Havi LLM |
 | Hero image gen | Hermes | FAL.ai via image_generate |
 | Slide image capture | Hermes | Browser screenshot |
-| Deploy to ai.xinca.com | Hermes | git push + npm build |
+| Deploy to help.xinca.com | Hermes | git push + npm build |
 | TG notification | Hermes | curl to TG Bot API |
 
 ---
@@ -210,7 +210,7 @@ cron: "Weekly Carousel Article" (e.g., Mon 06:00 HKT)
 
 ## Success Criteria
 
-1. Carousel page at `ai.xinca.com/a/water-side-control-valve-selection/carousel/` loads 5 slides correctly
+1. Carousel page at `help.xinca.com/a/water-side-control-valve-selection/carousel/` loads 5 slides correctly
 2. Each slide has lightbox + download + copy-link
 3. Dify workflow accepts topic → outputs article + carousel JSON
 4. Cron job: topic → deploy → TG ping on @hvaccontrols

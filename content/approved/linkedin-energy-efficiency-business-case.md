@@ -23,4 +23,4 @@ While each code approaches compliance differently, the specification implication
 
 For consultants and specifiers working across markets, the message is clear: design for BACnet/IP or Modbus TCP, specify continuous monitoring capability, and budget for post-handover commissioning services. The codes are converging — and the specification language you write today determines whether your project is compliant in 2030.
 
-→ ai.xinca.com/faq/energy-efficiency-building-codes
+→ help.xinca.com/faq/energy-efficiency-building-codes

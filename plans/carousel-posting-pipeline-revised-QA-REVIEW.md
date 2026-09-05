@@ -30,7 +30,7 @@ The plan has sound architecture (Dify for generation, Hermes for orchestration, 
 
 ### 1. 🔴 BLOCKING — No Human Review Gate Before Deployment
 **Location:** Lines 140–155 (Host-Side Script)
-**Evidence:** The pipeline goes: topic → Dify → deploy → TG ping. The TG message (line 154) says "Review + approve?" but the content is already **live** on ai.xinca.com at that point. Marc Sir cannot review before publication.
+**Evidence:** The pipeline goes: topic → Dify → deploy → TG ping. The TG message (line 154) says "Review + approve?" but the content is already **live** on help.xinca.com at that point. Marc Sir cannot review before publication.
 **Impact:** A hallucinated formula, incorrect valve spec, or misattributed citation goes live without human inspection. For HVAC engineering content with actual formulas (β = ΔP_valve / …), this is a reputational risk.
 **Fix:** Insert a staging step: deploy to a `/staging/` subpath, TG-ping Marc Sir with the staging URL for approval, then promote to production on his signal. Or: generate + screenshot slides locally, TG-ping with attached preview PNGs for approval, THEN deploy.
 
@@ -109,8 +109,8 @@ Marc Sir explicitly said 3–6 (line 11). The `social-carousel` skill's table su
 **Evidence:** The TG notification says:
 ```
 New article published: {title}
-ai.xinca.com/a/{slug}/
-Carousel slides: ai.xinca.com/a/{slug}/carousel/
+help.xinca.com/a/{slug}/
+Carousel slides: help.xinca.com/a/{slug}/carousel/
 Ready for LinkedIn/X posting. Review + approve?
 ```
 Marc Sir's auto-preference is "terse — no narration." The question "Review + approve?" and the preamble "Ready for…" are narration.
@@ -118,8 +118,8 @@ Marc Sir's auto-preference is "terse — no narration." The question "Review + a
 **Fix:** Condense to:
 ```
 {title}
-ai.xinca.com/a/{slug}/
-🖼 carousel: ai.xinca.com/a/{slug}/carousel/
+help.xinca.com/a/{slug}/
+🖼 carousel: help.xinca.com/a/{slug}/carousel/
 ```
 Wait — no emoji. Use:
 ```
@@ -142,7 +142,7 @@ slides: a/{slug}/carousel/
 
 ### 12. 🟡 CONDITIONAL — Shopify GMC Image Implications Ignored
 **Location:** Lines 67–68
-**Evidence:** Plan says "Marc Sir can manually add carousel images to shop.xinca.com product descriptions via `src` URL from ai.xinca.com." No mention of:
+**Evidence:** Plan says "Marc Sir can manually add carousel images to shop.xinca.com product descriptions via `src` URL from help.xinca.com." No mention of:
 - Alt text requirements for GMC feed compliance
 - Image dimensions (GMC has minimum 100×100, recommended 800×800)
 - Whether carousel PNGs at 1080×1350 are appropriate for product pages
@@ -176,7 +176,7 @@ slides: a/{slug}/carousel/
 
 ### 17. 🟢 ADVISORY — No GA4 / Analytics Tracking
 **Location:** Not addressed
-**Evidence:** No mention of tracking carousel page views, slide downloads, or click-through to the main article. The carousel is a conversion funnel for LinkedIn → ai.xinca.com → shop.xinca.com.
+**Evidence:** No mention of tracking carousel page views, slide downloads, or click-through to the main article. The carousel is a conversion funnel for LinkedIn → help.xinca.com → shop.xinca.com.
 **Fix:** Add GA4 `gtag` events for: `carousel_view`, `slide_download`, `cta_click`.
 
 ### 18. 🟢 ADVISORY — Deploy Script Reference Missing

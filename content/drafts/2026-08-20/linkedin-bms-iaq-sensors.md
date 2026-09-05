@@ -23,7 +23,7 @@ For facility managers, the focus shifts to lifecycle performance. A BMS integrat
 
 **Key Takeaway:** The effectiveness of a BMS is no longer defined by its ability to control HVAC plant, but by the accuracy and intelligence of the sensor network feeding it. Success in IAQ and energy efficiency hinges on a holistic strategy that treats sensor specification, placement, and maintenance with the same importance as the primary air-handling equipment.
 
-To explore technical frameworks for sensor integration and BMS control logic, search the XINCA knowledge base at ai.xinca.com — https://ai.xinca.com/a/building-controls-bms-integration/
+To explore technical frameworks for sensor integration and BMS control logic, search the XINCA knowledge base at help.xinca.com — https://help.xinca.com/a/building-controls-bms-integration/
 
 ---
 

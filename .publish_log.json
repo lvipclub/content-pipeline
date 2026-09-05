@@ -176,5 +176,23 @@
   "linkedin_posted": "2026-08-23T18:30:27+08:00",
   "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-airflow-measurement-linkedin.txt",
   "published_at": "2026-08-23T18:30:27+08:00"
+ },
+ "2026-08-03-co2-monitoring": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2091835525397409998",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/18",
+  "linkedin_posted": "2026-08-24T18:30:27+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-co2-monitoring-linkedin.txt",
+  "published_at": "2026-08-24T18:30:27+08:00"
+ },
+ "2026-08-08-energy-codes": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2092560294405198290",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/23",
+  "linkedin_posted": "2026-08-26T18:30:25+08:00",
+  "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-energy-codes-linkedin.txt",
+  "published_at": "2026-08-26T18:30:25+08:00"
  }
 }
