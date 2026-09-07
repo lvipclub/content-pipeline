@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-09-05T09:00:00+08:00",
-  "topic": "Data centre cooling cluster #6 (liquid-side): direct-to-chip cold plates, CDU architecture (rack-mounted vs row-level), hybrid air+liquid retrofit paths, ASHRAE TC 9.9 liquid-cooling classes (W1 2-17C to ~45C), waste-heat recovery (40-60C return water, heat pumps to 80C+, district heating, \"digital boilers\"). Distinct from Aug 13 (supply temps / aisle containment / air-side TC 9.9 envelopes): this run is liquid-side only.",
-  "cluster": 6,
+  "last_run": "2026-09-07T09:00:00+08:00",
+  "topic": "Building controls / BMS cluster #4: BMS sensor data quality - sensor selection (accuracy classes, NDIR for DCV CO2), placement per standard (ASHRAE 62.1 breathing-zone heights, duct straight-run rules), drift vs commissioning errors, verification schedules. Distinct from Aug 15 (BACnet protocol integration architecture): this run is sensors first.",
+  "cluster": 4,
   "previous_clusters": [
     6,
     5,
@@ -11,16 +11,17 @@
     4,
     6,
     5,
-    2
+    2,
+    6
   ],
   "generated": {
     "drafts": [
-      "telegram-hvaccontrols-liquid-cooling",
-      "x-xincahvac-liquid-cooling",
-      "linkedin-liquid-cooling"
+      "telegram-hvaccontrols-sensor-data-quality",
+      "x-xincahvac-sensor-data-quality",
+      "linkedin-sensor-data-quality"
     ],
-    "hero_image": "content/assets/hero-liquid-cooling-20260905.png",
-    "style_mode": "mascot"
+    "hero_image": "content/assets/hero-sensor-data-quality-20260907.png",
+    "style_mode": "freestyle"
   },
-  "notes": "Sat run. Cluster 6 (data centre cooling) chosen: next in rotation cycle (3,2,5,6,4,1; last used Aug 13 = 23 days, fully outside 2-week window; cluster 4 controls also eligible but 6 is longer-idle). No research brief (no briefs/latest.json) - Dify used KB directly. Dify still ignores inputs (user_input_form: [] confirmed via /v1/parameters) - topic+platform embedded in query (Aug 24 pattern). TG caption compressed to 1,018 chars (sendPhoto limit); emoji stripped (Dify emitted Unicode emoji). X 269 chars w/ URL counted as 23. LinkedIn: 2 concatenated drafts again (known defect) -> merged; dropped Schneider White Paper citation (competitor rule); softened ASHRAE W-class ranges (Draft A/B disagreement). Hero: FAL edit route failed (file_download_error on local ref path) -> xAI provider fallback (identity-locked, local data-URI reference, grok-imagine-image-quality); edit route forces 16:9 -> center-crop to 1:1 + upscale 1280x1280, xinca.com watermark redrawn via PIL. Vision QA passed: 1 slim Shiba + orange lightning charm, glasses, all text correct, characters fully in frame after crop. Link /a/data-center-energy-efficiency/ 200 OK (last linked Aug 13 = 23d gap)."
+  "notes": "Mon run. Cluster 4 (controls/BMS) chosen: next in rotation cycle (3,2,5,6,4,1) after Sep 5 cluster 6; last used Aug 15 = 23 days, outside 2-week window; Aug 15 angle was BACnet integration - this run is sensor-data quality (distinct). No research brief (no briefs/latest.json) - Dify used KB directly. Dify still ignores inputs (user_input_form: [] confirmed) - topic+platform embedded in query. Dify DID return an image prompt this run (close-up sensor install photo) - used as subject wrapped in freestyle brand harness (Week 2 Sep 7-13, NO reference images, GPT-Image-2 picks style). Hero: text-to-image OK (1024x768 render -> center-crop to 1280x1280, sips); vision QA passed - 'BMS SENSOR QUALITY' + 'Only as good as its sensors' + xinca.com footer, no Chinese, no misspellings, 1/3 attempts. TG caption 830 chars (sendPhoto limit OK). X 246 chars incl. URL. LinkedIn: 2 concatenated drafts again (known defect) -> merged to 1,300 chars; LBNL 15-30% figure flagged for verification (no exact study given by Dify). Links: TG /kb/q/19, X /kb/q/29, LI /a/building-controls-bms-integration/."
 }
