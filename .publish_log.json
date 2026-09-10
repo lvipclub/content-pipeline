@@ -194,5 +194,15 @@
   "linkedin_posted": "2026-08-26T18:30:25+08:00",
   "linkedin_note": "Manual post — Marc Sir posts from personal profile. Spec-sheet generated at content/publish_ready/linkedin-energy-codes-linkedin.txt",
   "published_at": "2026-08-26T18:30:25+08:00"
+ },
+ "northstar-2026-09-10-iaq-filtration": {
+  "x_status": "success",
+  "x_url": "https://x.com/WoofaaSocial/status/2097943384367534376",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/24",
+  "linkedin_posted": null,
+  "linkedin_note": "Manual post — spec-sheet at /Users/marcsir/workspace/content-pipeline/content/publish_ready/linkedin-iaq-filtration-20260910-linkedin.txt",
+  "published_at": "2026-09-10T15:00:00+08:00",
+  "source": "Northstar Sep 10 — IAQ filtration (PM2.5) (autonomous publish 2026-09-10)"
  }
 }
