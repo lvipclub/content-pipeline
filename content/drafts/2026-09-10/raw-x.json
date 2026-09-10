@@ -1,0 +1,31 @@
+{
+  "event": "message",
+  "task_id": "8c86c131-7a0d-42da-80a2-8ac202e427e8",
+  "id": "4d52a2fc-d29e-4d6a-b743-5fb3e53a816a",
+  "message_id": "4d52a2fc-d29e-4d6a-b743-5fb3e53a816a",
+  "conversation_id": "0f63f3f8-53c4-48ba-8fda-eaf6261978ca",
+  "mode": "advanced-chat",
+  "answer": "Still running MERV-8 and hoping for the best? ASHRAE now recommends MERV-13 minimum for commercial buildings. The catch: higher filtration means higher pressure drop and fan energy. Smart specs balance capture efficiency with energy cost. What's your go-to filter strategy?",
+  "metadata": {
+    "annotation_reply": null,
+    "retriever_resources": [],
+    "usage": {
+      "prompt_tokens": 1767,
+      "prompt_unit_price": "0",
+      "prompt_price_unit": "1",
+      "prompt_price": "0",
+      "completion_tokens": 145,
+      "completion_unit_price": "0",
+      "completion_price_unit": "1",
+      "completion_price": "0",
+      "total_tokens": 1912,
+      "total_price": "0",
+      "currency": "USD",
+      "latency": 8.786999999999999,
+      "time_to_first_token": 6.392,
+      "time_to_generate": 2.323
+    },
+    "reasoning": {}
+  },
+  "created_at": 1789002251
+}

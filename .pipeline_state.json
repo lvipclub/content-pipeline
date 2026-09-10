@@ -382,5 +382,32 @@
     "created_by": "northstar",
     "hero_image": "content/assets/hero-sensor-data-quality-20260907.png",
     "draft_path": "content/drafts/2026-09-07/linkedin-sensor-data-quality-20260907.md"
+  },
+  "telegram-hvaccontrols-iaq-filtration-20260910": {
+    "status": "draft",
+    "created_at": "2026-09-10T09:00:00+08:00",
+    "created_by": "northstar",
+    "topic": "IAQ cluster #3 - particulate control (PM2.5): filtration specification (MERV-13 baseline, ISO ePM1), filtration-energy trade-off, smoke/haze-episode strategy",
+    "platform": "telegram",
+    "hero_image": "content/assets/hero-iaq-filtration-20260910.png",
+    "draft_path": "content/drafts/2026-09-10/telegram-hvaccontrols-iaq-filtration-20260910.md"
+  },
+  "x-woofaasocial-iaq-filtration-20260910": {
+    "status": "draft",
+    "created_at": "2026-09-10T09:00:00+08:00",
+    "created_by": "northstar",
+    "topic": "IAQ cluster #3 - particulate control (PM2.5): filtration specification (MERV-13 baseline, ISO ePM1), filtration-energy trade-off, smoke/haze-episode strategy",
+    "platform": "x",
+    "hero_image": "content/assets/hero-iaq-filtration-20260910.png",
+    "draft_path": "content/drafts/2026-09-10/x-woofaasocial-iaq-filtration-20260910.md"
+  },
+  "linkedin-iaq-filtration-20260910": {
+    "status": "draft",
+    "created_at": "2026-09-10T09:00:00+08:00",
+    "created_by": "northstar",
+    "topic": "IAQ cluster #3 - particulate control (PM2.5): filtration specification (MERV-13 baseline, ISO ePM1), filtration-energy trade-off, smoke/haze-episode strategy",
+    "platform": "linkedin",
+    "hero_image": "content/assets/hero-iaq-filtration-20260910.png",
+    "draft_path": "content/drafts/2026-09-10/linkedin-iaq-filtration-20260910.md"
   }
 }
