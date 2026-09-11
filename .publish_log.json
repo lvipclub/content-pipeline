@@ -204,5 +204,15 @@
   "linkedin_note": "Manual post — spec-sheet at /Users/marcsir/workspace/content-pipeline/content/publish_ready/linkedin-iaq-filtration-20260910-linkedin.txt",
   "published_at": "2026-09-10T15:00:00+08:00",
   "source": "Northstar Sep 10 — IAQ filtration (PM2.5) (autonomous publish 2026-09-10)"
+ },
+ "northstar-2026-09-07-sensor-data-quality": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2098230078270542311",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/25",
+  "linkedin_posted": null,
+  "linkedin_note": "Manual post — spec-sheet at /Users/marcsir/workspace/content-pipeline/content/publish_ready/linkedin-sensor-data-quality-20260907-linkedin.txt",
+  "published_at": "2026-09-11T10:00:00+08:00",
+  "source": "Northstar Sep 7 — Sensor data quality (BMS) (autonomous publish 2026-09-10)"
  }
 }

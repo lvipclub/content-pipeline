@@ -357,31 +357,57 @@
   "created_by": "northstar"
  },
  "telegram-hvaccontrols-sensor-data-quality-20260907": {
-  "status": "draft",
+  "status": "published",
   "platform": "telegram",
   "topic": "Building controls / BMS cluster #4 - BMS sensor data quality: sensor selection, placement, calibration and verification (temperature, humidity, CO2, differential pressure)",
   "created_at": "2026-09-07T09:00:00+08:00",
   "created_by": "northstar",
   "hero_image": "content/assets/hero-sensor-data-quality-20260907.png",
-  "draft_path": "content/drafts/2026-09-07/telegram-hvaccontrols-sensor-data-quality-20260907.md"
+  "draft_path": "content/approved/telegram-hvaccontrols-sensor-data-quality-20260907.md",
+  "approved_at": "2026-09-11T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 7 — Sensor data quality (BMS)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "telegram"
+  ],
+  "telegram_url": "https://t.me/hvaccontrols/25",
+  "published_at": "2026-09-11T10:00:00+08:00"
  },
  "x-xincahvac-sensor-data-quality-20260907": {
-  "status": "draft",
+  "status": "published",
   "platform": "x",
   "topic": "Building controls / BMS cluster #4 - BMS sensor data quality: sensor selection, placement, calibration and verification (temperature, humidity, CO2, differential pressure)",
   "created_at": "2026-09-07T09:00:00+08:00",
   "created_by": "northstar",
   "hero_image": "content/assets/hero-sensor-data-quality-20260907.png",
-  "draft_path": "content/drafts/2026-09-07/x-xincahvac-sensor-data-quality-20260907.md"
+  "draft_path": "content/approved/x-xincahvac-sensor-data-quality-20260907.md",
+  "approved_at": "2026-09-11T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 7 — Sensor data quality (BMS)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "x"
+  ],
+  "x_url": "https://x.com/XincaHVAC/status/2098230078270542311",
+  "published_at": "2026-09-11T10:00:00+08:00"
  },
  "linkedin-sensor-data-quality-20260907": {
-  "status": "draft",
+  "status": "published",
   "platform": "linkedin",
   "topic": "Building controls / BMS cluster #4 - BMS sensor data quality: sensor selection, placement, calibration and verification (temperature, humidity, CO2, differential pressure)",
   "created_at": "2026-09-07T09:00:00+08:00",
   "created_by": "northstar",
   "hero_image": "content/assets/hero-sensor-data-quality-20260907.png",
-  "draft_path": "content/drafts/2026-09-07/linkedin-sensor-data-quality-20260907.md"
+  "draft_path": "content/approved/linkedin-sensor-data-quality-20260907.md",
+  "approved_at": "2026-09-11T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 7 — Sensor data quality (BMS)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "linkedin"
+  ],
+  "note": "Manual post — Marc Sir posts from personal profile"
  },
  "telegram-hvaccontrols-iaq-filtration-20260910": {
   "status": "published",
