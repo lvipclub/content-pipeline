@@ -1,0 +1,3 @@
+Variable-primary-flow pumping done right: place dP sensors at the critical index circuit, not just the nearest riser. Reset setpoints by valve position or load, maintain minimum speed floors to protect the chiller, and watch affinity-law savings stack up — half speed ≈ 1/8 power. 🌀
+
+Where's your dP sensor — and do you know why?

@@ -1,0 +1,17 @@
+{
+ "slug": "variable-flow-pumping",
+ "set": "2026-09-13",
+ "tg_draft": "content/drafts/2026-09-12/telegram-hvaccontrols-variable-flow-pumping-2026-09-12.md",
+ "x_draft": "content/drafts/2026-09-12/x-xincahvac-variable-flow-pumping-2026-09-12.md",
+ "li_draft": "content/drafts/2026-09-12/linkedin-variable-flow-pumping-2026-09-12.md",
+ "hero": "content/assets/hero-variable-flow-pumping-2026-09-12.png",
+ "x_account": "XincaHVAC",
+ "li_out": "linkedin-variable-flow-pumping-20260913-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-variable-flow-pumping-2026-09-12",
+  "x": "x-xincahvac-variable-flow-pumping-2026-09-12",
+  "li": "linkedin-variable-flow-pumping-2026-09-12"
+ },
+ "log_key": "northstar-2026-09-12-variable-flow-pumping",
+ "label": "Sep 12 \u2014 Variable-flow pumping (water-side)"
+}

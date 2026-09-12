@@ -461,5 +461,35 @@
    "linkedin"
   ],
   "note": "Manual post — Marc Sir posts from personal profile"
+ },
+ "telegram-hvaccontrols-variable-flow-pumping-20260912": {
+  "status": "draft",
+  "created_at": "2026-09-12T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster #3 - variable-flow pumping: dP control of variable-speed pumps in variable-primary-flow (VPF) chilled water systems (dP sensor placement nearest vs critical index, setpoint reset by valve position/load, minimum speed floor, affinity-law cube energy savings).",
+  "hero_image": "content/assets/hero-variable-flow-pumping-20260912.png",
+  "prev_status": null,
+  "source": "Northstar Sep 12 — Variable-flow pumping (water-side)",
+  "platform": "telegram"
+ },
+ "x-xincahvac-variable-flow-pumping-20260912": {
+  "status": "draft",
+  "created_at": "2026-09-12T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster #3 - variable-flow pumping: dP control of variable-speed pumps in variable-primary-flow (VPF) chilled water systems (dP sensor placement nearest vs critical index, setpoint reset by valve position/load, minimum speed floor, affinity-law cube energy savings).",
+  "hero_image": "content/assets/hero-variable-flow-pumping-20260912.png",
+  "prev_status": null,
+  "source": "Northstar Sep 12 — Variable-flow pumping (water-side)",
+  "platform": "x"
+ },
+ "linkedin-variable-flow-pumping-20260912": {
+  "status": "draft",
+  "created_at": "2026-09-12T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster #3 - variable-flow pumping: dP control of variable-speed pumps in variable-primary-flow (VPF) chilled water systems (dP sensor placement nearest vs critical index, setpoint reset by valve position/load, minimum speed floor, affinity-law cube energy savings).",
+  "hero_image": "content/assets/hero-variable-flow-pumping-20260912.png",
+  "prev_status": null,
+  "source": "Northstar Sep 12 — Variable-flow pumping (water-side)",
+  "platform": "linkedin"
  }
 }

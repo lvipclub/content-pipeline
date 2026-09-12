@@ -1,0 +1,31 @@
+{
+ "event": "message",
+ "task_id": "09e8512a-3712-4147-ba51-e8a09d1e5004",
+ "id": "9d8cd668-52bd-498f-86f1-6cc929f882e2",
+ "message_id": "9d8cd668-52bd-498f-86f1-6cc929f882e2",
+ "conversation_id": "e0b53a6a-b0ef-454a-b3f1-965ad7a92de6",
+ "mode": "advanced-chat",
+ "answer": "Variable-primary-flow pumping done right: place dP sensors at the critical index circuit, not just the nearest riser. Reset setpoints by valve position or load, maintain minimum speed floors to protect the chiller, and watch affinity-law savings stack up — half speed ≈ 1/8 power. 🌀\n\nWhere's your dP sensor — and do you know why?",
+ "metadata": {
+  "annotation_reply": null,
+  "retriever_resources": [],
+  "usage": {
+   "prompt_tokens": 1632,
+   "prompt_unit_price": "0",
+   "prompt_price_unit": "1",
+   "prompt_price": "0",
+   "completion_tokens": 181,
+   "completion_unit_price": "0",
+   "completion_price_unit": "1",
+   "completion_price": "0",
+   "total_tokens": 1813,
+   "total_price": "0",
+   "currency": "USD",
+   "latency": 45.564,
+   "time_to_first_token": 42.627,
+   "time_to_generate": 2.768
+  },
+  "reasoning": {}
+ },
+ "created_at": 1789175445
+}

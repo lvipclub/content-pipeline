@@ -1,27 +1,28 @@
 {
-    "last_run": "2026-09-10T09:00:00+08:00",
-    "topic": "IAQ cluster #3: particulate control in commercial buildings (PM2.5) - filtration specification (MERV-13 baseline, ISO ePM1 ratings), the filtration-energy trade-off (pressure drop vs fan energy), and smoke/haze-episode strategy (DCV + filtration overrides, condition-based change-outs).",
-    "cluster": 3,
-    "previous_clusters": [
-        5,
-        2,
-        3,
-        1,
-        4,
-        6,
-        5,
-        2,
-        6,
-        4
-    ],
-    "generated": {
-        "drafts": [
-            "telegram-hvaccontrols-iaq-filtration",
-            "x-woofaasocial-iaq-filtration",
-            "linkedin-iaq-filtration"
-        ],
-        "hero_image": "content/assets/hero-iaq-filtration-20260910.png",
-        "style_mode": "freestyle"
-    },
-    "notes": "Thu run (X = @WoofaaSocial, IAQ lane). Cluster 3 (IAQ) chosen: avoids clusters used within 2 weeks (6 on Sep 5, 4 on Sep 7, 1 on Aug 31); last IAQ run Aug 20 (21 days) - angle deliberately distinct: particulate/filtration, not CO2/DCV. No research brief (no briefs/latest.json) - Dify used KB directly. Hero: Nous managed gateway DOWN (relogin_required since 2026-09-09) so image_generate unavailable in ALL local runtimes; generated via xAI grok-imagine-image at 2K (freestyle mode, NO refs): 2816x1584 render -> centre-crop 1584 -> 1280x1280 (clean downscale); corner xinca.com footer re-overlaid via PIL (centre crop removes it); vision QA passed - headline 'THE FILTRATION TRADE-OFF', punchline 'Efficiency costs pressure', gauge dP 0.8/2.1 in w.g., no Chinese, no garbled text. Alt candidate (unused): OpenRouter qwen-image-3-pro 2K (gauge rendered hex-like 'FF8CO') - path in TG draft notes. Chars: TG 981/1024, X 276/280 incl URL, LI 2,904/3000 (merged from Dify's 2 concatenated drafts). Links: all three -> /a/iaq-monitoring-commercial-buildings/ (verified 200 OK). Raw Dify: TG 3,051 chars (trimmed; emoji + legacy ai.xinca.com promo stripped), LI 6,167 (2 drafts merged). Fallback routes documented in hermes-image-gen-runtime skill (OpenRouter + xAI-2K sections)."
+ "last_run": "2026-09-12T09:00:00+08:00",
+ "topic": "Water-side cluster #3 - variable-flow pumping: dP control of variable-speed pumps in variable-primary-flow (VPF) chilled water systems (dP sensor placement nearest vs critical index, setpoint reset by valve position/load, minimum speed floor, affinity-law cube energy savings).",
+ "cluster": 2,
+ "previous_clusters": [
+  5,
+  2,
+  3,
+  1,
+  4,
+  6,
+  5,
+  2,
+  6,
+  4,
+  3
+ ],
+ "generated": {
+  "drafts": [
+   "telegram-hvaccontrols-variable-flow-pumping-20260912",
+   "x-xincahvac-variable-flow-pumping-20260912",
+   "linkedin-variable-flow-pumping-20260912"
+  ],
+  "hero_image": "content/assets/hero-variable-flow-pumping-20260912.png",
+  "style_mode": "freestyle"
+ },
+ "notes": "Sat run (X = @XincaHVAC). Cluster 2 (water-side) chosen: avoids clusters used within 2 weeks (3 on Sep 10, 4 on Sep 7, 6 on Sep 5, 1 on Aug 31); water-side last used Aug 22 (21 days) - angle deliberately distinct: variable-flow pump dP control strategy (Aug 6 = valve authority/balancing, Aug 22 = low delta-T). No research brief - Dify used KB directly. Hero: Nous managed gateway RECOVERED (auth error cleared since Sep 10) - image_generate via fal gpt-image-2, freestyle mode (NO refs, brand harness fixed): 2 attempts, kept attempt 2 (gauge 320 kPa domain-accurate vs 12.5 MPa in attempt 1); 1024x768 render -> upscale 1706 -> centre-crop 1280x1280; corner xinca.com footer re-overlaid via PIL (centre crop removes it); vision QA passed x2 (all text English, no garble, no Chinese). Char limits: TG 1001/1024, X 262/280 weighted (fallback 238), LI 2973/3000 (merged from Dify's 2 concatenated drafts, 7523 raw). Links all -> /a/water-side-control-valve-selection/ (200 OK). Dropped unsourced '50-70% / 60-80% energy reduction' claims; kept affinity-law arithmetic only. Staged publish: one-shot northstar-pub-s3 Mon 2026-09-15 10:00 HKT (after liquid-cooling s1 Sat 10:00)."
 }
