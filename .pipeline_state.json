@@ -332,29 +332,55 @@
   "published_by": "content-drip"
  },
  "telegram-hvaccontrols-liquid-cooling-20260905": {
-  "status": "draft",
+  "status": "published",
   "platform": "telegram",
   "topic": "Data centre cooling - the liquid-side frontier: D2C cold plates, CDUs, hybrid retrofit, waste heat",
-  "draft_path": "content/drafts/2026-09-05/telegram-hvaccontrols-liquid-cooling.md",
+  "draft_path": "content/approved/telegram-hvaccontrols-liquid-cooling.md",
   "hero_image": "content/assets/hero-liquid-cooling-20260905.png",
   "created_at": "2026-09-05T09:00:00+08:00",
-  "created_by": "northstar"
+  "created_by": "northstar",
+  "approved_at": "2026-09-12T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 5 — Data centre liquid cooling",
+  "prev_status": "draft",
+  "target_platforms": [
+   "telegram"
+  ],
+  "telegram_url": "https://t.me/hvaccontrols/26",
+  "published_at": "2026-09-12T10:00:00+08:00"
  },
  "x-xincahvac-liquid-cooling-20260905": {
-  "status": "draft",
+  "status": "published",
   "platform": "x",
   "topic": "Data centre cooling - the liquid-side frontier: D2C cold plates, CDUs, hybrid retrofit, waste heat",
-  "draft_path": "content/drafts/2026-09-05/x-xincahvac-liquid-cooling.md",
+  "draft_path": "content/approved/x-xincahvac-liquid-cooling.md",
   "created_at": "2026-09-05T09:00:00+08:00",
-  "created_by": "northstar"
+  "created_by": "northstar",
+  "approved_at": "2026-09-12T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 5 — Data centre liquid cooling",
+  "prev_status": "draft",
+  "target_platforms": [
+   "x"
+  ],
+  "x_url": "https://x.com/XincaHVAC/status/2098592604506210754",
+  "published_at": "2026-09-12T10:00:00+08:00"
  },
  "linkedin-liquid-cooling-20260905": {
-  "status": "draft",
+  "status": "published",
   "platform": "linkedin",
   "topic": "When Air Hits the Wall: Direct-to-Chip Liquid Cooling for High-Density Data Centres",
-  "draft_path": "content/drafts/2026-09-05/linkedin-liquid-cooling.md",
+  "draft_path": "content/approved/linkedin-liquid-cooling.md",
   "created_at": "2026-09-05T09:00:00+08:00",
-  "created_by": "northstar"
+  "created_by": "northstar",
+  "approved_at": "2026-09-12T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 5 — Data centre liquid cooling",
+  "prev_status": "draft",
+  "target_platforms": [
+   "linkedin"
+  ],
+  "note": "Manual post — Marc Sir posts from personal profile"
  },
  "telegram-hvaccontrols-sensor-data-quality-20260907": {
   "status": "published",
