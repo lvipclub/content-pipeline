@@ -1,0 +1,29 @@
+Here is an educational post drafted for the @hvaccontrols channel.
+
+***
+
+**📉 Why Your VAV Box Isn’t Reading What You Think It Is: Airflow Measurement Truths**
+
+G’day HVAC family! We’ve all been there—you stare at the Building Management System (BMS), see a specific airflow reading for a Variable Air Volume (VAV) terminal unit, and perhaps adjust the duct static setpoint based on that number. But in the world of HVAC, what is displayed on the screen often differs significantly from what is physically happening in the duct. Today, we’re diving into the technical reality of VAV airflow measurement, the sensors involved, and why your "installed accuracy" rarely matches the datasheet.
+
+**The Big Three: Pitot, Ultrasonic, and Thermal**
+Most VAV controllers rely on one of three sensing technologies. The most common in standard VAV boxes is the **Pitot array** (or flow sensor station). These measure velocity pressure (total pressure minus static pressure) using Bernoulli's principle. They are robust and cheap, but they measure velocity at specific points, requiring a calculation to determine total volume.
+
+Then we have **Thermal Dispersion** sensors. These use heated elements to measure how quickly heat is carried away by the air stream. They are excellent for low-flow measurement but can be highly sensitive to air temperature changes and humidity, requiring sophisticated compensation algorithms.
+
+Finally, **Ultrasonic** sensors measure the time-of-flight difference of sound waves sent upstream and downstream. While highly accurate and non-intrusive, they are less common in standard terminal units due to cost and sensitivity to acoustic noise from fans and dampers.
+
+**The "K-Factor" Nightmare 🔢**
+Here is where accuracy starts to drift from the datasheet. To convert a velocity pressure reading (from a Pitot tube) into actual velocity or volume, we use a "K-factor." This coefficient is supposed to account for the shape of the sensor and the flow profile.
+
+The problem? The K-factor listed on your sensor datasheet was determined in a laboratory with perfect "laminar" flow—usually 10 straight diameters of duct upstream and 5 downstream. In a real building, your VAV box might be 18 inches away from an elbow or a splitter tee. This creates turbulence, skewing the velocity profile. The sensor still uses the lab K-factor, but the airflow is chaotic, leading to errors of 10% to 20% right out of the gate.
+
+**Installed Accuracy vs. Datasheet Accuracy 🏗️**
+Manufacturers love to tout "±2% accuracy." That is the **reference accuracy** under perfect lab conditions. The **installed accuracy** is what matters to us, and it’s a different beast entirely.
+
+Installed accuracy accounts for flow disturbances, duct leakage upstream of the sensor, sensor fouling (dust/grease), and improper installation angles. For example, if a thermal dispersion sensor isn't aligned perfectly perpendicular to the flow, or if the Pitot tubes get clogged with construction dust, your data degrades. Furthermore, most VAV controllers measure a static pressure drop across a fixed restriction (the flow sensor) and square-root that signal to get volume. Small errors in the differential pressure (ΔP) measurement get magnified at the high end of the flow range.
+
+**Key Takeaway 💡**
+Don't treat BMS airflow readings as gospel truth; treat them as a trend indicator. Unless you have verified the installation against manufacturer straight-duct requirements and commissioned the sensor with a field calibration (using a balancer’s hood or traverse), assume a margin of error. For critical environments, consider commissioning the VAV box at minimum, mid, and maximum flow points to generate a site-specific K-factor, ensuring your sequences of operation are actually controlling the space effectively.
+
+🔧 Follow @hvaccontrols for more HVAC insights | Visit ai.xinca.com

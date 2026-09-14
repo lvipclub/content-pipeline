@@ -1,0 +1,31 @@
+{
+  "event": "message",
+  "task_id": "48734271-68da-47d7-bb42-89faf5d83442",
+  "id": "7f412d3e-dcf4-404f-a32f-7ab6fb020b45",
+  "message_id": "7f412d3e-dcf4-404f-a32f-7ab6fb020b45",
+  "conversation_id": "fb38d7e3-0afb-42bd-929b-d91c493fe38f",
+  "mode": "advanced-chat",
+  "answer": "Your VAV box datasheet says ±5% accuracy. Reality? Often ±15-25%.\n\nPitot arrays, ultrasonic, thermal dispersion — each has trade-offs. But the real killer is k-factor errors from poor installation: elbows too close, dampers upstream, uneven profiles.\n\nDatasheet ≠ duct. Commission accordingly. 🔧\n\nWhat's your go-to sensor type?",
+  "metadata": {
+    "annotation_reply": null,
+    "retriever_resources": [],
+    "usage": {
+      "prompt_tokens": 1407,
+      "prompt_unit_price": "0",
+      "prompt_price_unit": "1",
+      "prompt_price": "0",
+      "completion_tokens": 174,
+      "completion_unit_price": "0",
+      "completion_price_unit": "1",
+      "completion_price": "0",
+      "total_tokens": 1581,
+      "total_price": "0",
+      "currency": "USD",
+      "latency": 7.191000000000001,
+      "time_to_first_token": 4.341,
+      "time_to_generate": 2.772
+    },
+    "reasoning": {}
+  },
+  "created_at": 1789347871
+}

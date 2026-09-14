@@ -1,0 +1,7 @@
+Your VAV box datasheet says ±5% accuracy. Reality? Often ±15-25%.
+
+Pitot arrays, ultrasonic, thermal dispersion — each has trade-offs. But the real killer is k-factor errors from poor installation: elbows too close, dampers upstream, uneven profiles.
+
+Datasheet ≠ duct. Commission accordingly. 🔧
+
+What's your go-to sensor type?

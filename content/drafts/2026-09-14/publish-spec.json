@@ -1,0 +1,17 @@
+{
+ "slug": "vav-airflow-measurement",
+ "set": "2026-09-14",
+ "tg_draft": "content/drafts/2026-09-14/telegram-hvaccontrols-vav-airflow-measurement-2026-09-14.md",
+ "x_draft": "content/drafts/2026-09-14/x-xincahvac-vav-airflow-measurement-2026-09-14.md",
+ "li_draft": "content/drafts/2026-09-14/linkedin-vav-airflow-measurement-2026-09-14.md",
+ "hero": "content/assets/hero-vav-airflow-measurement-2026-09-14.png",
+ "x_account": "XincaHVAC",
+ "li_out": "linkedin-vav-airflow-measurement-20260914-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-vav-airflow-measurement-2026-09-14",
+  "x": "x-xincahvac-vav-airflow-measurement-2026-09-14",
+  "li": "linkedin-vav-airflow-measurement-2026-09-14"
+ },
+ "log_key": "northstar-2026-09-14-vav-airflow-measurement",
+ "label": "Sep 14 \u2014 VAV airflow measurement (air-side)"
+}
