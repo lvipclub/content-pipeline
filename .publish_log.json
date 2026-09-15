@@ -224,5 +224,15 @@
   "linkedin_note": "Manual post — spec-sheet at /Users/marcsir/workspace/content-pipeline/content/publish_ready/linkedin-liquid-cooling-20260905-linkedin.txt",
   "published_at": "2026-09-12T10:00:00+08:00",
   "source": "Northstar Sep 5 — Data centre liquid cooling (autonomous publish 2026-09-10)"
+ },
+ "northstar-2026-09-14-vav-airflow-measurement": {
+  "x_status": "success",
+  "x_url": "https://x.com/XincaHVAC/status/2099679834444341516",
+  "telegram_status": "success",
+  "telegram_url": "https://t.me/hvaccontrols/27",
+  "linkedin_posted": null,
+  "linkedin_note": "Manual post — spec-sheet at /Users/marcsir/workspace/content-pipeline/content/publish_ready/linkedin-vav-airflow-measurement-20260914-linkedin.txt",
+  "published_at": "2026-09-14T10:00:00+08:00",
+  "source": "Northstar Sep 14 — VAV airflow measurement (air-side) (autonomous publish 2026-09-10)"
  }
 }

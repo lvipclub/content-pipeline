@@ -517,5 +517,44 @@
   "prev_status": null,
   "source": "Northstar Sep 12 — Variable-flow pumping (water-side)",
   "platform": "linkedin"
+ },
+ "telegram-hvaccontrols-vav-airflow-measurement-2026-09-14": {
+  "status": "published",
+  "approved_at": "2026-09-14T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 14 — VAV airflow measurement (air-side)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "telegram"
+  ],
+  "draft_path": "content/approved/telegram-hvaccontrols-vav-airflow-measurement-2026-09-14.md",
+  "hero_image": "content/assets/hero-vav-airflow-measurement-2026-09-14.png",
+  "telegram_url": "https://t.me/hvaccontrols/27",
+  "published_at": "2026-09-14T10:00:00+08:00"
+ },
+ "x-xincahvac-vav-airflow-measurement-2026-09-14": {
+  "status": "published",
+  "approved_at": "2026-09-14T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 14 — VAV airflow measurement (air-side)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "x"
+  ],
+  "draft_path": "content/approved/x-xincahvac-vav-airflow-measurement-2026-09-14.md",
+  "x_url": "https://x.com/XincaHVAC/status/2099679834444341516",
+  "published_at": "2026-09-14T10:00:00+08:00"
+ },
+ "linkedin-vav-airflow-measurement-2026-09-14": {
+  "status": "published",
+  "approved_at": "2026-09-14T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "source": "Northstar Sep 14 — VAV airflow measurement (air-side)",
+  "prev_status": "draft",
+  "target_platforms": [
+   "linkedin"
+  ],
+  "draft_path": "content/approved/linkedin-vav-airflow-measurement-2026-09-14.md",
+  "note": "Manual post — Marc Sir posts from personal profile"
  }
 }
