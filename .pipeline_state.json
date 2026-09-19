@@ -556,5 +556,38 @@
   ],
   "draft_path": "content/approved/linkedin-vav-airflow-measurement-2026-09-14.md",
   "note": "Manual post — Marc Sir posts from personal profile"
+ },
+ "telegram-hvaccontrols-dc-aisle-containment-2026-09-19": {
+  "status": "draft",
+  "created_at": "2026-09-19T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Data centre cooling cluster - aisle containment retrofits: hot-aisle vs cold-aisle economics and retrofit constraints; where savings come from (CRAH fan energy, higher supply-air temperatures); seal-first sequence (blanking panels, brush grommets, floor cutouts); CRAH fan control to IT load; rack-inlet verification (ASHRAE TC 9.9).",
+  "hero_image": "content/assets/hero-dc-aisle-containment-2026-09-19.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 19 — DC aisle containment (data-centre cooling)",
+  "platform": "telegram"
+ },
+ "x-xincahvac-dc-aisle-containment-2026-09-19": {
+  "status": "draft",
+  "created_at": "2026-09-19T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Data centre cooling cluster - aisle containment retrofits: hot-aisle vs cold-aisle economics and retrofit constraints; where savings come from (CRAH fan energy, higher supply-air temperatures); seal-first sequence (blanking panels, brush grommets, floor cutouts); CRAH fan control to IT load; rack-inlet verification (ASHRAE TC 9.9).",
+  "hero_image": "content/assets/hero-dc-aisle-containment-2026-09-19.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 19 — DC aisle containment (data-centre cooling)",
+  "platform": "x"
+ },
+ "linkedin-dc-aisle-containment-2026-09-19": {
+  "status": "draft",
+  "created_at": "2026-09-19T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Data centre cooling cluster - aisle containment retrofits: hot-aisle vs cold-aisle economics and retrofit constraints; where savings come from (CRAH fan energy, higher supply-air temperatures); seal-first sequence (blanking panels, brush grommets, floor cutouts); CRAH fan control to IT load; rack-inlet verification (ASHRAE TC 9.9).",
+  "hero_image": "content/assets/hero-dc-aisle-containment-2026-09-19.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 19 — DC aisle containment (data-centre cooling)",
+  "platform": "linkedin"
  }
 }

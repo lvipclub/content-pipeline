@@ -1,0 +1,19 @@
+Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.
+
+TEXT AT TOP: Bold black rounded sans-serif headline: "HOT AISLE OR COLD?"
+
+MAIN SCENE: Bro Woo sits at a wooden desk, chin resting on one hand, studying a blueprint showing a simple data hall layout with two rows of server racks and curved airflow arrows flowing between the rows. Grey desk lamp with a yellow light cone, a yellow pencil on the desk. Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits on the floor beside the desk looking up at Bro Woo. On the desk stands a small card with 2 simple horizontal bars of different lengths, one black labelled "OPEN", one orange labelled "SEALED". Black outlines only. Orange (#FF8C00) used ONLY on the airflow arrows and the SEALED bar. NO other colours except the small yellow lamp.
+
+TEXT AT BOTTOM: "SEAL FIRST, THEN CONTAIN" — the words "SEAL" and "CONTAIN" in orange, the rest black. Bottom-right corner in tiny black font: "xinca.com".
+
+STRICT RULES:
+- Exactly ONE dog. No extras. No other animals. No duplicates.
+- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.
+- Bro Woo MUST wear thin rectangular black glasses.
+- Inu Faa MUST be slim and elegant, not round or chubby.
+- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.
+- Pure white background. No shadows. No gradients. No textures.
+- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.
+- Labels: 4 short single words maximum. NO paragraphs. NO dense text.
+- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.
+- No Chinese characters in any rendered text. All rendered text in English.

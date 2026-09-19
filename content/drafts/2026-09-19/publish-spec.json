@@ -1,0 +1,17 @@
+{
+ "slug": "dc-aisle-containment",
+ "set": "2026-09-19",
+ "tg_draft": "content/drafts/2026-09-19/telegram-hvaccontrols-dc-aisle-containment-2026-09-19.md",
+ "x_draft": "content/drafts/2026-09-19/x-xincahvac-dc-aisle-containment-2026-09-19.md",
+ "li_draft": "content/drafts/2026-09-19/linkedin-dc-aisle-containment-2026-09-19.md",
+ "hero": "content/assets/hero-dc-aisle-containment-2026-09-19.png",
+ "x_account": "XincaHVAC",
+ "li_out": "linkedin-dc-aisle-containment-20260919-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-dc-aisle-containment-2026-09-19",
+  "x": "x-xincahvac-dc-aisle-containment-2026-09-19",
+  "li": "linkedin-dc-aisle-containment-2026-09-19"
+ },
+ "log_key": "northstar-2026-09-19-dc-aisle-containment",
+ "label": "Sep 19 — Data-centre aisle containment (data-centre cooling)"
+}
