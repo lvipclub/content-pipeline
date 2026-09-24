@@ -1,0 +1,15 @@
+{
+ "success": true,
+ "image": "https://files-cdn.x.ai/ePIAgN48TJu0YCY9yUpsAQ/file_1c37a933-2f0a-406b-a9b8-b794b5b96283.png",
+ "model": "grok-imagine-image-quality",
+ "prompt": "Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.\n\nTEXT AT TOP: Bold black rounded sans-serif headline: \"CONTROL SIGNALS\"\n\nMAIN SCENE: Bro Woo (short black spiky hair — subtle, not exaggerated, thin rectangular black glasses, grey V-neck sweater over white collared shirt, dark grey trousers) stands beside a whiteboard, holding a pointer and pointing at the board. The whiteboard shows three simple horizontal rows, each with a short black line and one label: \"ON/OFF\", \"FLOATING\", \"0-10V\". A small orange checkmark sits beside the \"0-10V\" row. Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits on the floor beside Bro Woo looking up at the board. Black outlines only. Orange (#FF8C00) used ONLY on the checkmark and 1-2 keywords. NO other colours.\n\nTEXT AT BOTTOM: \"MATCH SIGNAL TO THE JOB\" — the words \"SIGNAL\" and \"JOB\" in orange, the rest black. Bottom-right corner in tiny black font: \"xinca.com\".\n\nSTRICT RULES:\n- Exactly ONE dog. No extras. No other animals. No duplicates.\n- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.\n- Bro Woo MUST wear thin rectangular black glasses.\n- Inu Faa MUST be slim and elegant, not round or chubby.\n- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.\n- Pure white background. No shadows. No gradients. No textures.\n- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.\n- Whiteboard text: only the 3 short labels listed. NO paragraphs. NO dense text.\n- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.\n- No Chinese characters in any rendered text. All rendered text in English.\n",
+ "aspect_ratio": "landscape",
+ "modality": "image",
+ "provider": "xai",
+ "storage_enabled": true,
+ "public_url": "https://files-cdn.x.ai/ePIAgN48TJu0YCY9yUpsAQ/file_1c37a933-2f0a-406b-a9b8-b794b5b96283.png",
+ "filename": "hermes-xai-image-20260924-023129-1e16f261.png",
+ "usage": {
+  "cost_in_usd_ticks": 600000000
+ }
+}
