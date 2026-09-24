@@ -1,0 +1,17 @@
+{
+ "slug": "co2-dcv-ventilation",
+ "set": "2026-09-24",
+ "tg_draft": "content/drafts/2026-09-24/telegram-hvaccontrols-co2-dcv-ventilation-2026-09-24.md",
+ "x_draft": "content/drafts/2026-09-24/x-woofaasocial-co2-dcv-ventilation-2026-09-24.md",
+ "li_draft": "content/drafts/2026-09-24/linkedin-co2-dcv-ventilation-2026-09-24.md",
+ "hero": "content/assets/hero-co2-dcv-ventilation-2026-09-24.png",
+ "x_account": "WoofaaSocial",
+ "li_out": "linkedin-co2-dcv-ventilation-20260924-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-co2-dcv-ventilation-2026-09-24",
+  "x": "x-woofaasocial-co2-dcv-ventilation-2026-09-24",
+  "li": "linkedin-co2-dcv-ventilation-2026-09-24"
+ },
+ "log_key": "northstar-2026-09-24-co2-dcv-ventilation",
+ "label": "Sep 24 \u2014 CO\u2082 demand-controlled ventilation (IAQ)"
+}

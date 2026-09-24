@@ -1,0 +1,19 @@
+Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.
+
+TEXT AT TOP: Bold black rounded sans-serif headline: "VENTILATE ON DEMAND"
+
+MAIN SCENE: Bro Woo (short black spiky hair — subtle, not exaggerated, thin rectangular black glasses, grey V-neck sweater over white collared shirt, dark grey trousers) stands beside a whiteboard, holding a pointer and pointing at the board. The whiteboard shows ONE simple line graph: a rising curve that flattens where it meets a dashed horizontal line, with only three short labels: "CO2", "TIME", "SETPOINT". Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits on the floor beside Bro Woo looking up at the board. Black outlines only. Orange (#FF8C00) used ONLY on the rising curve and the dashed setpoint line. NO other colours.
+
+TEXT AT BOTTOM: "AIR FOLLOWS OCCUPANCY" — the words "AIR" and "OCCUPANCY" in orange, the rest black. Bottom-right corner in tiny black font: "xinca.com".
+
+STRICT RULES:
+- Exactly ONE dog. No extras. No other animals. No duplicates.
+- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.
+- Bro Woo MUST wear thin rectangular black glasses.
+- Inu Faa MUST be slim and elegant, not round or chubby.
+- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.
+- Pure white background. No shadows. No gradients. No textures.
+- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.
+- Whiteboard text: 3 short labels maximum. NO paragraphs. NO dense text.
+- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.
+- No Chinese characters in any rendered text. All rendered text in English.
