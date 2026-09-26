@@ -1,0 +1,17 @@
+{
+ "slug": "valve-authority",
+ "set": "2026-09-26",
+ "tg_draft": "content/drafts/2026-09-26/telegram-hvaccontrols-valve-authority-2026-09-26.md",
+ "x_draft": "content/drafts/2026-09-26/x-xincahvac-valve-authority-2026-09-26.md",
+ "li_draft": "content/drafts/2026-09-26/linkedin-valve-authority-2026-09-26.md",
+ "hero": "content/assets/hero-valve-authority-2026-09-26.png",
+ "x_account": "XincaHVAC",
+ "li_out": "linkedin-valve-authority-20260926-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-valve-authority-2026-09-26",
+  "x": "x-xincahvac-valve-authority-2026-09-26",
+  "li": "linkedin-valve-authority-2026-09-26"
+ },
+ "log_key": "northstar-2026-09-26-valve-authority",
+ "label": "Sep 26 \u2014 Control valve selection & authority (water-side)"
+}

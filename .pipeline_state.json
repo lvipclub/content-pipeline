@@ -655,5 +655,38 @@
   "prev_status": null,
   "source": "Northstar Sep 21 — Actuator control signals (controls) [backfilled 2026-09-24]",
   "platform": "linkedin"
+ },
+ "telegram-hvaccontrols-valve-authority-2026-09-26": {
+  "status": "draft",
+  "created_at": "2026-09-26T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster — control valve selection and authority: authority (valve share of circuit pressure drop) as the spec that decides control quality; the ~0.5 benchmark; oversizing as the silent failure (small lifts, hunting, low-delta-T at part load); equal-percentage paired with coil output curves; pressure-independent packages as the specifier's lever.",
+  "hero_image": "content/assets/hero-valve-authority-2026-09-26.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 26 — control valve selection & authority (water-side)",
+  "platform": "telegram"
+ },
+ "x-xincahvac-valve-authority-2026-09-26": {
+  "status": "draft",
+  "created_at": "2026-09-26T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster — control valve selection and authority: authority (valve share of circuit pressure drop) as the spec that decides control quality; the ~0.5 benchmark; oversizing as the silent failure (small lifts, hunting, low-delta-T at part load); equal-percentage paired with coil output curves; pressure-independent packages as the specifier's lever.",
+  "hero_image": "content/assets/hero-valve-authority-2026-09-26.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 26 — control valve selection & authority (water-side)",
+  "platform": "x"
+ },
+ "linkedin-valve-authority-2026-09-26": {
+  "status": "draft",
+  "created_at": "2026-09-26T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Water-side cluster — control valve selection and authority: authority (valve share of circuit pressure drop) as the spec that decides control quality; the ~0.5 benchmark; oversizing as the silent failure (small lifts, hunting, low-delta-T at part load); equal-percentage paired with coil output curves; pressure-independent packages as the specifier's lever.",
+  "hero_image": null,
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 26 — control valve selection & authority (water-side)",
+  "platform": "linkedin"
  }
 }

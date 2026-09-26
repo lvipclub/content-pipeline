@@ -1,0 +1,15 @@
+{
+ "success": true,
+ "image": "https://files-cdn.x.ai/2zT92LZvS4m8zOPgWNX1zw/file_0c78cbdf-03f2-4c6e-ae94-3c5a5c2c414f.png",
+ "model": "grok-imagine-image-quality",
+ "prompt": "Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.\n\nTEXT AT TOP: Bold black rounded sans-serif headline: \"OVERSIZED VALVES HUNT\"\n\nMAIN SCENE: Bro Woo (stands beside a whiteboard, pointing at it with a wooden pointer) — short black spiky hair (subtle, not exaggerated), thin rectangular black glasses, grey V-neck sweater over white collared shirt, dark grey trousers, black shoes. Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits beside the whiteboard, looking up at Bro Woo. Whiteboard shows ONE simple line graph: two curves rising left to right, a smooth curved line labelled \"EQUAL %\" and a steeper S-shaped line labelled \"INSTALLED\", plus the number \"0.5\" in the graph corner. Black outlines only. Orange (#FF8C00) used ONLY on diagram elements and 1-2 keywords. NO other colours except small yellow lamp if desk scene.\n\nTEXT AT BOTTOM: \"AUTHORITY FIRST\" — exactly 2 words in orange. Bottom-right corner in tiny black font: \"xinca.com\".\n\nSTRICT RULES:\n- Exactly ONE dog. No extras. No other animals. No duplicates.\n- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.\n- Bro Woo MUST wear glasses.\n- Inu Faa MUST be slim and elegant, not round or chubby.\n- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.\n- Pure white background. No shadows. No gradients. No textures.\n- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.\n- Whiteboard text: 3-4 short labels maximum. NO paragraphs. NO dense text.\n- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.\n- No Chinese characters in any rendered text.\n",
+ "aspect_ratio": "landscape",
+ "modality": "image",
+ "provider": "xai",
+ "storage_enabled": true,
+ "public_url": "https://files-cdn.x.ai/2zT92LZvS4m8zOPgWNX1zw/file_0c78cbdf-03f2-4c6e-ae94-3c5a5c2c414f.png",
+ "filename": "hermes-xai-image-20260926-010830-9e917078.png",
+ "usage": {
+  "cost_in_usd_ticks": 600000000
+ }
+}
