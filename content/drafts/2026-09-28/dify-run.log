@@ -1,0 +1,6 @@
+2026-09-28 09:05 HKT — Dify Havi app attempt (cron step 2):
+- Tunnel health: http://127.0.0.1:18081 -> connection failed (curl exit 000, no listener). SSH tunnel not established this session.
+- Attempting one POST /v1/chat-messages anyway to document behaviour...
+FAILED: URLError <urlopen error [Errno 61] Connection refused>
+
+2026-09-28 09:20 HKT - Outcome: composed locally (6th consecutive run; Dify app absent from VPS + tunnel down). 3 drafts + hero (xAI identity-locked, vision QA pass 1st attempt) written. Publisher dry-run PASS. Staged one-shot publish: 0f308de9f8c4 Tue 2026-09-29 10:00 HKT.

@@ -1,6 +1,6 @@
 {
- "last_run": "2026-09-14T09:00:00+08:00",
- "topic": "Air-side cluster - VAV airflow measurement: sensor types (pitot array, thermal dispersion, ultrasonic), k-factor errors from installation geometry, installed vs datasheet accuracy, traverse-based site k-factor commissioning.",
+ "last_run": "2026-09-28T09:00:00+08:00",
+ "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
  "cluster": 1,
  "previous_clusters": [
   2,
@@ -14,16 +14,22 @@
   2,
   6,
   4,
-  3
+  3,
+  5,
+  6,
+  4,
+  3,
+  2,
+  1
  ],
  "generated": {
   "drafts": [
-   "telegram-hvaccontrols-vav-airflow-measurement-20260914",
-   "x-xincahvac-vav-airflow-measurement-20260914",
-   "linkedin-vav-airflow-measurement-20260914"
+   "telegram-hvaccontrols-damper-selection-2026-09-28",
+   "x-xincahvac-damper-selection-2026-09-28",
+   "linkedin-damper-selection-2026-09-28"
   ],
-  "hero_image": "content/assets/hero-vav-airflow-measurement-2026-09-14.png",
+  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png",
   "style_mode": "mascot"
  },
- "notes": "Mon run (X = @XincaHVAC per Mon/Thu/Sat rotation). Experiment over (ended Sep 13) - mascot mode per skill default. Cluster 1 (air-side) chosen: avoids clusters used within 2 weeks (2 on Sep 12, 3 on Sep 10, 4 on Sep 7, 6 on Sep 5); air-side last used Aug 17 (vav-control). No research brief - Dify used KB directly (3 platform calls, 3866/327/7333 raw chars). Hero: Nous managed gateway still down (auth.json invalid_grant since Sep 9) - OpenRouter fallback qwen/qwen-image-3-pro WITH reference image (character-reference-clean.png, via reference_image_urls kwarg on the openrouter plugin - identity lock worked), $0.078, 2048x1152 16:9, PASSED vision QA first attempt (one slim Shiba, glasses, charm, all text English+correct: PITOT/THERMAL/ULTRASONIC labels, 'Trust the traverse' punchline, xinca.com footer). Char limits: TG 1014/1024, X 253/280 weighted per local check (229 per publisher x_weight - both under), LI 2249/3000 (merged from Dify's 2 concatenated drafts, 7333 raw; dropped unverifiable 1200-vs-900 CFM anecdote, stripped LaTeX formula, hedged +/- figures to rule-of-thumb ranges). Links all -> /a/air-side-vav-damper-selection/ (200 OK verified twice). Voice corrections: stripped G'day-family casual drift, emoji, ai.xinca.com legacy footer. Staged publish: one-shot 812cf50c625f Tue 2026-09-15 10:00 HKT (24h after s3 variable-flow fires Mon 10:00)."
+ "notes": "Mon run (X = @XincaHVAC per Mon/Thu/Sat rotation). Cluster 1 (air-side) at its 14-day boundary (last used Sep 14); all six clusters were used within the window, air-side was the stalest. Sub-topic damper selection/authority - distinct from Sep 14 (airflow measurement), Aug 17 (VAV control), Sep 21 (actuator signals). No research brief; Dify attempt failed again (tunnel down, connection refused; app absent per Sep 24 verification) - sixth consecutive local-composition run. Figures sourced from our own KB seed QA (kb/q/5 authority >=0.3/<0.1; kb/q/2 parallel vs opposed; kb/q/1 close-off 1.5x margin), ASHRAE Handbook attributed without clause number. Hero: xAI grok-imagine-image-quality identity-locked (FAL edit route still broken on Nous proxy), PASSED vision QA first attempt (all text correct: SIZE FOR AUTHORITY / OPPOSED / PARALLEL / 0.3 / LINEAR WINS / xinca.com; one slim Shiba, glasses, charm; 1280x720 PNG converted from JPEG bytes). Publisher dry-run PASS (x_weight 222, tg 975/1024, li 2622/3000, escape gates ok, links 200). Staged publish: one-shot 0f308de9f8c4 Tue 2026-09-29 10:00 HKT via northstar-pub-s5.sh (spec snapshot ~/.hermes/data/northstar/publish-20260928-ds.json)."
 }

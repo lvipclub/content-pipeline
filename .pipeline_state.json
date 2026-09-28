@@ -688,5 +688,38 @@
   "prev_status": null,
   "source": "Northstar Sep 26 — control valve selection & authority (water-side)",
   "platform": "linkedin"
+ },
+ "telegram-hvaccontrols-damper-selection-2026-09-28": {
+  "status": "draft",
+  "created_at": "2026-09-28T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "platform": "telegram",
+  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png"
+ },
+ "x-xincahvac-damper-selection-2026-09-28": {
+  "status": "draft",
+  "created_at": "2026-09-28T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "platform": "x",
+  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png"
+ },
+ "linkedin-damper-selection-2026-09-28": {
+  "status": "draft",
+  "created_at": "2026-09-28T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "platform": "linkedin",
+  "hero_image": null
  }
 }

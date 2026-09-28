@@ -1,0 +1,19 @@
+Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.
+
+TEXT AT TOP: Bold black rounded sans-serif headline: "SIZE FOR AUTHORITY"
+
+MAIN SCENE: Bro Woo (stands beside a whiteboard, pointing at it with a wooden pointer) — short black spiky hair (subtle, not exaggerated), thin rectangular black glasses, grey V-neck sweater over white collared shirt, dark grey trousers, black shoes. Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits beside the whiteboard, looking up at Bro Woo. Whiteboard shows ONE simple line graph: two curves rising left to right — a near-straight line labelled "OPPOSED" and a steeper S-shaped curve labelled "PARALLEL" — plus the number "0.3" in the graph corner. Black outlines only. Orange (#FF8C00) used ONLY on diagram elements and 1-2 keywords. NO other colours except small yellow lamp if desk scene.
+
+TEXT AT BOTTOM: "LINEAR WINS" — exactly 2 words in orange. Bottom-right corner in tiny black font: "xinca.com".
+
+STRICT RULES:
+- Exactly ONE dog. No extras. No other animals. No duplicates.
+- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.
+- Bro Woo MUST wear glasses.
+- Inu Faa MUST be slim and elegant, not round or chubby.
+- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.
+- Pure white background. No shadows. No gradients. No textures.
+- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.
+- Whiteboard text: 3-4 short labels maximum. NO paragraphs. NO dense text.
+- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.
+- No Chinese characters in any rendered text.
