@@ -690,36 +690,59 @@
   "platform": "linkedin"
  },
  "telegram-hvaccontrols-damper-selection-2026-09-28": {
-  "status": "draft",
+  "status": "published",
   "created_at": "2026-09-28T09:00:00+08:00",
   "created_by": "northstar",
   "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
   "style_mode": "mascot",
-  "prev_status": null,
-  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "prev_status": "draft",
+  "source": "Northstar Sep 28 — Damper selection & authority (air-side)",
   "platform": "telegram",
-  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png"
+  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png",
+  "approved_at": "2026-09-28T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "target_platforms": [
+   "telegram"
+  ],
+  "draft_path": "content/approved/telegram-hvaccontrols-damper-selection-2026-09-28.md",
+  "telegram_url": "https://t.me/hvaccontrols/28",
+  "published_at": "2026-09-28T10:00:00+08:00"
  },
  "x-xincahvac-damper-selection-2026-09-28": {
-  "status": "draft",
+  "status": "published",
   "created_at": "2026-09-28T09:00:00+08:00",
   "created_by": "northstar",
   "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
   "style_mode": "mascot",
-  "prev_status": null,
-  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "prev_status": "draft",
+  "source": "Northstar Sep 28 — Damper selection & authority (air-side)",
   "platform": "x",
-  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png"
+  "hero_image": "content/assets/hero-damper-selection-2026-09-28.png",
+  "approved_at": "2026-09-28T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "target_platforms": [
+   "x"
+  ],
+  "draft_path": "content/approved/x-xincahvac-damper-selection-2026-09-28.md",
+  "x_url": "https://x.com/XincaHVAC/status/2104753163320664424",
+  "published_at": "2026-09-28T10:00:00+08:00"
  },
  "linkedin-damper-selection-2026-09-28": {
-  "status": "draft",
+  "status": "published",
   "created_at": "2026-09-28T09:00:00+08:00",
   "created_by": "northstar",
   "topic": "Air-side cluster - damper selection and authority: opposed vs parallel blades and the installed characteristic; damper authority (>=0.3 recommended, <0.1 near-useless) as the air-side mirror of valve authority; two-position as parallel-blade's home ground; close-off verified last from the manufacturer's tables.",
   "style_mode": "mascot",
-  "prev_status": null,
-  "source": "Northstar Sep 28 - damper selection & authority (air-side)",
+  "prev_status": "draft",
+  "source": "Northstar Sep 28 — Damper selection & authority (air-side)",
   "platform": "linkedin",
-  "hero_image": null
+  "hero_image": null,
+  "approved_at": "2026-09-28T10:00:00+08:00",
+  "approved_by": "helen-autonomous-20260910 (Marc: proceed-without-approval)",
+  "target_platforms": [
+   "linkedin"
+  ],
+  "draft_path": "content/approved/linkedin-damper-selection-2026-09-28.md",
+  "note": "Manual post — Marc Sir posts from personal profile"
  }
 }
