@@ -1,0 +1,17 @@
+{
+ "slug": "humidity-mould-risk",
+ "set": "2026-10-01",
+ "tg_draft": "content/drafts/2026-10-01/telegram-hvaccontrols-humidity-mould-risk-2026-10-01.md",
+ "x_draft": "content/drafts/2026-10-01/x-woofaasocial-humidity-mould-risk-2026-10-01.md",
+ "li_draft": "content/drafts/2026-10-01/linkedin-humidity-mould-risk-2026-10-01.md",
+ "hero": "content/assets/hero-humidity-mould-risk-2026-10-01.png",
+ "x_account": "WoofaaSocial",
+ "li_out": "linkedin-humidity-mould-risk-20261001-linkedin.txt",
+ "keys": {
+  "tg": "telegram-hvaccontrols-humidity-mould-risk-2026-10-01",
+  "x": "x-woofaasocial-humidity-mould-risk-2026-10-01",
+  "li": "linkedin-humidity-mould-risk-2026-10-01"
+ },
+ "log_key": "northstar-2026-10-01-humidity-mould-risk",
+ "label": "Oct 1 \u2014 Humidity control & mould risk (IAQ)"
+}

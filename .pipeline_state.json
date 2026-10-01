@@ -744,5 +744,38 @@
   ],
   "draft_path": "content/approved/linkedin-damper-selection-2026-09-28.md",
   "note": "Manual post — Marc Sir posts from personal profile"
+ },
+ "telegram-hvaccontrols-humidity-mould-risk-2026-10-01": {
+  "status": "draft",
+  "created_at": "2026-10-01T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "IAQ cluster — humidity control and mould risk: RH as a health variable (WHO dampness & mould guideline); the 65% RH design condition (ASHRAE 62.1) with ASHRAE 160 moisture-design analysis; part-load dehumidification failure modes (DX cycling, chilled-water reset vs latent duty); RH sensing drift and placement; carrying an RH acceptance line in performance briefs.",
+  "hero_image": "content/assets/hero-humidity-mould-risk-2026-10-01.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 1 — Humidity control & mould risk (IAQ)",
+  "platform": "telegram"
+ },
+ "x-woofaasocial-humidity-mould-risk-2026-10-01": {
+  "status": "draft",
+  "created_at": "2026-10-01T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "IAQ cluster — humidity control and mould risk: RH as a health variable (WHO dampness & mould guideline); the 65% RH design condition (ASHRAE 62.1) with ASHRAE 160 moisture-design analysis; part-load dehumidification failure modes (DX cycling, chilled-water reset vs latent duty); RH sensing drift and placement; carrying an RH acceptance line in performance briefs.",
+  "hero_image": "content/assets/hero-humidity-mould-risk-2026-10-01.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 1 — Humidity control & mould risk (IAQ)",
+  "platform": "x"
+ },
+ "linkedin-humidity-mould-risk-2026-10-01": {
+  "status": "draft",
+  "created_at": "2026-10-01T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "IAQ cluster — humidity control and mould risk: RH as a health variable (WHO dampness & mould guideline); the 65% RH design condition (ASHRAE 62.1) with ASHRAE 160 moisture-design analysis; part-load dehumidification failure modes (DX cycling, chilled-water reset vs latent duty); RH sensing drift and placement; carrying an RH acceptance line in performance briefs.",
+  "hero_image": null,
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 1 — Humidity control & mould risk (IAQ)",
+  "platform": "linkedin"
  }
 }
