@@ -777,5 +777,38 @@
   "prev_status": null,
   "source": "Northstar Oct 1 — Humidity control & mould risk (IAQ)",
   "platform": "linkedin"
+ },
+ "telegram-hvaccontrols-economiser-free-cooling-2026-10-03": {
+  "status": "draft",
+  "created_at": "2026-10-03T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Energy-efficiency cluster — economiser free cooling: changeover logic (dry-bulb vs enthalpy/dew point in humid coastal climates); ASHRAE 90.1 economiser requirement with climate-dependent high-limit cutouts; differential-enthalpy sensing integrity (two honest sensors); silent mechanical failure (seized OA dampers); carrying changeover type + high-limit setpoint in performance briefs.",
+  "hero_image": "content/assets/hero-economiser-free-cooling-2026-10-03.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 3 — Economiser changeover & free cooling (energy efficiency)",
+  "platform": "telegram"
+ },
+ "x-xincahvac-economiser-free-cooling-2026-10-03": {
+  "status": "draft",
+  "created_at": "2026-10-03T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Energy-efficiency cluster — economiser free cooling: changeover logic (dry-bulb vs enthalpy/dew point in humid coastal climates); ASHRAE 90.1 economiser requirement with climate-dependent high-limit cutouts; differential-enthalpy sensing integrity (two honest sensors); silent mechanical failure (seized OA dampers); carrying changeover type + high-limit setpoint in performance briefs.",
+  "hero_image": "content/assets/hero-economiser-free-cooling-2026-10-03.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 3 — Economiser changeover & free cooling (energy efficiency)",
+  "platform": "x"
+ },
+ "linkedin-economiser-free-cooling-2026-10-03": {
+  "status": "draft",
+  "created_at": "2026-10-03T09:00:00+08:00",
+  "created_by": "northstar",
+  "topic": "Energy-efficiency cluster — economiser free cooling: changeover logic (dry-bulb vs enthalpy/dew point in humid coastal climates); ASHRAE 90.1 economiser requirement with climate-dependent high-limit cutouts; differential-enthalpy sensing integrity (two honest sensors); silent mechanical failure (seized OA dampers); carrying changeover type + high-limit setpoint in performance briefs.",
+  "hero_image": "content/assets/hero-economiser-free-cooling-2026-10-03.png",
+  "style_mode": "mascot",
+  "prev_status": null,
+  "source": "Northstar Oct 3 — Economiser changeover & free cooling (energy efficiency)",
+  "platform": "linkedin"
  }
 }

@@ -1,0 +1,9 @@
+{
+ "provider": "xai",
+ "model": "grok-imagine-image-quality (edits route via reference)",
+ "url": "https://files-cdn.x.ai/AD-fTwr9TNeDmMzAy8XDbg/file_2ba4eeb1-9865-4e5b-9fa9-7e5ed104d245.png",
+ "raw_bytes": 128501,
+ "reference": "/Users/marcsir/workspace/content-pipeline/.ip-assets/characters/bro-woo-inu-faa/character-reference-clean.png",
+ "aspect": "landscape",
+ "style_mode": "mascot"
+}

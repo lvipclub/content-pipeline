@@ -1,0 +1,21 @@
+Clean flat vector illustration. Pure white background. Landscape 16:9. Educational tone.
+
+TEXT AT TOP: Bold black rounded sans-serif headline: "CHANGEOVER DECIDES"
+
+MAIN SCENE: Bro Woo stands pointing at a whiteboard with a pointer — short black spiky hair (subtle, not exaggerated), thin rectangular black glasses, grey V-neck sweater over white collared shirt, dark grey trousers, black shoes. Exactly ONE SLIM Shiba Inu (Inu Faa) — tan/cream fur, white chest/muzzle/paws, large pointed ears, curled tail, yellow collar with small orange lightning bolt charm — sits beside him looking up at the board. Whiteboard shows ONE simple chart only: a single rising line crossed by one dashed vertical line; the left zone carries the single word "FREE" and the right zone the single word "HUMID" in small orange letters. Nothing else on the board. Black outlines only. Orange (#FF8C00) used ONLY on the chart lines, the two board labels, and the punchline words. NO other colours except the yellow on Inu Faa's collar charm.
+
+TEXT AT BOTTOM: "TRUST ENTHALPY" — exactly the two words "TRUST" and "ENTHALPY" in orange. Bottom-right corner in tiny black font: "xinca.com".
+
+STRICT RULES:
+- Exactly ONE dog. No extras. No other animals. No duplicates.
+- Bro Woo's hair: spiky but subtle. NOT a lightning bolt. NOT anime. NOT exaggerated.
+- Bro Woo MUST wear thin rectangular black glasses.
+- Inu Faa MUST be slim and elegant, not round or chubby.
+- Yellow collar with orange lightning bolt charm MUST be visible on Inu Faa.
+- Pure white background. No shadows. No gradients. No textures.
+- Clean flat vector style. NOT hand-drawn wobbly. NOT photorealism. NOT 3D render.
+- Whiteboard text: ONLY the words FREE and HUMID. NO other words, NO numbers, NO paragraphs, NO dense text, NO fractions, NO scores, NO corner annotations.
+- Exactly the elements listed. Do NOT add extra characters, extra props, extra text.
+- No Chinese characters in any rendered text.
+
+Keep the characters EXACTLY consistent with the reference image: same faces, same outfits, same proportions. This is a new scene — do not copy any content or layout from the reference image.
